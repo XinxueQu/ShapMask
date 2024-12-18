@@ -19,7 +19,7 @@ start <- Sys.time() # Start timer
 
 # Load the data set.
 ## Data is also available on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=home_credit_synthetic_data_for_sensitivity.csv
-DataRaw <- read.csv("../../Data/home_credit_synthetic_data_for_sensitivity.csv")
+DataRaw <- readRDS("../../Data/home_credit_synthetic_data_for_sensitivity.rds")
 
 numerical_atts   <- names(DataRaw)[sapply(DataRaw, is.numeric)] 
 categorical_atts <- c("marital_status" , "postype_4733339M", "purposeofcred_426M", "education_927M" , "language1_981M")
