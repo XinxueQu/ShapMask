@@ -19,17 +19,7 @@ start <- Sys.time() # Start timer
 
 # Load the data set.
 ## Data is also available on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=Salary_Data.csv
-Data <- read_csv("https://www.dropbox.com/s/zz4lbj0qqlvizas/Salary_Data.csv?dl=1",
-                 col_names = c("Year", "SeqNumber", "identity", "Yrs_exp", 
-                               "Education", "Top_J_Pubs", "Ref_J_Pubs",
-                               "Textbooks", "Research_Books", "Other_Pubs",
-                               "Salary", "Summer", "summer_yrs", "res_budget",
-                               "move_supp", "tch_load", "Tenure_Req_Lvl",
-                               "Tenure_Req_A", "Tenure_Req_tot", "Position",
-                               "location", "pub_prvt", "Union", "Country", 
-                               "Region", "schl_deg", "accredit", "Accepted_ornot",
-                               "Tch/Res", "%_Summer", "%_Budget", "tot_J pubs"),
-                 skip = 1)
+Data <- read_csv("../../Data/Salary_Data.csv")
 
 # Convert currency and character variables to numeric
 # List of numerical variables
