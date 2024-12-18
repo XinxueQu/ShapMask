@@ -1,0 +1,383 @@
+---
+title: "Experiment with Credit Data"
+author: "X. Qu, F. Bilson Darku, & H. Guo"
+output:
+  html_document:
+    highlight: pygments
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, include = TRUE, echo = TRUE, 
+                      warning = FALSE, fig.keep = 'all'
+                      #fig.width = 10, fig.height = 7
+                      )
+```
+
+## Load Packages
+```{r packages, include = TRUE}
+source("../R Codes/install_load_packages.R")
+```
+
+## Load Custom Functions
+```{r custom_functions, include = TRUE}
+source("../R Codes/custom_functions.R")
+```
+
+## Load and Clean Data
+```{r}
+# Read data
+Data <- read.table("http://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/german.data")
+
+# Assign column names
+names(Data) <- c("CheckingStatus", "Duration_M", "CreditHistory", "Purpose",
+                 "CreditAmount", "Savings", "PresentEmploymentSince",
+                 "InstallmentRate", "SexMarritalStatus", "Guarantors",
+                 "PresentResidenceSince", "Property", "Age", "OtherInstallment",
+                 "Housing", "NumExistingCredit", "Job", "NumLiablePeople",
+                 "Telephone","ForeignWorker", "CustomerClass")
+
+# List of numerical variables
+numerical_atts <- c("Duration_M", "CreditAmount", "InstallmentRate",
+                    "PresentResidenceSince", "Age", "NumExistingCredit",
+                    "NumLiablePeople")
+
+# List of categorical variables
+categorical_atts <- c("CheckingStatus", "CreditHistory", "Purpose", "Savings",
+                      "PresentEmploymentSince", "SexMarritalStatus", "Guarantors",
+                      "Property", "OtherInstallment", "Housing", "Job", 
+                      "Telephone", "ForeignWorker", "CustomerClass")
+
+# List of variables to be selected from the data set
+# Select only numerical variables
+sub_atts <- c(numerical_atts)
+
+# Select only numerical variables
+Data <- Data %>% dplyr::select(all_of(sub_atts))
+
+# Further data cleaning
+# Convert currency and character variables to numeric
+Data[, numerical_atts] <- Data[, numerical_atts] %>% 
+  mutate_if(is.character, parse_number, na = c("", "NA", "na", "$-"))
+
+# Delete missing observations
+Data <- Data %>% drop_na()
+
+# Sample 200 records
+set.seed(12345)               # Set seed for sampling records
+Data <- Data[sample(1:nrow(Data), 200), ]  # Sample rows of data
+
+head(Data)
+```
+
+## Experiment Parameters
+```{r parameters}
+# Confidential variable
+conf_var <- "CreditAmount"
+  
+# Utility variable
+pred_var <- "InstallmentRate"
+
+# Masking method
+mask_method <- "SADP"
+
+# Model
+model <- "LM" 
+
+# Metric
+metric <- "R2" 
+
+# Weight for weighted_cost selection method
+w <- 0.75
+
+# Change in noise delta 
+delta <- 0.3
+
+# Noise level
+d <- seq(from = 0.3, to = 6, by = delta)
+
+# Determine if Calculation of Shapley values will be exact or approximate
+SV_calc <- (ncol(Data) <= 16) # Exact Shapley value if TRUE, otherwise approximate
+
+# Seed number
+seed_number <- 1234
+```
+
+```{r prep_param_values, include=FALSE}
+# Full name for masking technique
+if (mask_method %in% c("SADP", "CADP", "BCADP", "GADP")) {
+  mask_method_full <- paste("Additive Pertubation (", mask_method, ")", sep = "")
+} else if (mask_method %in% c("MNS1", "MNS2", "LN")) {
+  mask_method_full <- paste("Multiplicative Pertubation (", mask_method, ")", sep = "")
+} else {
+  stop("Incorrect masking method")
+}
+
+# Full name for statistical model
+full_model_name <- switch(model,
+                     LM = "Linear Regression",
+                     GLM = "Generalize Linear Model",
+                     GAM = "Generalized Additive Model",
+                     CART = "Regression Trees")
+```
+
+| Parameter | Value |
+|----------|------|
+|Confidential Variable | `r conf_var`|
+|Variable for Prediction Task | `r pred_var`|
+|Masking Method | `r mask_method_full`|
+|Statistical Model | `r full_model_name`|
+|Shapley Value Calculation | `r ifelse(SV_calc, "Exact", "Approximate")`|
+
+
+```{r initializing, include=TRUE}
+# Name of confidential variable after masking
+mask_var_name <- paste(conf_var, "Masked", sep = "_")
+
+Data_Masked <- Data %>% mutate((!! mask_var_name) := (!! rlang::sym(conf_var)))
+Base_Data <- Data_Masked
+
+# Risk and utility model formulas
+risk_model_formula <- as.formula(paste(conf_var, "~ ."))
+utility_model_formula <- as.formula(paste(pred_var, "~ ."))
+
+# Memory allocation
+k <- length(d)
+base_total <- data.frame(noise = d, risk = NA, utility = NA)
+base_SV_risk <- data.frame(matrix(NA, ncol = k + 1L, nrow = ncol(Base_Data) - 2L))
+colnames(base_SV_risk) <- c("attribute", d)
+base_SV_utility <- base_SV_risk
+```
+
+## Masking only the Confidential Variable
+```{r benchmark_method}
+for (i in seq_along(d)){
+  
+  # Progress
+  # print(paste("step:", i, "/", k, sep = ""))
+  
+  set.seed(seed_number)
+  
+  # Masking confidential variable(s)
+  if (mask_method %in% c("SADP", "CADP", "BCADP")) {
+    Base_Data[, mask_var_name] <- ADP(Data[, conf_var],
+                                      d = d[i], 
+                                      Sigma_e = NULL,
+                                      method = mask_method)
+  } else if (mask_method == "GADP") {
+    Base_Data[, mask_var_name] <- ADP(Data[, conf_var], 
+                                      S = dplyr::select(Data, -all_of(pred_var)),
+                                      d = d[i], 
+                                      Sigma_e = NULL, 
+                                      method = mask_method)
+  } else if (mask_method %in% c("MNS1", "MNS2", "LN")) {
+    Base_Data[, mask_var_name] <- MDP(Data[, conf_var],
+                                      d = d[i], 
+                                      method = mask_method)
+  }
+
+  # Total Disclosure Risk & Utility
+  base_total[i, "risk"] <- model_metric(formula = risk_model_formula,
+                                        data = dplyr::select(Base_Data, !{{ pred_var }}),
+                                        model = model, 
+                                        metric = metric)
+  
+  base_total[i, "utility"] <- model_metric(formula = utility_model_formula,
+                                           data = dplyr::select(Base_Data, !{{ conf_var }}),
+                                           model = model, 
+                                           metric = metric)
+  
+  # Shapley values for Disclosure Risk & Utility
+  if (SV_calc) {# Compute exact Shapley values
+    
+    SV_Risk <- Shapley.Value(formula = risk_model_formula,
+                             data = dplyr::select(Base_Data, !{{ pred_var }}),
+                             model = model, 
+                             metric = metric)
+  
+    SV_Utility <- Shapley.Value(formula = utility_model_formula,
+                                data = dplyr::select(Base_Data, !{{ conf_var }}),
+                                model = model, 
+                                metric = metric)
+    
+  } else {# Approximate Shapley values
+    
+    SV_Risk <- Shapley.Value.Est(formula = risk_model_formula,
+                                 data = dplyr::select(Base_Data, !{{ pred_var }}),
+                                 model = model, 
+                                 metric = metric)
+  
+    SV_Utility <- Shapley.Value.Est(utility_model_formula,
+                                    data = dplyr::select(Base_Data, !{{ conf_var }}),
+                                    model = model, 
+                                    metric = metric)
+    
+  }
+  
+  
+  base_SV_risk[, as.character(d[i])] <- SV_Risk$SV
+
+  base_SV_utility[, as.character(d[i])] <- SV_Utility$SV
+
+}
+
+base_SV_risk$attribute <- base_SV_utility$attribute <- SV_Risk$Variable
+```
+
+### Change in distribution of Shapley values (in benchmark method when only masking confidential attributes)
+
+#### Preparing the Results for Graphing
+```{r plot_base_frontier,include = TRUE}
+# Shapley values for risk
+base_SV_risk_long <- tidyr::gather(base_SV_risk,
+                                   key = "d",
+                                   value = "SV_risk",
+                                   paste(d),
+                                   factor_key = TRUE)
+
+# Shapley values for utility
+base_SV_utility_long <- tidyr::gather(base_SV_utility,
+                                      key = "d",
+                                      value = "SV_utility",
+                                      paste(d),
+                                      factor_key = TRUE)
+
+# Combining Risk and Utility
+base_SV <- dplyr::full_join(x = base_SV_risk_long, 
+                            y = base_SV_utility_long, 
+                            by = c("attribute", "d"))
+
+base_SV <- base_SV %>% 
+  mutate(attribute = case_match(attribute,
+                                "Duration_M" ~ "Duration",
+                                "CreditAmount_Masked" ~ "Credit_Mask",
+                                "PresentResidenceSince" ~ "Residence",
+                                "NumExistingCredit" ~ "NumCredit",
+                                "NumLiablePeople" ~ "NumLiable",
+                                .default = attribute
+                                )
+  )
+```
+
+#### Figure 4: Two-Dimensional Feature Attribution Based on Shapley Values of Risk and Utility
+```{r fig_4}
+Feature_Dist <- base_SV %>% 
+  filter(d == 2.1) %$%
+  frontier_curve(risk = SV_risk, 
+               utility = SV_utility,
+               attribute_labels = attribute, 
+               frontier = "none",
+               plot_labels = "all",
+               output = "graph",
+               facet_var = d)
+
+print(Feature_Dist)
+```
+
+#### Figure 5a: Risk-Utility Frontier (Noise = 2.1) 
+```{r fig_5a}
+mask_var_name <- "Credit_Mask"
+
+base_SV_graph_5a <- base_SV %>% 
+  filter(d == 2.1) %$%
+  frontier_curve(risk = SV_risk, 
+                 utility = SV_utility,
+                 attribute_labels = attribute, 
+                 frontier = "upper",
+                 plot_labels = "all",
+                 output = "graph",
+                 special_points = mask_var_name,
+                 facet_var = d)
+
+# Print frontier
+print(base_SV_graph_5a)
+```
+
+#### Figure 5b: Risk-Utility Frontier (Noise = 3.6)
+```{r fig_5b}
+base_SV_graph_5b <- base_SV %>% 
+  filter(d == 3.6) %$% 
+  frontier_curve(risk = SV_risk, 
+                 utility = SV_utility,
+                 attribute_labels = attribute, 
+                 frontier = "upper",
+                 plot_labels = "all",
+                 output = "graph",
+                 special_points = mask_var_name,
+                 facet_var = d)
+
+# Print frontier
+print(base_SV_graph_5b)
+```
+
+#### Figure 6: Feature Selection Criteria and Corresponding Tangent Lines (Noise = 2.4)
+```{r fig_7}
+special_points <- mask_var_name
+
+base_SV_graph_6 <- base_SV %>% 
+  filter(d == 2.4) %$%
+  frontier_curve(risk = SV_risk, 
+                 utility = SV_utility, 
+                 attribute_labels = attribute, 
+                 frontier = "upper",
+                 plot_labels = "all", 
+                 output = "data", 
+                 special_points = mask_var_name, 
+                 facet_var = d)
+
+base_SV_graph_6 <- base_SV_graph_6 %>%
+  mutate(RU_ratio = risk/utility, 
+         risk_std = risk/sum(risk),
+         utility_std = utility/sum(utility),
+         WC = w*risk_std - (1-w)*utility_std,
+         point_shape = attribute %in% special_points)
+
+max_risk_std <- max(base_SV_graph_6$risk_std)
+max_ru_ratio <- max(base_SV_graph_6$RU_ratio)
+max_wc <- max(base_SV_graph_6$WC)
+
+# Normalize Scale
+tangent_normalized_wc <- base_SV_graph_6 %>% 
+  ggplot() +
+  geom_point(aes(x = utility_std, y = risk_std, shape = point_shape), 
+             color = "blue") +
+  geom_text_repel(mapping = aes(x = utility_std, y = risk_std, label = attribute),
+                 alpha = 0.6, size = 3) +
+  geom_line(mapping = aes(x = utility_std, y = risk_std, linetype = "a", color = "a"),
+            data = filter(base_SV_graph_6, dominated == FALSE)) +
+  geom_hline(aes(yintercept = max_risk_std, linetype = "b", color = "b"), 
+             show.legend = TRUE) +
+  geom_abline(aes(intercept = max_wc/w, 
+                  slope = (1 - w)/w, linetype = "c", color = "c"), show.legend = FALSE) +
+  theme_bw() +
+  scale_shape_manual(name = "Feature",
+                     values = c(16, 1), 
+                     labels = c("Non Confidential", "Confidential (Masked)"),
+                     limits = c(FALSE, TRUE)) +
+  guides(shape = guide_legend(override.aes = list(linetype = 0, color = "black"))) +
+  scale_linetype_manual(name = "Line",
+                        limits = c("a", "b", "c"),
+                        values = c("solid", "dashed", "dotted"),
+                        labels = c("Frontier",
+                                   bquote(italic(t)[risk]),
+                                   bquote(italic(t)[wc]~group("(", omega == .(w),")"))
+                                   )
+                        ) +
+  scale_colour_manual(name = "Line",
+                      limits = c("a", "b", "c"),
+                      labels = c("Frontier",
+                                 bquote(italic(t)[risk]),
+                                 bquote(italic(t)[wc]~group("(", omega == .(w),")"))
+                                 ),
+                      values = c("red", "green4", "brown", "violet"),
+                      ) +
+  labs(x = "Shapley Value of Utility for Features (normalized)",
+       y = "Shapley Value of Risk for Features (normalized)"
+  ) 
+
+tangent_normalized_wc
+```

@@ -1,0 +1,701 @@
+---
+title: "Experiment with IS Salary Data"
+author: "X. Qu, F. Bilson Darku, & H. Guo"
+output:
+  html_document:
+    highlight: pygments
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, include = TRUE, echo = TRUE, 
+                      warning = FALSE, fig.keep = 'all'
+                      #fig.width = 10, fig.height = 7
+                      )
+```
+
+## Load Packages
+```{r packages}
+source("../R Codes/install_load_packages.R")
+```
+
+## Load Custom Functions
+```{r custom_functions}
+source("../R Codes/custom_functions.R")
+```
+
+## Load and Clean Data
+```{r dataset}
+# Load the data set.
+Data <- read_csv("https://www.dropbox.com/s/zz4lbj0qqlvizas/Salary_Data.csv?dl=1",
+                 col_names = c("Year", "SeqNumber", "identity", "Yrs_exp", 
+                               "Education", "Top_J_Pubs", "Ref_J_Pubs",
+                               "Textbooks", "Research_Books", "Other_Pubs",
+                               "Salary", "Summer", "summer_yrs", "res_budget",
+                               "move_supp", "tch_load", "Tenure_Req_Lvl", 
+                               "Tenure_Req_A", "Tenure_Req_tot", "Position",
+                               "location", "pub_prvt", "Union", "Country",
+                               "Region", "schl_deg", "accredit", 
+                               "Accepted_ornot", "Tch/Res", "%_Summer",
+                               "%_Budget", "tot_J pubs"),
+                 skip = 1)
+
+# List of numerical variables
+numerical_atts <- c("Yrs_exp", "Top_J_Pubs", "Ref_J_Pubs", "Textbooks",
+                    "Research_Books", "Other_Pubs", "Salary", "Summer", 
+                    "summer_yrs", "res_budget", "move_supp", 
+                    "Tenure_Req_Lvl", "Tenure_Req_A", "Tenure_Req_tot")
+
+# List of categorical variables
+categorical_atts <- c("Year", "Education", "Position", "pub_prvt", "schl_deg", 
+                      "tch_load", "accredit")
+
+# List of variables to be selected from the data set
+sub_atts <- c(numerical_atts, categorical_atts)
+
+# Select only numerical variables
+Data <- Data %>%  dplyr::select(all_of(sub_atts))
+
+# Further data cleaning
+# Convert currency and character variables to numeric
+Data[, numerical_atts] <- Data[, numerical_atts] %>% 
+  mutate_if(is.character, parse_number, na = c("", "NA", "na", "$-"))
+
+# Convert categorical variables into factors
+Data[, categorical_atts] <- Data[, categorical_atts] %>% 
+  mutate_if(is.character, as.factor)
+
+# Make sure all numerical attributes are valid
+Data <-  Data[, numerical_atts]  %>% dplyr::select(-Research_Books, -Textbooks) 
+# Delete missing observations
+Data <- Data %>% drop_na()
+```
+
+
+## Experiment Parameters
+```{r parameters, include=FALSE}
+# Confidential variable
+conf_var <- "Salary"
+  
+# Utility variable
+pred_var <- "res_budget"
+
+# Masking method
+mask_method <- "BCADP"
+
+# Model
+model <- "LM"
+
+# Metric
+metric <- "R2"
+
+# Selection technique
+sel_method <- "risk_only"
+w <- 0.75 # weight for risk when using weighted_cost
+
+# Change in noise delta 
+delta <- 0.3
+
+# Noise level
+d <- seq(from = 0.3, to = 3, by = delta)
+
+# Determine if Calculation of Shapley values will be exact or approximate
+SV_calc <- (ncol(Data) <= 16) # Exact Shapley value if TRUE, otherwise approximate
+
+# Seed number
+seed_number <- 1252
+```
+
+```{r prep_param_values, include=FALSE}
+# Full name for masking technique
+if (mask_method %in% c("SADP", "CADP", "BCADP", "GADP")) {
+  mask_method_full <- paste("Additive Pertubation (", mask_method, ")", sep = "")
+} else if (mask_method %in% c("MNS1", "MNS2", "LN")) {
+  mask_method_full <- paste("Multiplicative Pertubation (", mask_method, ")", sep = "")
+} else {
+  stop("Incorrect masking method")
+}
+
+# Full name for statistical model
+full_model_name <- switch(model,
+                     LM = "Linear Regression",
+                     GLM = "Generalize Linear Model",
+                     GAM = "Generalized Additive Model",
+                     CART = "Regression Trees")
+
+# Full name for selection technique
+sel_method_full <- switch(sel_method, 
+                          weighted_cost = paste("Highest Total Cost with w_risk = ", w),
+                          risk_only = "Highest Risk")
+```
+
+| Parameter | Value |
+|----------|------|
+|Confidential Variable | `r conf_var`|
+|Variable for Prediction Task | `r pred_var`|
+|Masking Method | `r mask_method_full`|
+|Statistical Model | `r full_model_name`|
+|Attribute Selection Method |`r sel_method_full`|
+|Shapley Value Calculation | `r ifelse(SV_calc, "Exact", "Approximate")`|
+
+
+```{r initializing}
+# Name of confidential variable after masking
+mask_var_name <- paste(conf_var, "Masked", sep = "_")
+
+Data_Masked <- Data %>% mutate((!! mask_var_name) := (!! rlang::sym(conf_var)))
+Base_Data <- Data_Masked
+
+# Risk and utility model formulas
+risk_model_formula <- as.formula(paste(conf_var, "~ ."))
+utility_model_formula <- as.formula(paste(pred_var, "~ ."))
+
+# Memory allocation
+k <- length(d)
+base_total <- data.frame(noise = d, risk = NA, utility = NA)
+base_SV_risk <- data.frame(matrix(NA, ncol = k + 1L, nrow = ncol(Base_Data) - 2L))
+colnames(base_SV_risk) <- c("attribute", d)
+base_SV_utility <- base_SV_risk
+```
+
+## Masking only the Confidential Variable
+```{r benchmark_method}
+for (i in seq_along(d)){
+  
+  # Progress
+  # print(paste("step:", i, "/", k, sep = ""))
+  
+  set.seed(seed_number)
+  
+  # Masking confidential variable(s)
+  if (mask_method %in% c("SADP", "CADP", "BCADP")) {
+    Base_Data[, mask_var_name] <- ADP(Data[, conf_var],
+                                      d = d[i], 
+                                      Sigma_e = NULL,
+                                      method = mask_method)
+  } else if (mask_method == "GADP") {
+    Base_Data[, mask_var_name] <- ADP(Data[, conf_var], 
+                                      S = select(Data, -all_of(pred_var)),
+                                      d = d[i], 
+                                      Sigma_e = NULL, 
+                                      method = mask_method)
+  } else if (mask_method %in% c("MNS1", "MNS2", "LN")) {
+    Base_Data[, mask_var_name] <- MDP(Data[, conf_var],
+                                      d = d[i], 
+                                      method = mask_method)
+  }
+
+  # Total Disclosure Risk & Utility
+  base_total[i, "risk"] <- model_metric(formula = risk_model_formula,
+                                        data = select(Base_Data, !{{ pred_var }}),
+                                        model = model, 
+                                        metric = metric)
+  
+  base_total[i, "utility"] <- model_metric(formula = utility_model_formula,
+                                           data = select(Base_Data, !{{ conf_var }}),
+                                           model = model, 
+                                           metric = metric)
+  
+  # Shapley values for Disclosure Risk & Utility
+  if (SV_calc) {# Compute exact Shapley values
+    
+    SV_Risk <- Shapley.Value(formula = risk_model_formula,
+                             data = select(Base_Data, !{{ pred_var }}),
+                             model = model, 
+                             metric = metric)
+  
+    SV_Utility <- Shapley.Value(formula = utility_model_formula,
+                                data = select(Base_Data, !{{ conf_var }}),
+                                model = model, 
+                                metric = metric)
+    
+  } else {# Approximate Shapley values
+    
+    SV_Risk <- Shapley.Value.Est(formula = risk_model_formula,
+                                 data = select(Base_Data, !{{ pred_var }}),
+                                 model = model, 
+                                 metric = metric)
+  
+    SV_Utility <- Shapley.Value.Est(utility_model_formula,
+                                    data = select(Base_Data, !{{ conf_var }}),
+                                    model = model, 
+                                    metric = metric)
+    
+  }
+  
+  
+  base_SV_risk[, as.character(d[i])] <- SV_Risk$SV
+
+  base_SV_utility[, as.character(d[i])] <- SV_Utility$SV
+
+}
+
+base_SV_risk$attribute <- base_SV_utility$attribute <- SV_Risk$Variable
+```
+
+### Change in distribution of Shapley values
+```{r plot_base_frontier}
+# Shapley values for risk
+base_SV_risk_long <- tidyr::gather(base_SV_risk,
+                                   key = "d",
+                                   value = "SV_risk",
+                                   paste(d),
+                                   factor_key = TRUE)
+
+# Shapley values for utility
+base_SV_utility_long <- tidyr::gather(base_SV_utility,
+                                      key = "d",
+                                      value = "SV_utility",
+                                      paste(d),
+                                      factor_key = TRUE)
+
+# Combining Risk and Utility
+base_SV <- dplyr::full_join(x = base_SV_risk_long, 
+                            y = base_SV_utility_long, 
+                            by = c("attribute", "d"))
+
+```
+
+### Risk-Utilily Map
+```{r plot_base_RU_map}
+base_RU_map <- base_total %>% 
+  mutate(across(c("risk", "utility"),  \(x) lead(x, n = 1), .names = "{.col}_b")) %>%
+  ggplot(aes(x = utility, y = risk)) + 
+  geom_point(color = "blue") +
+  geom_text(mapping = aes(label = d), hjust = 0.1, vjust = 1) +
+  geom_segment(aes(xend = utility_b, yend = risk_b), color = "blue",
+               arrow = arrow(length = unit(0.20, "cm"))) +
+  labs(x = "Data Utility",
+       y = "Disclosure Risk") +
+  theme_bw()
+
+print(base_RU_map)
+```
+
+
+## Proposed Methods
+Find frontier curve to identify potential confidential attribute
+```{r plot_initial_frontier, include = TRUE}
+init_SV_fc <- base_SV %>% 
+  filter(d == d[1]) %$%
+  frontier_curve(risk = SV_risk,
+                 utility = SV_utility,
+                 attribute_labels = attribute,
+                 special_points = mask_var_name)
+
+# Potential attribute: Numerical attributes that are located on the frontier
+potential_nonconfi_att <- init_SV_fc %>% 
+  filter(dominated == FALSE, attribute %in% numerical_atts) %>% 
+  select(attribute) %>% pull()
+```
+
+Numerical attributes that are located on the initial frontier: **`r paste(potential_nonconfi_att, collapse=", ")`**
+
+### High Disclosure Risk Selection Method
+```{r memory_allocation_3}
+# Memory allocation
+each_frontier_total <- data.frame(candidate_att = "Updated Efficient Frontier",
+                            masked_att = NA,
+                            noise_conf = NA,
+                            noise_nonconf = NA,
+                            noise_total = d, 
+                            risk = NA, 
+                            utility = NA)
+each_frontier_SV_risk <- data.frame(matrix(NA, nrow = (ncol(Data) - 1L), ncol = k + 2L))
+colnames(each_frontier_SV_risk) <- c("candidate_att", "attribute", d)
+each_frontier_SV_risk$candidate_att <- "Updated Efficient Frontier"
+
+each_frontier_SV_utility <- each_frontier_SV_risk
+```
+
+
+```{r each_frontier_masking_risk_only}
+each_frontier <- c(conf_var, potential_nonconfi_att)
+d_all <- numeric(ncol(Data))
+names(d_all) <- colnames(Data)
+  
+each_frontier_Data <- Data_Masked
+
+for (i in seq_along(d)) {
+  
+  ## Progress
+  # print(paste("step:", i, "/", k, sep = ""))
+  
+  if (i == 1) {
+    
+    next_att <- conf_var
+    d_all[next_att] <- d[i]
+    
+  } else {
+
+    d_all[next_att] <- d_all[next_att] + delta
+
+  }
+    
+  if (next_att == conf_var) {
+    # Name of confidential variable after masking
+    mask_var_name <- paste(next_att, "Masked", sep = "_")
+  } else {
+    mask_var_name <- next_att
+  }  
+    
+ 
+  each_frontier_total[i, "masked_att"] <- next_att
+  each_frontier_total[i, "noise_conf"] <- d_all[conf_var]
+    
+  set.seed(seed_number)
+    
+  # Masking variable(s)
+  if (mask_method %in% c("SADP", "CADP", "BCADP")) {
+    each_frontier_Data[, mask_var_name] <- ADP(Data[, next_att],
+                                         d = d_all[next_att], 
+                                         Sigma_e = NULL,
+                                         method = mask_method)
+  } else if (mask_method == "GADP") {
+    each_frontier_Data[, mask_var_name] <- ADP(Data[, next_att], 
+                                         S = select(Data, -all_of(pred_var)),
+                                         d = d_all[next_att], 
+                                         Sigma_e = NULL, 
+                                         method = mask_method)
+  } else if (mask_method %in% c("MNS1", "MNS2", "LN")) {
+    each_frontier_Data[, mask_var_name] <- MDP(Data[, next_att],
+                                         d = d_all[next_att], 
+                                         method = mask_method)
+  }
+    
+  # Total Disclosure Risk & Utility
+  each_frontier_total[i, "risk"] <- model_metric(formula = risk_model_formula,
+                                               data = select(each_frontier_Data, 
+                                                             -all_of(pred_var)),
+                                               model = model, 
+                                               metric = metric)
+    
+  each_frontier_total[i, "utility"] <- model_metric(formula = utility_model_formula,
+                                                  data = select(each_frontier_Data, 
+                                                                -all_of(conf_var)),
+                                                  model = model, 
+                                                  metric = metric)
+    
+  # Shapley values for Disclosure Risk & Utility
+  if (SV_calc) {# Compute exact Shapley values
+    
+    SV_Risk <- Shapley.Value(formula = risk_model_formula,
+                             data = select(each_frontier_Data, -all_of(pred_var)),
+                             model = model,
+                             metric = metric)
+      
+    SV_Utility <- Shapley.Value(formula = utility_model_formula,
+                                data = select(each_frontier_Data, -all_of(conf_var)),
+                                model = model, 
+                                metric = metric)
+      
+  } else {# Approximate Shapley values
+    
+    SV_Risk <- Shapley.Value.Est(formula = risk_model_formula,
+                                 data = select(each_frontier_Data, -all_of(pred_var)),
+                                 model = model, 
+                                 metric = metric)
+      
+    SV_Utility <- Shapley.Value.Est(utility_model_formula,
+                                    data = select(each_frontier_Data, -all_of(conf_var)),
+                                    model = model, 
+                                    metric = metric)
+      
+  }
+    
+  
+  each_frontier_SV_risk[, as.character(d[i])] <- SV_Risk$SV
+    
+  each_frontier_SV_utility[, as.character(d[i])] <- SV_Utility$SV
+  
+  each_frontier_comb_SV <- full_join(x = SV_Risk, 
+                                     y = SV_Utility, 
+                                     by = "Variable") %>%
+    select(Variable, SV.x, SV.y) %>%
+    rename(SV_Risk = SV.x, SV_Utility = SV.y)
+    
+  if (sel_method == "weighted_cost") {
+    each_frontier_comb_SV <- each_frontier_comb_SV %>% 
+      mutate((!! sel_method) := w*SV_Risk /(sum(SV_Risk)) - (1 - w)*SV_Utility/(sum(SV_Utility)))
+  } else if (sel_method == "risk_only") {
+    each_frontier_comb_SV <- each_frontier_comb_SV %>% 
+      mutate((!! sel_method) := SV_Risk/mean(SV_Risk)*100)
+  } else {
+    stop("Select an appropriate 'sel_method'")
+  }
+  
+  # Finding the frontier
+  each_frontier_SV_fc <- each_frontier_comb_SV %$% 
+    frontier_curve(risk = SV_Risk,
+                   utility = SV_Utility,
+                   attribute_labels = Variable,
+                   output = "data",
+                   special_points = mask_var_name)
+  
+  # Looking for all the points on the frontier
+  each_frontier_comb_SV_d <- left_join(x = each_frontier_comb_SV, 
+                                       y = each_frontier_SV_fc,
+                                       by = c("Variable" = "attribute")) %>%
+    select(Variable, dominated, {{sel_method}})
+  
+  # Finding the next attribute to mask
+  next_att <- each_frontier_comb_SV_d %>% 
+    mutate(Variable = str_remove(Variable, "_Masked")) %>%
+    filter(dominated == FALSE, Variable %in% c(numerical_atts)) %>%
+    slice_max(across({{ sel_method }}), with_ties = FALSE) %>%
+    select(Variable) %>%
+    pull()
+  
+}
+
+each_frontier_SV_risk[, "attribute"] <- SV_Risk$Variable
+each_frontier_SV_utility[, "attribute"] <- SV_Utility$Variable
+
+each_frontier_total <- each_frontier_total %>% 
+  mutate(noise_nonconf = noise_total - noise_conf)
+```
+
+
+#### Figure 8a: Comparing Benchmark with Risk-Only Masking Approaches
+```{r plot_comparing_methods}
+# Expanding the base method results to look like that of two_att_total
+base_total_ex <- base_total %>% 
+  rename(noise_total = noise) %>%
+  add_column(candidate_att = paste(conf_var, "only"),
+             masked_att = conf_var,
+             .before = "noise_total") %>%
+  mutate(noise_conf = noise_total, noise_nonconf = 0, .before = "noise_total")
+
+# Stacking the results of base method on top of two_att_total
+All_Risk_Utility_Tradeoff <- bind_rows(base_total_ex, each_frontier_total)
+
+
+# Plotting and comparing risk-utility tradeoff map
+graph_all <- All_Risk_Utility_Tradeoff %>% 
+  mutate(candidate_att = ifelse(candidate_att == "Updated Efficient Frontier", "Proposed (risk)", candidate_att)) %>%
+  mutate(candidate_att = ifelse(candidate_att == "Salary only", "Benchmark", candidate_att)) %>%#
+  group_by(candidate_att) %>%
+  mutate(across(c("risk", "utility"),  \(x) lead(x, n = 1), .names = "{.col}_b")) %>%
+  ungroup() %>%
+  mutate(masked_att = factor(masked_att, levels = c("Salary", "Summer", "move_supp"), labels = c("Salary", "Summer", "Move_Supp"))) %>%    #change the order of legend
+  ggplot(aes(x = utility, y = risk, group = candidate_att)) + 
+  geom_point(aes(colour = candidate_att, shape = masked_att), size = 3) +
+  geom_text(mapping = aes(label = noise_total), hjust = 0.2, vjust = 1.2) +
+  geom_segment(aes(xend = utility_b, yend = risk_b,  linetype = candidate_att, colour = candidate_att),
+               arrow = arrow(length = unit(0.20, "cm"))) +
+  scale_color_manual(values =  c("Benchmark" = "blue", "Proposed (risk)" = "red" )) +
+  scale_shape_manual(values =  c("Salary" = 16 ,"Summer" = 15, "Move_Supp" = 17)) +
+  labs(x = "Data Utility",
+       y = "Disclosure Risk",
+       linetype = "Method",
+       colour = "Method",
+       shape = "Masked Feature") +
+  theme_bw() +
+  guides(colour = guide_legend(override.aes = list(shape = NA)))
+
+print(graph_all)
+```
+
+### Weighted-Cost Selection Method
+```{r reset_param_values_for_weighted_cost}
+sel_method <- "weighted_cost" 
+
+# Name of confidential variable after masking
+mask_var_name <- paste(conf_var, "Masked", sep = "_")
+
+Data_Masked <- Data %>% mutate((!! mask_var_name) := (!! rlang::sym(conf_var)))
+Base_Data <- Data_Masked
+```
+
+```{r each_frontier_masking_weighted_cost}
+each_frontier <- c(conf_var, potential_nonconfi_att)
+d_all <- numeric(ncol(Data))
+names(d_all) <- colnames(Data)
+  
+each_frontier_Data <- Data_Masked
+
+for (i in seq_along(d)) {
+  
+  ## Progress
+  # print(paste("step:", i, "/", k, sep = ""))
+  
+  if (i == 1) {
+    
+    next_att <- conf_var
+    d_all[next_att] <- d[i]
+    
+  } else {
+
+    d_all[next_att] <- d_all[next_att] + delta
+
+  }
+    
+  if (next_att == conf_var) {
+    # Name of confidential variable after masking
+    mask_var_name <- paste(next_att, "Masked", sep = "_")
+  } else {
+    mask_var_name <- next_att
+  }  
+    
+ 
+  each_frontier_total[i, "masked_att"] <- next_att
+  each_frontier_total[i, "noise_conf"] <- d_all[conf_var]
+    
+  set.seed(seed_number)
+    
+  # Masking variable(s)
+  if (mask_method %in% c("SADP", "CADP", "BCADP")) {
+    each_frontier_Data[, mask_var_name] <- ADP(Data[, next_att],
+                                         d = d_all[next_att], 
+                                         Sigma_e = NULL,
+                                         method = mask_method)
+  } else if (mask_method == "GADP") {
+    each_frontier_Data[, mask_var_name] <- ADP(Data[, next_att], 
+                                         S = select(Data, -all_of(pred_var)),
+                                         d = d_all[next_att], 
+                                         Sigma_e = NULL, 
+                                         method = mask_method)
+  } else if (mask_method %in% c("MNS1", "MNS2", "LN")) {
+    each_frontier_Data[, mask_var_name] <- MDP(Data[, next_att],
+                                         d = d_all[next_att], 
+                                         method = mask_method)
+  }
+    
+  # Total Disclosure Risk & Utility
+  each_frontier_total[i, "risk"] <- model_metric(formula = risk_model_formula,
+                                               data = select(each_frontier_Data, 
+                                                             -all_of(pred_var)),
+                                               model = model, 
+                                               metric = metric)
+    
+  each_frontier_total[i, "utility"] <- model_metric(formula = utility_model_formula,
+                                                  data = select(each_frontier_Data, 
+                                                                -all_of(conf_var)),
+                                                  model = model, 
+                                                  metric = metric)
+    
+  # Shapley values for Disclosure Risk & Utility
+  if (SV_calc) {# Compute exact Shapley values
+    
+    SV_Risk <- Shapley.Value(formula = risk_model_formula,
+                             data = select(each_frontier_Data, -all_of(pred_var)),
+                             model = model, 
+                             metric = metric)
+      
+    SV_Utility <- Shapley.Value(formula = utility_model_formula,
+                                data = select(each_frontier_Data, -all_of(conf_var)),
+                                model = model, 
+                                metric = metric)
+      
+  } else {# Approximate Shapley values
+    
+    SV_Risk <- Shapley.Value.Est(formula = risk_model_formula,
+                                 data = select(each_frontier_Data, -all_of(pred_var)),
+                                 model = model, 
+                                 metric = metric)
+      
+    SV_Utility <- Shapley.Value.Est(utility_model_formula,
+                                    data = select(each_frontier_Data, -all_of(conf_var)),
+                                    model = model, 
+                                    metric = metric)
+      
+  }
+    
+  
+  each_frontier_SV_risk[, as.character(d[i])] <- SV_Risk$SV
+    
+  each_frontier_SV_utility[, as.character(d[i])] <- SV_Utility$SV
+  
+  each_frontier_comb_SV <- full_join(x = SV_Risk, 
+                                     y = SV_Utility, 
+                                     by = "Variable") %>%
+    select(Variable, SV.x, SV.y) %>%
+    rename(SV_Risk = SV.x, SV_Utility = SV.y)
+    
+  if (sel_method == "weighted_cost") {
+    each_frontier_comb_SV <- each_frontier_comb_SV %>% 
+      mutate((!! sel_method) := w*SV_Risk /(sum(SV_Risk)) - (1 - w)*SV_Utility/(sum(SV_Utility)))
+  } else if (sel_method == "risk_only") {
+    each_frontier_comb_SV <- each_frontier_comb_SV %>% 
+      mutate((!! sel_method) := SV_Risk/mean(SV_Risk)*100)
+  } else {
+    stop("Select an appropriate 'sel_method'")
+  }
+  
+  # Finding the frontier
+  each_frontier_SV_fc <- each_frontier_comb_SV %$% 
+    frontier_curve(risk = SV_Risk,
+                   utility = SV_Utility,
+                   attribute_labels = Variable,
+                   output = "data",
+                   special_points = mask_var_name)
+  
+  # Looking for all the points on the frontier
+  each_frontier_comb_SV_d <- left_join(x = each_frontier_comb_SV, 
+                                       y = each_frontier_SV_fc,
+                                       by = c("Variable" = "attribute")) %>%
+    select(Variable, dominated, {{sel_method}})
+  
+  # Finding the next attribute to mask
+  next_att <- each_frontier_comb_SV_d %>% 
+    mutate(Variable = str_remove(Variable, "_Masked")) %>%
+    filter(dominated == FALSE, Variable %in% c(numerical_atts)) %>%
+    slice_max(across({{ sel_method }}), with_ties = FALSE) %>%
+    select(Variable) %>%
+    pull()
+  
+}
+
+each_frontier_SV_risk[, "attribute"] <- SV_Risk$Variable
+each_frontier_SV_utility[, "attribute"] <- SV_Utility$Variable
+
+each_frontier_total <- each_frontier_total %>% 
+  mutate(noise_nonconf = noise_total - noise_conf)
+```
+
+
+#### Figure 8b: Comparing Benchmark and Weighted-Cost Masking Approaches
+```{r plot_comparing_methods_wc}
+# Expanding the base method results to look like that of two_att_total
+base_total_ex <- base_total %>% 
+  rename(noise_total = noise) %>%
+  add_column(candidate_att = paste(conf_var, "only"),
+             masked_att = conf_var,
+             .before = "noise_total") %>%
+  mutate(noise_conf = noise_total, noise_nonconf = 0, .before = "noise_total")
+
+# Stacking the results of base method on top of two_att_total
+All_Risk_Utility_Tradeoff <- bind_rows(base_total_ex, each_frontier_total)
+
+
+# Plotting and comparing risk-utility tradeoff map
+graph_all <- All_Risk_Utility_Tradeoff %>% 
+   mutate(candidate_att = ifelse(candidate_att == "Updated Efficient Frontier", "Proposed (wc)", candidate_att)) %>%
+  mutate(candidate_att = ifelse(candidate_att == "Salary only", "Benchmark", candidate_att)) %>%#
+  group_by(candidate_att) %>%
+  mutate(across(c("risk", "utility"),  \(x) lead(x, n = 1), .names = "{.col}_b")) %>%
+  ungroup() %>%
+  mutate(masked_att = factor(masked_att, levels = c("Salary", "Summer", "move_supp"), labels = c("Salary", "Summer", "Move_Supp"))) %>%    #change the order of legend
+  ggplot(aes(x = utility, y = risk, group = candidate_att)) + 
+  geom_point(aes(colour = candidate_att, shape = masked_att), size = 3) +
+  geom_text(mapping = aes(label = noise_total), hjust = 0.2, vjust = 1.2) +
+  geom_segment(aes(xend = utility_b, yend = risk_b,  linetype = candidate_att, colour = candidate_att),
+               arrow = arrow(length = unit(0.20, "cm"))) +
+  scale_color_manual(values = c("Benchmark" = "blue", "Proposed (wc)" = "red")) +
+  scale_shape_manual(values = c("Salary" = 16 ,"Summer" = 15, "Move_Supp" = 17)) +
+  labs(x = "Data Utility",
+       y = "Disclosure Risk",
+       linetype = "Method",
+       colour = "Method",
+       shape = "Masked Feature") +
+  theme_bw() +
+  guides(colour = guide_legend(override.aes = list(shape = NA)))
+
+
+print(graph_all)
+```
