@@ -39,3 +39,40 @@ The dataset is collected from [Wharton Research Data Services (WRDS)](https://wr
 
 
 ## R Codes
+* install_load_packages.R
+* functions_server_v6.R
+* ShapMask_SingleConf.R
+* ShapMask_MultiConf.R
+* ShapMask_simulated_data.R
+  
+###	Codes for Experiment
+* CompuStat_replication.R
+* Credit_replication.R
+* Salary_Single_DV_replication.R
+* Salary_Multi_DV_replication.R
+
+###	Codes for Summarizing the Experiment Results 
+  
+###	Codes for Data Simulation
+* Home_Credit_Data_Cleaning.R
+* Synthetic_Data_Simulation_Functions.R
+* Synthetic_Data_Generation.R
+* Synthetic_Data_replication.R 
+
+### Codes for Time Sensitivity Analysis
+* Sensitivity_Analysis.R
+
+
+
+
+
+## Tables and Graphs
+
+### Tables
+All the outputs from experimental evaluations are shared on Kaggle: https://www.kaggle.com/datasets/shawnqu/shapmask-experiment-results. Based on these experiment results, we have also shared a notebook (in R) that consolidates experiment results and generates the main tables reported in the paper. The shared notebook can be accessed using the following link: https://www.kaggle.com/code/shawnqu/experiment-results-summary.
+
+### Graphs
+All graphs can be found and recreated using the Rmarkdown files in the ...folder. This folder contains three files, namely:
+* Credit Card - Figure_4_6.R: This creates figures 4 to 6 in the manuscript.
+* Illustrative_Case_Credit_Fig7.R: This creates figures 7 (a) and (b) in the manuscript.
+* Illustrative_Case_Salary_Fig8.R: This creates figures 8 (a) and (b) in the manuscript.
