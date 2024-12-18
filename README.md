@@ -2,7 +2,7 @@
 # ShapMask
 This is a repository for the codes and datasets used in Qu, X., Bilson Darku, F., \& Guo, H. (xxxx) *Shapley-Value-Based Feature Attribution for Data Masking*.
 
-## 1. Data
+## [1. Data](Data/)
 The experimental evaluations in the paper are based on four datasets: 
 1. salary dataset, 
 2. credit dataset, 
@@ -13,11 +13,11 @@ For the salary and credit datasets, we have provided both the original data sour
 
 ### 1.1. Salary Data
 + Original raw data was retrieved from:  https://sites.pitt.edu/~galletta/salsurv.html
-+ A copy of the data is saved on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=Salary_Data.csv 
++ A copy of the data is also saved on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=Salary_Data.csv 
 
 ### 1.2. Credit Dataset
 + Original raw data was retrieved from:  https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
-+ A copy of the data is saved on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=german_credit.data 
++ A copy of the data is also saved on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=german_credit.data 
 
 ### 1.3. CRSP/compustat dataset
 The dataset is collected from [Wharton Research Data Services (WRDS)](https://wrds-www.wharton.upenn.edu/), which is not publicly available. Readers who are interested in this dataset can obtain access from their institution and download the data using the following settings. 
@@ -69,7 +69,8 @@ The following R codes are required for loading the packages and custom functions
 All the outputs from experimental evaluations are shared on Kaggle: https://www.kaggle.com/datasets/shawnqu/shapmask-experiment-results. Based on these experiment results, we have also shared a notebook (in R) that consolidates experiment results and generates the main tables reported in the paper. The shared notebook can be accessed using the following link: https://www.kaggle.com/code/shawnqu/experiment-results-summary.
 
 ### 3.2 Graphs
-All graphs can be found and recreated using the Rmarkdown files in the ...folder. This folder contains three files, namely:
-* `Credit Card - Figure_4_6.R`: This creates figures 4 to 6 in the manuscript.
-* `Illustrative_Case_Credit_Fig7.R`: This creates figures 7 (a) and (b) in the manuscript.
-* `Illustrative_Case_Salary_Fig8.R`: This creates figures 8 (a) and (b) in the manuscript.
+All graphs can be found and recreated using the Rmarkdown files in the Graphs folder. This folder contains three files, namely:
+* `Credit Card - Figure_4_6.RMD`: This creates figures 4 to 6 in the manuscript.
+* `Illustrative_Case_Credit_Fig7.RMD`: This creates figures 7 (a) and (b) in the manuscript.
+* `Illustrative_Case_Salary_Fig8.RMD`: This creates figures 8 (a) and (b) in the manuscript.
+Each of the RMD files has a corresponding HTML created by knitting the RMD file.
