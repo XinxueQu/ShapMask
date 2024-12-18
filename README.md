@@ -3,21 +3,20 @@ This is a repository for the codes and datasets used in Qu, X., Bilson Darku, F.
 
 ## Data
 The experimental evaluations in the paper are based on four datasets: 
-
-  (1) salary dataset, 
-  (2) credit dataset, 
-  (3) CRSP/Compustat dataset, and 
-  (4) a simulated dataset. 
+1. salary dataset, 
+2. credit dataset, 
+3. CRSP/Compustat dataset, and 
+4. a simulated dataset. 
   
 For the salary and credit datasets, we have provided both the original data sources and the versions we used, hosted on Kaggle.com. For the CRSP/Compustat data, which requires a subscription to the WRDS database, we have outlined the necessary steps to configure the query. For the simulated dataset, we provide both the raw data, from which we learned the distribution of the features, and the source code used for the simulation.
 
 ### Salary Data
-  a. Original raw data was retrieved from:  https://sites.pitt.edu/~galletta/salsurv.html
-  b. A copy of the data is saved on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=Salary_Data.csv 
++ Original raw data was retrieved from:  https://sites.pitt.edu/~galletta/salsurv.html
++ A copy of the data is saved on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=Salary_Data.csv 
 
 ### Credit Dataset
-  a. Original raw data was retrieved from:  https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
-  b. A copy of the data is saved on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=german_credit.data 
++ Original raw data was retrieved from:  https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
++ A copy of the data is saved on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=german_credit.data 
 
 ### CRSP/compustat dataset
 The dataset is collected from WRDS, which is not publicly available. Readers who are interested in this dataset can obtain access from their institution and download the data using the following settings. 
