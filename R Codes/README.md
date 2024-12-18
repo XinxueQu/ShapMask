@@ -18,5 +18,5 @@ The following R codes are required for loading the packages and custom functions
 * [`Synthetic_Data_Generation.R`](R%20Codes/Data%20Simulation/Synthetic_Data_Generation.R): This file uses the custom functions in the `Synthetic_Data_Simulation_Functions.R` to learn the statistical distribution of the features, generate a synthetic data set, and impose a relationship between the confidential feature, as well as the utility feature, with some of the other features in the data set.
 * [`Synthetic_Data_replication.R`](R%20Codes/Data%20Simulation/Synthetic_Data_replication.R): This file implements the proposed framework on the synthetic data set with 1000 replications and compares the results to approaches that mask only the confidential feature(s).
 
-### [2.3. Codes for Time Sensitivity Analysis](R%20Codes/Time%20Sensitivity%20Analysis/)
+### [3. Codes for Time Sensitivity Analysis](R%20Codes/Time%20Sensitivity%20Analysis/)
 * [`Sensitivity_Analysis.R`](R%20Codes/Time%20Sensitivity%20Analysis/Sensitivity_Analysis.R): This performs sensitivity analyses for the framework using Home Credit data set to determine the time complexity base on the number observations and fearures in a data set.
