@@ -1,0 +1,833 @@
+﻿Year,#,identity,Yrs_exp,Educ.,Top J Pubs,Ref J Pubs,Textbooks,Research Books,Other Pubs,Salary,Summer,summer_yrs,res_budget,move_supp,tch_load,Tenure Req Lvl,Tenure Req #A,Tenure Req #tot,Position,location,pub_prvt,Union?,Country,Region,schl_deg,accredit.,Accepted?,Tch/Res,%_Summer,%_Budget,tot_J pubs
+2000/2001,1,yes,1,Phd/DBA,,,,,," $83,000 "," $18,300 ",1," $2,000 "," $4,000 ",4,,,,Asst,urban,public,No,USA,US S.,Doctorate,National,might accept,Research (<=4),1,1,0
+2000/2001,2,,3,MBA/MS,,,,,," $31,746 ",,," $1,322 ",,15,,,,Instructor,urban,mixed,,Bahrain,,Masters,Local,Have accepted,Teach (>4),0,1,0
+2000/2001,3,,8,Phd/DBA,,,,,," $80,000 "," $6,000 ",3," $2,500 "," $5,000 ",6,,,,assoc/not tenured,suburban,public,No,USA,US W.,Masters,National,might accept,Teach (>4),1,1,0
+2000/2001,4,,2,Phd/DBA,,,,,," $76,000 "," $10,000 ",1," $2,000 "," $6,000 ",6,,,,Asst,rural,public,No,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,1,0
+2000/2001,5,,2,Phd/DBA,,,,,," $84,000 "," $18,800 ",2," $3,000 "," $5,000 ",4,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,6,,2,Phd/DBA,,,,,," $85,000 "," $5,000 ",2," $3,500 "," $5,000 ",4,,,,Asst,suburban,public,Yes,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,7,,2,Phd/DBA,,,,,," $82,500 "," $18,333 ",2,," $5,000 ",4,,,,Asst,urban,private,No,USA,US W.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,8,,2,Phd/DBA,,,,,," $75,000 "," $9,375 ",6," $4,000 "," $6,000 ",6,,,,Asst,urban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2000/2001,9,,2,Phd/DBA,,,,,," $83,500 "," $18,500 ",2," $3,900 ", $- ,4,,,,Asst,urban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,10,,2,Phd/DBA,,,,,," $83,000 "," $6,500 ",2," $4,000 "," $2,500 ",4,,,,Asst,urban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,11,,2,Phd/DBA,,,,,," $71,004 "," $5,917 ",2,," $3,000 ",6,,,,Asst,urban,public,No,USA,US W.,Masters,National,won't accept,Teach (>4),1,0,0
+2000/2001,12,,1,Phd/DBA,,,,,," $65,000 ",,," $6,500 "," $1,800 ",4,,,,Asst,urban,mixed,,Canada,,Doctorate,National,won't accept,Research (<=4),0,1,0
+2000/2001,13,,2,Phd/DBA,,,,,," $76,500 "," $17,000 ",2," $4,000 "," $5,000 ",5,,,,Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2000/2001,14,,0,Phd/DBA,,,,,," $77,000 "," $7,000 ",2,," $3,000 ",5,,,,Asst,urban,public,No,USA,US W.,Masters,National,might accept,Teach (>4),1,0,0
+2000/2001,15,,2,Phd/DBA,,,,,," $70,000 "," $4,000 ",2,," $5,000 ",6,,,,Asst,rural,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,0,0
+2000/2001,16,,2,Phd/DBA,,,,,," $76,000 "," $5,000 ",2,," $5,000 ",6,,,,Asst,suburban,private,No,USA,US N.E.,Masters,Regional,won't accept,Teach (>4),1,0,0
+2000/2001,17,,6,Phd/DBA,,,,,," $87,500 "," $21,500 ",4," $2,500 "," $6,000 ",4,,,,switched Asst,rural,private,No,USA,US M.W.,unspecified,National,Have accepted,Research (<=4),1,1,0
+2000/2001,18,yes,5,Phd/DBA,,,,,," $75,000 "," $5,000 ",1," $2,500 ",,6,,,,assoc/not tenured,suburban,private,Yes,USA,US N.E.,Masters,National,might accept,Teach (>4),1,1,0
+2000/2001,19,yes,5,Phd/DBA,,,,,," $79,000 "," $8,000 ",1," $2,500 ",,6,,,,assoc/not tenured,urban,public,No,USA,US S.,Masters,National,might accept,Teach (>4),1,1,0
+2000/2001,20,,1,Phd/DBA,,,,,," $77,000 "," $7,275 ",2,,,6,,,,Asst,urban,public,No,USA,US S.,Masters,National,won't accept,Teach (>4),1,0,0
+2000/2001,21,,1,Phd/DBA,,,,,," $90,000 "," $20,000 ",2,," $10,000 ",4,,,,Asst,urban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2000/2001,22,yes,7,Phd/DBA,,,,,," $85,000 "," $14,166 ",2," $3,000 "," $3,000 ",4,,,,switched Asst,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,23,yes,7,Phd/DBA,,,,,," $80,000 "," $8,888 ",2," $1,500 "," $4,000 ",5,,,,switched Asst,urban,public,No,USA,US W.,Masters,National,won't accept,Teach (>4),1,1,0
+2000/2001,24,yes,7,Phd/DBA,,,,,," $89,000 "," $19,777 ",2," $3,000 "," $2,000 ",4,,,,switched Asst,urban,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,25,,1,Phd/DBA,,,,,," $90,000 "," $20,000 ",2," $6,000 "," $5,300 ",4,,,,Asst,urban,public,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,26,,0,Phd/DBA,,,,,," $80,000 "," $10,000 ",2,," $5,000 ",6,,,,Asst,urban,public,No,USA,US W.,Masters,National,won't accept,Teach (>4),1,0,0
+2000/2001,27,,0,Phd/DBA,,,,,," $90,000 "," $20,000 ",2,," $3,500 ",4,,,,Asst,rural,public,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,28,,1,Phd/DBA,,,,,," $95,000 "," $18,000 ",3," $7,000 "," $5,500 ",3,,,,Asst,urban,public,No,USA,US W.,Doctorate,National,might accept,Research (<=4),1,1,0
+2000/2001,29,,5,Phd/DBA,,,,,," $82,000 "," $15,000 ",3," $2,500 "," $5,000 ",5,,,,switched Asst,suburban,private,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,0
+2000/2001,30,,1,Phd/DBA,,,,,," $80,000 "," $17,777 ",3," $5,000 "," $6,000 ",4,,,,Asst,rural,public,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,31,,1,Phd/DBA,,,,,," $84,000 "," $14,000 ",2," $1,500 "," $3,000 ",4,,,,Asst,urban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,32,,1,Phd/DBA,,,,,," $79,200 "," $17,600 ",3," $2,000 "," $10,300 ",4,,,,Asst,rural,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,33,,7,Phd/DBA,,,,,," $75,000 "," $5,000 ",1,," $3,000 ",6,,,,switched Asst,urban,public,No,USA,US S.,Masters,National,won't accept,Teach (>4),1,0,0
+2000/2001,34,,7,Phd/DBA,,,,,," $77,000 "," $6,900 ",2,," $3,000 ",6,,,,switched Asst,urban,public,No,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,0,0
+2000/2001,35,,7,Phd/DBA,,,,,," $76,000 ",,,," $4,500 ",6,,,,switched Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,0,0
+2000/2001,36,,1,Phd/DBA,,,,,," $95,000 "," $21,111 ",3," $3,200 "," $3,000 ",4,,,,Asst,urban,private,No,USA,US N.E.,Doctorate,National,might accept,Research (<=4),1,1,0
+2000/2001,37,,2,Phd/DBA,,,,,," $83,000 "," $20,000 ",2,," $2,500 ",4,,,,Asst,rural,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2000/2001,38,,1,Phd/DBA,,,,,," $95,000 "," $15,000 ",3," $3,000 "," $3,000 ",4,,,,Asst,urban,public,No,USA,US W.,Doctorate,National,might accept,Research (<=4),1,1,0
+2000/2001,39,,1,Phd/DBA,,,,,," $84,000 "," $14,000 ",2," $2,500 "," $3,000 ",4,,,,Asst,urban,public,No,USA,US S.,Doctorate,National,might accept,Research (<=4),1,1,0
+2000/2001,40,,1,Phd/DBA,,,,,," $85,000 "," $18,888 ",3,," $8,000 ",3.5,,,,Asst,urban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2000/2001,41,,2,Phd/DBA,,,,,," $72,500 ",,," $3,000 "," $2,500 ",6,,,,Asst,urban,private,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,1,0
+2000/2001,42,,1,Phd/DBA,,,,,," $97,500 "," $21,500 ",2,," $3,250 ",4,,,,Asst,urban,private,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,43,,2,Phd/DBA,,,,,," $72,000 "," $6,000 ",2," $1,500 "," $2,000 ",6,,,,Asst,urban,private,No,USA,US S.,Masters,Regional,won't accept,Teach (>4),1,1,0
+2000/2001,44,,2,Phd/DBA,,,,,," $77,500 "," $6,000 ",2," $2,000 "," $2,000 ",6,,,,Asst,urban,public,No,USA,US N.E.,Masters,National,might accept,Teach (>4),1,1,0
+2000/2001,45,,2,Phd/DBA,,,,,," $75,000 "," $6,000 ",3," $2,000 "," $2,000 ",6,,,,Asst,urban,private,No,USA,US M.W.,Masters,National,might accept,Teach (>4),1,1,0
+2000/2001,46,,2,Phd/DBA,,,,,," $96,000 "," $21,333 ",3,," $8,000 ",3,,,,switched Asst,suburban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,47,,2,Phd/DBA,,,,,," $95,000 "," $21,111 ",3,," $8,000 ",3,,,,switched Asst,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2000/2001,48,,2,Phd/DBA,,,,,," $93,000 "," $20,666 ",3," $3,000 "," $7,000 ",4,,,,switched Asst,urban,public,No,USA,US W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,49,,1,Phd/DBA,,,,,," $95,000 "," $19,000 ",3," $3,000 "," $4,500 ",4,,,,Asst,urban,public,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,50,,1,Phd/DBA,,,,,," $83,000 "," $14,755 ",3," $2,000 "," $4,000 ",4,,,,Asst,urban,public,No,USA,US S.,Doctorate,National,might accept,Research (<=4),1,1,0
+2000/2001,51,,1,Phd/DBA,,,,,," $74,000 ",,," $3,000 ", $- ,8,,,,Asst,rural,public,No,USA,US M.W.,Masters,Regional,might accept,Teach (>4),0,1,0
+2000/2001,52,,5,Phd/DBA,,,,,," $81,000 ",,,," $4,000 ",6,,,,switched Asst,suburban,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),0,0,0
+2000/2001,53,,2,Phd/DBA,,,,,," $90,000 "," $19,800 ",2," $3,000 ",,4,,,,Asst,urban,public,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,54,,2,Phd/DBA,,,,,," $80,000 "," $16,000 ",2,,,4,,,,Asst,suburban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2000/2001,55,,2,Phd/DBA,,,,,," $95,000 "," $10,000 ",2,," $10,000 ",4,,,,Asst,suburban,private,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,0,0
+2000/2001,56,,5,Phd/DBA,,,,,," $72,000 "," $10,000 ",2," $2,500 ", $- ,5,,,,switched Asst,suburban,public,No,USA,US S.,Doctorate,National,Have accepted,Teach (>4),1,1,0
+2000/2001,57,,10,MBA/MS,,,,,," $75,000 "," $10,000 ",2,," $2,000 ",6,,,,switched Asst,rural,public,No,USA,US S.,Bachelor,National,Have accepted,Teach (>4),1,0,0
+2000/2001,58,,5,Phd/DBA,,,,,," $77,500 "," $5,000 ",2," $1,500 "," $5,000 ",6,,,,switched Asst,rural,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2000/2001,59,yes,0,Phd/DBA,,,,,," $75,000 "," $5,625 ",," $1,600 "," $13,250 ",6,,,,Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2000/2001,60,yes,6,Phd/DBA,,,,,," $75,000 "," $5,000 ",1,,,6,,,,instructor,urban,public,No,USA,US S.,Masters,Regional,won't accept,Teach (>4),1,0,0
+2000/2001,61,yes,6,Phd/DBA,,,,,," $50,000 ",,, $700 ," $2,500 ",6,,,,visitor,rural,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),0,1,0
+2000/2001,62,yes,15,Phd/DBA,,,,,," $84,000 ",,,, $- ,6,,,,full/chair,suburban,public,No,USA,US S.,Masters,National,won't accept,Teach (>4),0,0,0
+2000/2001,63,yes,5,Phd/DBA,,,,,," $78,000 "," $17,333 ",2,," $5,000 ",2,,,,switched Asst,urban,public,Yes,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,64,,4,Phd/DBA,,,,,," $78,000 "," $8,000 ",2,," $6,000 ",4,,,,switched Asst,suburban,mixed,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,0,0
+2000/2001,65,,12,Phd/DBA,,,,,," $135,000 ",,,,,3,,,,full/chair,rural,mixed,No,USA,US M.W.,Masters,National,might accept,Research (<=4),0,0,0
+2000/2001,66,,5,Phd/DBA,,,,,," $110,000 "," $18,000 ",1,," $12,000 ",2,,,,associate/tenure,urban,public,No,USA,,unspecified,National,won't accept,Research (<=4),1,0,0
+2000/2001,67,yes,1,Phd/DBA,,,,,," $92,000 "," $20,444 ",3,," $3,000 ",3,,,,Asst,urban,public,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,68,yes,1,Phd/DBA,,,,,," $76,000 "," $16,888 ",3,,,4,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,69,,2,Phd/DBA,,,,,," $95,000 "," $20,000 ",3,," $5,000 ",5.5,,,,Asst,urban,private,No,USA,US W.,Masters,National,Have accepted,Teach (>4),1,0,0
+2000/2001,70,,8,Phd/DBA,,,,,," $69,000 "," $6,000 ",1," $3,000 ", $- ,6,,,,Asst,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,1,0
+2000/2001,71,yes,1,Phd/DBA,,,,,," $95,000 "," $21,111 ",3,," $8,000 ",3,,,,Asst,suburban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2000/2001,72,yes,1,Phd/DBA,,,,,," $95,000 "," $15,000 ",3,,,4,,,,Asst,suburban,public,No,USA,US W.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,73,yes,1,Phd/DBA,,,,,," $90,000 "," $20,000 ",3,,,4,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,74,yes,1,Phd/DBA,,,,,," $95,000 "," $21,111 ",3," $7,000 ",,3,,,,Asst,suburban,public,No,USA,US W.,Doctorate,none,won't accept,Research (<=4),1,1,0
+2000/2001,75,yes,1,Phd/DBA,,,,,," $100,000 "," $22,222 ",2,," $10,000 ",4,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,76,,2,Phd/DBA,,,,,," $90,000 "," $20,000 ",2," $1,800 "," $2,500 ",4,,,,switched Asst,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,77,yes,1,Phd/DBA,,,,,," $90,000 "," $20,000 ",2," $3,000 ",,4,,,,Asst,suburban,public,No,USA,US N.E.,Masters,National,won't accept,Research (<=4),1,1,0
+2000/2001,78,,6,Phd/DBA,,,,,," $92,007 "," $10,223 ",2," $3,000 "," $7,500 ",5,,,,assoc/not tenured,rural,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2000/2001,79,,25,Phd/DBA,,,,,," $105,000 "," $35,000 ",5,," $4,000 ",4,,,,full/chair,suburban,public,No,USA,,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2000/2001,80,,13,Phd/DBA,,,,,," $120,000 "," $20,000 ",2," $10,000 "," $15,000 ",2,,,,full/chair,rural,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,81,,8,Phd/DBA,,,,,," $65,000 "," $5,000 ",1,," $4,000 ",6,,,,assoc/not tenured,rural,public,No,USA,US W.,Masters,National,won't accept,Teach (>4),1,0,0
+2000/2001,82,,2,Phd/DBA,,,,,," $82,500 "," $18,333 ",3,," $4,000 ",4,,,,Asst,suburban,public,No,USA,,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2000/2001,83,,20,Phd/DBA,,,,,," $135,000 "," $22,500 ",5," $5,000 "," $8,000 ",2,,,,full/chair,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,0
+2000/2001,84,,2,Phd/DBA,,,,,," $86,000 "," $11,000 ",3," $1,000 "," $5,000 ",3,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,85,,13,Phd/DBA,,,,,," $107,000 "," $16,000 ",2," $1,000 "," $8,000 ",4,,,,associate/tenure,suburban,private,No,USA,US S.,Masters,National,Have accepted,Research (<=4),1,1,0
+2000/2001,86,,3,Phd/DBA,,,,,," $90,000 "," $20,000 ",2,," $7,000 ",4,,,,switched Asst,urban,private,No,USA,US W.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,87,,1,Phd/DBA,,,,,," $80,000 ",,," $3,000 "," $5,500 ",5,,,,switched Asst,urban,public,No,USA,US N.E.,Masters,Regional,Have accepted,Teach (>4),0,1,0
+2000/2001,88,,2,Phd/DBA,,,,,," $75,000 "," $4,000 ",2,," $4,000 ",6,,,,switched Asst,rural,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,0,0
+2000/2001,89,yes,3,Phd/DBA,,,,,," $69,000 "," $5,000 ",2," $2,000 "," $4,000 ",12,,,,Asst,suburban,public,No,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,1,0
+2000/2001,90,yes,12,Phd/DBA,,,,,," $75,000 "," $4,000 ",2,," $4,000 ",6,,,,assoc/not tenured,suburban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,0,0
+2000/2001,91,yes,4,Phd/DBA,,,,,," $115,000 "," $25,556 ",3," $7,500 ",,4,,,,switched Asst,urban,private,No,USA,US S.,Masters,National,Have accepted,Research (<=4),1,1,0
+2000/2001,92,yes,6,Phd/DBA,,,,,," $67,588 "," $4,500 ",1,, $- ,6,,,,switched Asst,suburban,public,Yes,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,0,0
+2000/2001,93,,2,Phd/DBA,,,,,," $61,200 ",,,,,4.5,,,,Asst,urban,public,Yes,USA,US M.W.,Masters,Regional,Have accepted,Teach (>4),0,0,0
+2000/2001,94,,25,Phd/DBA,,,,,," $180,000 ",,," $20,000 "," $8,000 ",3,,,,full/chair,suburban,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),0,1,0
+2000/2001,95,,4,Phd/DBA,,,,,," $77,500 "," $7,500 ",1," $5,000 "," $4,000 ",5,,,,switched Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2000/2001,96,yes,1,PhD/DBA,,,,,," $68,000 "," $4,000 ",1," $2,000 "," $2,000 ",6,,,,Asst,rural,public,No,USA,US S.,Masters,unspecified,Have accepted,Teach (>4),1,1,0
+2000/2001,97,yes,3,Phd/DBA,,,,,," $90,000 "," $20,000 ",2," $2,500 "," $3,500 ",4,,,,Asst,rural,mixed,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,98,yes,3,Phd/DBA,,,,,," $90,000 "," $20,000 ",2," $3,000 "," $7,000 ",4,,,,Asst,suburban,private,No,USA,US W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,99,,10,Phd/DBA,,,,,," $90,000 "," $5,000 ",3," $1,000 "," $2,500 ",6,,,,associate/tenure,urban,private,No,USA,US W.,Masters,National,might accept,Teach (>4),1,1,0
+2000/2001,100,,10,Phd/DBA,,,,,," $94,000 ",,,,,6,,,,associate/tenure,suburban,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),0,0,0
+2000/2001,101,,0,Phd/DBA,,,,,," $75,000 ",,,,,6,,,,Asst,suburban,private,No,USA,US N.E.,Masters,Regional,Have accepted,Teach (>4),0,0,0
+2000/2001,102,yes,3,Phd/DBA,,,,,," $82,000 ",,,,,4,,,,switched Asst,suburban,public,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),0,0,0
+2000/2001,103,,1,Phd/DBA,,,,,," $78,000 "," $17,300 ",2," $3,000 "," $5,000 ",2,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,might accept,Research (<=4),1,1,0
+2000/2001,104,yes,12,Phd/DBA,,,,,," $92,000 "," $10,500 ",3," $2,500 "," $10,500 ",4,,,,associate/tenure,suburban,public,No,USA,US W.,Masters,National,Have accepted,Research (<=4),1,1,0
+2000/2001,105,,2+,Phd/DBA,,,,,," $72,500 ",,,,,6,,,,Asst,suburban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,0,0
+2000/2001,106,yes,0,Phd/DBA,,,,,," $89,000 "," $19,777 ",2," $1,500 "," $4,250 ",4,,,,Asst,suburban,public,No,USA,,Doctorate,unspecified,Have accepted,Research (<=4),1,1,0
+2000/2001,107,,2,Phd/DBA,,,,,," $88,000 "," $19,555 ",3," $3,000 "," $5,000 ",3,,,,Asst,rural,private,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,0
+2000/2001,108,,2,Phd/DBA,,,,,," $84,000 "," $16,800 ",3," $4,000 "," $5,000 ",4,,,,Asst,rural,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,109,,2,Phd/DBA,,,,,," $85,000 "," $14,166 ",2,," $5,000 ",4,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,110,yes,2,Phd/DBA,,,,,," $71,000 "," $5,000 ",3,,,6,,,,Asst,rural,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,0,0
+2000/2001,111,yes,2,Phd/DBA,,,,,," $75,000 "," $10,000 ",3,," $3,000 ",6,,,,Asst,urban,public,No,USA,US S.,Masters,National,won't accept,Teach (>4),1,0,0
+2000/2001,112,yes,2,Phd/DBA,,,,,," $73,000 "," $10,000 ",3,," $3,000 ",6,,,,Asst,suburban,public,No,USA,US S.,Masters,National,won't accept,Teach (>4),1,0,0
+2000/2001,113,,2,Phd/DBA,,,,,," $92,000 "," $15,000 ",3," $4,500 "," $3,000 ",4,,,,Asst,suburban,public,No,USA,US M.W.,Doctorate,National,might accept,Research (<=4),1,1,0
+2000/2001,114,yes,1,Phd/DBA,,,,,," $80,000 ",,," $3,150 ", $- ,4,,,,visitor,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),0,1,0
+2000/2001,115,yes,3,Phd/DBA,,,,,," $65,000 "," $6,500 ",1,," $5,000 ",4,,,,Asst,suburban,public,No,USA,US W.,Bachelor,National,won't accept,Research (<=4),1,0,0
+2000/2001,116,yes,3,Phd/DBA,,,,,," $67,500 "," $5,000 ",1,," $5,000 ",5,,,,Asst,suburban,public,No,USA,US W.,Masters,National,Have accepted,Teach (>4),1,0,0
+2000/2001,117,,0,MBA/MS,,,,,," $80,000 "," $10,000 ",2,," $5,000 ",6,,,,Asst,urban,public,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,0,0
+2000/2001,118,yes,9,Phd/DBA,,,,,," $95,000 ",,,," $5,000 ",0,,,,non-academic,non-academic,non-academic,No,USA,US N.E.,non-academic,non-academic,Have accepted,Research (<=4),0,0,0
+2000/2001,119,,1,Phd/DBA,,,,,," $95,000 "," $21,111 ",3," $2,000 "," $5,000 ",3,,,,Asst,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,120,yes,12,Phd/DBA,,,,,," $82,000 "," $2,000 ",2,,,6,,,,visitor,urban,public,No,USA,US W.,Masters,National,Have accepted,Teach (>4),1,0,0
+2000/2001,121,,4,Phd/DBA,,,,,," $85,000 "," $18,888 ",2," $5,000 "," $6,000 ",3,,,,Asst,suburban,private,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,0
+2000/2001,122,,5,Phd/DBA,,,,,," $83,000 "," $7,500 ",2,," $7,500 ",3,,,,Asst,urban,public,Yes,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2000/2001,123,yes,4,Phd/DBA,,,,,," $77,800 ",,,,,6,,,,Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,0,0
+2000/2001,124,yes,5,Phd/DBA,,,,,," $90,000 ",,,, $- ,4,,,,visitor,urban,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),0,0,0
+2000/2001,125,yes,2,Phd/DBA,,,,,," $90,000 "," $20,000 ",2," $1,500 ", $- ,4,,,,Asst,urban,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,126,yes,2,Phd/DBA,,,,,," $85,000 ",,," $1,000 ", $- ,4,,,,Asst,rural,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),0,1,0
+2000/2001,127,yes,2,Phd/DBA,,,,,," $72,000 "," $6,000 ",2," $1,500 ", $- ,4,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,128,,1,Phd/DBA,,,,,," $73,000 "," $5,000 ",2,," $1,000 ",6,,,,Asst,suburban,public,No,USA,US S.,Masters,Regional,Have accepted,Teach (>4),1,0,0
+2000/2001,129,yes,2,Phd/DBA,,,,,," $70,000 ",,, $750 , $- ,6,,,,Asst,rural,public,No,USA,US S.,Masters,National,won't accept,Teach (>4),0,1,0
+2000/2001,130,yes,2,Phd/DBA,,,,,," $70,000 ",,, $750 , $- ,6,,,,Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,1,0
+2000/2001,131,,20,Phd/DBA,,,,,," $135,000 "," $22,500 ",5," $5,000 "," $8,000 ",2,,,,full/chair,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,0
+2000/2001,132,,3,MBA/MS,,,,,," $80,000 "," $15,000 ",2," $3,000 "," $3,000 ",4,,,,Asst,suburban,private,No,USA,US N.E.,Masters,National,won't accept,Research (<=4),1,1,0
+2000/2001,133,,3,Phd/DBA,,,,,," $90,000 "," $18,000 ",3," $4,000 "," $4,000 ",3,,,,Asst,urban,mixed,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,134,,3,Phd/DBA,,,,,," $87,000 "," $14,503 ",3,," $7,000 ",4,,,,switched Asst,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,0,0
+2000/2001,135,,0.5,MBA/MS,,,,,," $45,000 ",,,,,8,,,,instructor,rural,mixed,No,USA,US N.E.,Doctorate,National,Have accepted,Teach (>4),0,0,0
+2000/2001,136,,2,Phd/DBA,,,,,," $89,000 "," $15,000 ",3," $5,000 "," $3,500 ",4,,,,Asst,suburban,public,No,USA,US M.W.,Doctorate,National,might accept,Research (<=4),1,1,0
+2000/2001,137,yes,3,Phd/DBA,,,,,," $96,500 "," $19,300 ",3," $2,000 "," $4,000 ",4,,,,Asst,suburban,public,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,138,,4,Phd/DBA,,,,,," $77,500 "," $3,000 ",1," $4,000 ", $- ,6,,,,Asst,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,1,0
+2000/2001,139,yes,0,Phd/DBA,,,,,," $30,000 ",,,," $10,000 ",6,,,,Asst,urban,public,Yes,UK,,Doctorate,National,Have accepted,Teach (>4),0,0,0
+2000/2001,140,yes,7,Phd/DBA,,,,,," $90,000 "," $20,000 ",2," $3,500 "," $10,000 ",4,,,,Asst,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,141,yes,5,Phd/DBA,,,,,," $78,000 "," $8,000 ",1," $2,000 "," $4,500 ",4,,,,Asst,urban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,142,,4,Phd/DBA,,,,,," $80,000 ",,,, $- ,4,,,,Asst,suburban,public,Yes,USA,US N.E.,unspecified,National,Have accepted,Research (<=4),0,0,0
+2000/2001,143,,3,Phd/DBA,,,,,," $90,000 "," $20,000 ",3," $5,000 "," $4,000 ",3,,,,switched Asst,suburban,public,No,USA,US S.,Masters,National,won't accept,Research (<=4),1,1,0
+2000/2001,144,yes,4,Phd/DBA,,,,,," $87,000 "," $16,500 ",2,," $3,000 ",4,,,,Asst,rural,public,No,USA,US S.,Doctorate,unspecified,Have accepted,Research (<=4),1,0,0
+2000/2001,145,yes,4,Phd/DBA,,,,,," $85,000 "," $18,888 ",2,, $- ,3,,,,Asst,rural,private,No,USA,US N.E.,unspecified,unspecified,won't accept,Research (<=4),1,0,0
+2000/2001,146,yes,4,Phd/DBA,,,,,," $70,000 ",,,," $1,000 ",6,,,,Asst,rural,private,No,USA,US S.,Masters,unspecified,won't accept,Teach (>4),0,0,0
+2000/2001,147,,6,Phd/DBA,,,,,," $115,000 "," $20,000 ",3," $5,000 "," $3,500 ",4,,,,assoc/not tenured,suburban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,148,,6,Phd/DBA,,,,,," $105,000 "," $15,000 ",3," $3,500 "," $3,000 ",4,,,,assoc/not tenured,suburban,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2000/2001,149,,2,Phd/DBA,,,,,," $91,000 "," $10,000 ",3," $4,500 "," $3,000 ",6,,,,switched Asst,urban,mixed,No,USA,US W.,Doctorate,National,Have accepted,Teach (>4),1,1,0
+2000/2001,150,yes,8,Phd/DBA,,,,,," $95,000 "," $10,555 ",2,," $10,000 ",4,,,,associate/tenure,urban,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2000/2001,151,yes,0,Phd/DBA,,,,,," $95,000 "," $20,000 ",2,," $5,000 ",4,,,,Asst,urban,public,Yes,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2000/2001,152,,0,MBA/MS,,,,,," $40,000 ",,,, $- ,6,,,,instructor,rural,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,0,0
+2000/2001,153,,17,Phd/DBA,,,,,," $130,000 ",,,, $- ,2,,,,full/chair,urban,public,No,USA,,Doctorate,National,Have accepted,Research (<=4),0,0,0
+2000/2001,154,,1,Phd/DBA,,,,,," $70,000 ",,," $3,000 "," $1,000 ",7,,,,Asst,rural,public,No,USA,US S.,Masters,Local,Have accepted,Teach (>4),0,1,0
+2000/2001,155,yes,25,Phd/DBA,,,,,," $210,000 ",,," $20,000 "," $10,000 ",9,,,,full/chair,urban,private,No,USA,US S.,Masters,National,won't accept,Teach (>4),0,1,0
+2000/2001,156,yes,15,MBA/MS,,,,,," $1,200 "," $5,000 ",2,, $- ,2,,,,instructor,suburban,public,Yes,Indonesia,,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2000/2001,157,,0,Phd/DBA,,,,,," $75,000 "," $4,000 ",2,, $- ,6,,,,Asst,rural,public,Yes,USA,US S.,Masters,Regional,might accept,Teach (>4),1,0,0
+2000/2001,158,,14,Phd/DBA,,,,,," $142,500 "," $25,000 ",5," $10,000 "," $10,000 ",3,,,,full/chair,rural,public,No,USA,,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2000/2001,159,,1,Phd/DBA,,,,,," $90,000 "," $15,000 ",3," $10,000 "," $4,000 ",4,,,,Asst,urban,public,No,USA,US W.,Masters,National,might accept,Research (<=4),1,1,0
+2001/2002,1,,1,Phd/DBA,,,,,," $102,500 "," $22,500 ",2," $3,000 "," $4,500 ",4,,,,Asst,urban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,2,,1,Phd/DBA,,,,,," $54,000 "," $10,000 ",1," $5,000 ",,4,,,,Asst,urban,private,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,3,yes,4,Phd/DBA,,,,,," $90,000 "," $20,000 ",2,,,4,,,,Asst,urban,private,No,USA,US N.E.,Masters,National,won't accept,Research (<=4),1,0,0
+2001/2002,4,yes,4,Phd/DBA,,,,,," $97,000 "," $21,555 ",2," $1,000 "," $10,777 ",4,,,,Asst,urban,public,No,USA,US M.W.,Doctorate,National,might accept,Research (<=4),1,1,0
+2001/2002,5,,,Phd/DBA,,,,,," $85,000 "," $14,166 ",3,," $14,166 ",5,,,,Asst,urban,private,No,USA,US N.E.,Masters,National,won't accept,Teach (>4),1,0,0
+2001/2002,6,,3,Phd/DBA,,,,,," $95,000 "," $21,111 ",2,," $2,500 ",4,,,,switched Asst,urban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2001/2002,7,,3,Phd/DBA,,,,,," $95,000 "," $10,000 ",2,,,4,,,,switched Asst,urban,public,No,USA,US S.,Masters,National,won't accept,Research (<=4),1,0,0
+2001/2002,8,,1,Phd/DBA,,,,,," $95,000 "," $20,000 ",3,," $10,000 ",3,,,,Asst,urban,private,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2001/2002,9,,1,Phd/DBA,,,,,," $105,000 "," $15,000 ",3,," $6,000 ",4,,,,Asst,rural,public,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2001/2002,10,,1,Phd/DBA,,,,,," $100,000 "," $15,000 ",4," $6,000 "," $9,000 ",4,,,,Asst,rural,public,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,11,yes,6,Phd/DBA,,,,,," $87,500 "," $7,500 ",2, $600 ," $2,500 ",5,,,,switched Asst,urban,private,No,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,1,0
+2001/2002,12,yes,6,Phd/DBA,,,,,," $100,000 "," $7,500 ",2,," $4,000 ",6,,,,assoc/not tenured,rural,public,Yes,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,0,0
+2001/2002,13,yes,6,Phd/DBA,,,,,," $85,000 "," $20,000 ",2,," $8,000 ",2,,,,assoc/not tenured,urban,public,Yes,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2001/2002,14,yes,6,Phd/DBA,,,,,," $97,000 "," $22,000 ",2," $1,000 "," $10,700 ",4,,,,switched Asst,urban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,15,,10,Phd/DBA,,,,,," $99,000 "," $22,000 ",2," $3,000 "," $5,000 ",4,,,,assoc/not tenured,rural,public,No,USA,,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,16,yes,0.5,Phd/DBA,,,,,," $105,000 "," $15,000 ",3," $3,000 "," $6,000 ",4,,,,Asst,rural,public,Yes,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,17,yes,0.5,Phd/DBA,,,,,," $93,000 ",,," $3,000 "," $3,000 ",4,,,,Asst,urban,public,No,USA,US S.,Masters,National,won't accept,Research (<=4),0,1,0
+2001/2002,18,yes,0.5,Phd/DBA,,,,,," $80,000 "," $5,000 ",2,," $3,000 ",4,,,,Asst,urban,public,No,USA,US W.,Masters,Regional,won't accept,Research (<=4),1,0,0
+2001/2002,19,yes,9,Phd/DBA,,,,,," $100,000 "," $12,500 ",2," $2,000 "," $2,500 ",4,,,,associate/tenure,urban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,20,yes,9,Phd/DBA,,,,,," $105,000 ",,, $500 , $- ,5,,,,associate/tenure,suburban,public,Yes,USA,US S.,Doctorate,National,won't accept,Teach (>4),0,1,0
+2001/2002,21,,5,Phd/DBA,,,,,," $100,000 "," $22,500 ",2,," $11,225 ",3,,,,switched Asst,urban,public,No,USA,US W.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2001/2002,22,,5,Phd/DBA,,,,,," $105,000 "," $23,333 ",3,," $3,500 ",4,,,,assoc/not tenured,urban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2001/2002,23,,5,Phd/DBA,,,,,," $105,000 "," $23,333 ",3," $3,500 "," $7,500 ",4,,,,assoc/not tenured,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,24,yes,5,Phd/DBA,,,,,," $70,000 ",,," $3,500 "," $8,000 ",6,,,,assoc/not tenured,urban,private,No,USA,US S.,Masters,National,might accept,Teach (>4),0,1,0
+2001/2002,25,,1,Phd/DBA,,,,,," $82,000 "," $6,000 ",2,,,6,,,,Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,0,0
+2001/2002,26,,1,Phd/DBA,,,,,," $90,000 "," $10,000 ",3,," $5,000 ",4,,,,Asst,suburban,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2001/2002,27,,4,Phd/DBA,,,,,," $110,000 "," $20,000 ",3," $5,000 "," $5,000 ",4,,,,assoc/not tenured,urban,private,No,USA,US N.E.,Doctorate,National,might accept,Research (<=4),1,1,0
+2001/2002,28,,4,Phd/DBA,,,,,," $120,000 "," $26,666 ",3," $3,500 "," $3,000 ",4,,,,assoc/not tenured,suburban,public,No,USA,US N.E.,Doctorate,National,might accept,Research (<=4),1,1,0
+2001/2002,29,,1,Phd/DBA,,,,,," $96,500 "," $21,444 ",3," $3,500 "," $3,000 ",4,,,,Asst,suburban,public,No,USA,US M.W.,Doctorate,National,might accept,Research (<=4),1,1,0
+2001/2002,30,,1,Phd/DBA,,,,,," $92,500 "," $21,444 ",3," $4,000 "," $3,500 ",3,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,might accept,Research (<=4),1,1,0
+2001/2002,31,yes,3,Phd/DBA,,,,,," $44,000 ",,,," $3,000 ",6,,,,associate/tenure,urban,public,,United Kingdom,,Doctorate,National,Have accepted,Teach (>4),0,0,0
+2001/2002,32,,8,Phd/DBA,,,,,," $90,000 "," $7,000 ",3," $1,800 "," $8,000 ",5,,,,assoc/not tenured,urban,private,No,USA,US M.W.,Bachelor,National,won't accept,Teach (>4),1,1,0
+2001/2002,33,,1,Phd/DBA,,,,,," $95,000 "," $21,000 ",3,,,4,,,,Asst,urban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2001/2002,34,,2,Phd/DBA,,,,,," $82,500 ",,," $2,000 ", $- ,6,,,,switched Asst,suburban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,0
+2001/2002,35,yes,12,Phd/DBA,,,,,," $96,000 "," $16,000 ",1," $1,500 "," $3,000 ",4,,,,assoc/not tenured,rural,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,36,yes,12,Phd/DBA,,,,,," $82,000 "," $2,000 ",1," $1,500 "," $2,000 ",4,,,,switched Asst,rural,public,No,USA,US M.W.,Masters,National,won't accept,Research (<=4),1,1,0
+2001/2002,37,,1,Phd/DBA,,,,,," $56,000 "," $18,667 ",1," $10,000 "," $12,000 ",3,,,,Asst,suburban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,38,,3,Phd/DBA,,,,,," $90,000 "," $18,000 ",2,," $2,500 ",4,,,,switched Asst,urban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2001/2002,39,,3,Phd/DBA,,,,,," $78,500 "," $6,500 ",2,,,6,,,,switched Asst,suburban,public,No,USA,US W.,Masters,National,won't accept,Teach (>4),1,0,0
+2001/2002,40,,0,MBA/MS,,,,,," $82,500 "," $6,500 ",1," $10,000 "," $5,000 ",2,,,,Asst,urban,public,Yes,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,41,,0,MBA/MS,,,,,," $85,000 "," $16,500 ",4,," $2,500 ",5,,,,Asst,suburban,private,No,USA,US N.E.,Masters,National,might accept,Teach (>4),1,0,0
+2001/2002,42,,0,MBA/MS,,,,,," $96,000 "," $16,000 ",3,," $2,500 ",6,,,,Asst,urban,private,No,USA,US N.E.,Masters,National,might accept,Teach (>4),1,0,0
+2001/2002,43,yes,6,Phd/DBA,,,,,," $75,000 ",,,," $1,000 ",6,,,,switched Asst,urban,public,No,USA,US M.W.,Masters,none,won't accept,Teach (>4),0,0,0
+2001/2002,44,,5,Phd/DBA,,,,,," $15,500 ",,,, $- ,24,,,,associate/tenure,suburban,public,No,Spain,,Doctorate,,Have accepted,Teach (>4),0,0,0
+2001/2002,45,,4,Phd/DBA,,,,,," $105,000 "," $2,000 ",3," $3,000 "," $9,000 ",4,,,,switched Asst,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,46,,2,Phd/DBA,,,,,," $100,000 "," $20,000 ",3," $3,500 ", $- ,4,,,,Asst,urban,private,No,USA,US N.E.,Doctorate,National,might accept,Research (<=4),1,1,0
+2001/2002,47,,2,Phd/DBA,,,,,," $96,000 "," $21,333 ",3," $3,500 "," $4,000 ",3,,,,Asst,rural,mixed,No,USA,US N.E.,Masters,National,might accept,Research (<=4),1,1,0
+2001/2002,48,,2,Phd/DBA,,,,,," $95,000 "," $15,833 ",2,,,4,,,,Asst,suburban,public,No,USA,US M.W.,Doctorate,National,might accept,Research (<=4),1,0,0
+2001/2002,49,,0,Phd/DBA,,,,,," $112,000 "," $24,888 ",3," $5,000 "," $15,000 ",4,,,,Asst,urban,private,No,USA,US S.,Masters,National,won't accept,Research (<=4),1,1,0
+2001/2002,50,,0,Phd/DBA,,,,,," $110,000 "," $24,444 ",6," $3,500 "," $7,500 ",4,,,,Asst,urban,private,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,51,,0,Phd/DBA,,,,,," $106,000 "," $23,555 ",3," $6,000 "," $8,000 ",3.5,,,,Asst,rural,public,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,52,,0,Phd/DBA,,,,,," $102,000 "," $22,666 ",6," $6,000 "," $7,500 ",3,,,,Asst,suburban,private,No,USA,US M.W.,Masters,National,Have accepted,Research (<=4),1,1,0
+2001/2002,53,,0,Phd/DBA,,,,,," $97,000 "," $21,555 ",3," $6,000 "," $11,000 ",4,,,,Asst,urban,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,54,,2,Phd/DBA,,,,,," $100,000 "," $20,000 ",3,," $3,000 ",4,,,,Asst,urban,private,No,USA,US N.E.,Masters,National,might accept,Research (<=4),1,0,0
+2001/2002,55,yes,11,Phd/DBA,,,,,," $99,000 "," $22,000 ",2," $3,000 "," $3,000 ",4,,,,assoc/not tenured,urban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,56,,1,Phd/DBA,,,,,," $95,000 "," $21,100 ",3," $5,000 "," $5,000 ",7,,,,Asst,urban,private,No,USA,US N.E.,Doctorate,National,won't accept,Teach (>4),1,1,0
+2001/2002,57,,1,Phd/DBA,,,,,," $95,000 "," $21,000 ",4," $5,000 "," $5,000 ",3,,,,Asst,urban,private,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,58,,1,Phd/DBA,,,,,," $94,000 "," $9,000 ",2," $4,000 "," $2,000 ",4,,,,Asst,urban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,59,,4,Phd/DBA,,,,,," $85,500 "," $15,000 ",3,," $9,000 ",4,,,,switched Asst,suburban,private,Yes,Australia,,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2001/2002,60,,0,MBA/MS,,,,,," $96,000 "," $16,000 ",3,,,5,,,,Asst,urban,private,No,USA,US N.E.,Masters,National,won't accept,Teach (>4),1,0,0
+2001/2002,61,,0,MBA/MS,,,,,," $94,000 "," $19,000 ",2,,,4,,,,Asst,urban,public,Yes,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2001/2002,62,,0,MBA/MS,,,,,," $85,000 "," $20,000 ",1,,,4,,,,Asst,urban,public,Yes,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2001/2002,63,,0,MBA/MS,,,,,," $90,000 "," $15,000 ",4,,,5,,,,Asst,suburban,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,0,0
+2001/2002,64,yes,2,Phd/DBA,,,,,," $105,000 "," $15,000 ",3," $3,000 "," $5,000 ",4,,,,switched Asst,urban,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,65,yes,2,Phd/DBA,,,,,," $90,000 "," $9,000 ",2,," $5,000 ",4,,,,switched Asst,urban,public,No,USA,US W.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2001/2002,66,yes,2,Phd/DBA,,,,,," $82,500 "," $18,000 ",1,," $5,000 ",3,,,,switched Asst,urban,public,Yes,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2001/2002,67,,16,Phd/DBA,,,,,," $100,000 "," $22,000 ",2," $3,500 "," $7,000 ",4,,,,assoc/not tenured,suburban,private,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,68,,3,Phd/DBA,,,,,," $105,000 "," $23,100 ",4,," $5,000 ",4,,,,switched Asst,unspecified,public,No,USA,US S.,unspecified,National,Have accepted,Research (<=4),1,0,0
+2001/2002,69,yes,3,Phd/DBA,,,,,," $90,000 "," $19,800 ",3," $4,000 "," $4,000 ",4,,,,Asst,urban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,70,yes,5,Phd/DBA,,,,,," $90,000 "," $18,000 ",2," $8,000 "," $1,000 ",4,,,,switched Asst,urban,public,No,USA,US M.W.,unspecified,National,Have accepted,Research (<=4),1,1,0
+2001/2002,71,yes,6,Phd/DBA,,,,,," $78,000 "," $17,333 ",2," $2,500 ",,5,,,,switched Asst,rural,public,No,USA,US N.E.,Doctorate,National,Have accepted,Teach (>4),1,1,0
+2001/2002,72,,10,Phd/DBA,,,,,," $80,000 ",,," $1,000 "," $3,500 ",6,,,,switched Asst,urban,private,No,USA,US W.,Masters,National,Have accepted,Teach (>4),0,1,0
+2001/2002,73,,,Phd/DBA,,,,,," $100,000 "," $22,222 ",3," $1,500 "," $8,000 ",2,,,,Asst,urban,mixed,,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,74,,,Phd/DBA,,,,,," $100,000 "," $22,222 ",3," $1,500 "," $8,000 ",2,,,,Asst,urban,mixed,,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,75,,6,Phd/DBA,,,,,," $115,000 "," $23,000 ",3," $4,000 "," $8,000 ",4,,,,switched Asst,suburban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,76,,2,Phd/DBA,,,,,," $27,002 ",,, $357 ," $1,136 ",12,,,,instructor,rural,public,Yes,Australia,,Doctorate,National,Have accepted,Teach (>4),0,1,0
+2001/2002,77,,2,Phd/DBA,,,,,," $105,000 "," $23,333 ",6," $4,000 "," $5,000 ",3,,,,Asst,urban,public,,USA,US S.,Doctorate,National,,Research (<=4),1,1,0
+2001/2002,78,,2,Phd/DBA,,,,,," $112,000 "," $24,889 ",6," $5,000 "," $5,000 ",2.5,,,,Asst,urban,public,Yes,USA,US W.,Doctorate,National,,Research (<=4),1,1,0
+2001/2002,79,,25,Phd/DBA,,,,,," $101,000 "," $34,000 ",10," $30,000 "," $9,000 ",2,,,,full/chair,rural,public,Yes,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,80,yes,1,Phd/DBA,,,,,," $80,000 "," $17,000 ",2," $5,000 "," $10,000 ",4,,,,Asst,urban,public,No,Canada,,Doctorate,,Have accepted,Research (<=4),1,1,0
+2001/2002,81,,7,Phd/DBA,,,,,," $67,000 "," $6,000 ",1,," $2,500 ",5.5,,,,switched Asst,rural,private,No,USA,US N.E.,Bachelor,National,Have accepted,Teach (>4),1,0,0
+2001/2002,82,yes,1,Phd/DBA,,,,,," $83,000 "," $5,000 ",2," $2,000 "," $2,000 ",4,,,,Asst,urban,public,No,USA,US W.,Masters,National,Have accepted,Research (<=4),1,1,0
+2001/2002,83,yes,0.3,Phd/DBA,,,,,," $102,000 "," $20,400 ",3," $4,000 "," $5,500 ",4,,,,Asst,rural,public,No,USA,,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,84,yes,5,BS/BA,,,,,," $60,000 ",,,, $500 ,6,,,,Asst,rural,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,0,0
+2001/2002,85,,11,Phd/DBA,,,,,," $115,000 "," $25,555 ",2," $7,500 "," $5,000 ",4,,,,switched Asst,suburban,public,,USA,US S.,unspecified,National,Have accepted,Research (<=4),1,1,0
+2001/2002,86,yes,11,Phd/DBA,,,,,," $110,000 ",,," $3,000 ",,2,,,,visitor,rural,private,,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),0,1,0
+2001/2002,87,yes,6,Phd/DBA,,,,,," $120,000 "," $26,666 ",3," $2,500 "," $10,000 ",3.3,,,,switched Asst,suburban,public,,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,88,,6,Phd/DBA,,,,,," $85,000 "," $11,000 ",1,," $3,000 ",5,,,,switched Asst,urban,public,,USA,US S.,Doctorate,National,Have accepted,Teach (>4),1,0,0
+2001/2002,89,,19,Phd/DBA,,,,,," $75,000 "," $9,375 ",2,," $2,500 ",6,,,,switched Asst,suburban,public,,USA,US S.,Bachelor,National,Have accepted,Teach (>4),1,0,0
+2001/2002,90,yes,2,Phd/DBA,,,,,," $70,000 ",,," $30,000 ",,4,,,,instructor,urban,private,,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),0,1,0
+2001/2002,91,yes,1,Phd/DBA,,,,,," $90,000 "," $9,000 ",3," $3,000 "," $7,000 ",4,,,,Asst,suburban,public,,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,92,,6,Phd/DBA,,,,,," $85,000 "," $12,750 ",5," $1,000 "," $5,000 ",6,,,,switched Asst,suburban,public,,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2001/2002,93,,7,Phd/DBA,,,,,," $120,000 ",,,," $25,000 ",4,,,,assoc/not tenured,suburban,public,,USA,US W.,Doctorate,National,won't accept,Research (<=4),0,0,0
+2001/2002,94,,7,Phd/DBA,,,,,," $90,000 ",,," $6,000 "," $6,000 ",4,,,,visitor,urban,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),0,1,0
+2001/2002,95,,8,Phd/DBA,,,,,," $68,000 "," $6,000 ",1," $1,000 "," $3,000 ",6,,,,assoc/not tenured,rural,public,,USA,US W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2001/2002,96,yes,1,Phd/DBA,,,,,," $112,500 "," $25,000 ",4," $4,000 "," $10,000 ",3,,,,Asst,urban,mixed,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,97,yes,1,Phd/DBA,,,,,," $107,000 "," $23,777 ",3," $3,000 "," $10,000 ",4,,,,Asst,urban,mixed,,USA,US W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,98,yes,1,Phd/DBA,,,,,," $105,000 "," $23,333 ",3," $5,000 "," $7,000 ",2.5,,,,Asst,urban,mixed,,USA,US S.,Masters,National,won't accept,Research (<=4),1,1,0
+2001/2002,99,,10,Phd/DBA,,,,,," $108,000 "," $24,000 ",2," $3,000 "," $5,000 ",4,,,,associate/tenure,urban,public,,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,100,yes,10,Phd/DBA,,,,,," $126,453 ",,," $5,806 "," $3,000 ",3,,,,assoc/not tenured,suburban,public,,Hong Kong,,Doctorate,National,Have accepted,Research (<=4),0,1,0
+2001/2002,101,yes,1,Phd/DBA,,,,,," $92,000 "," $12,000 ",3," $3,000 "," $10,000 ",3,,,,Asst,urban,public,,USA,US M.W.,Doctorate,,won't accept,Research (<=4),1,1,0
+2001/2002,102,yes,1,Phd/DBA,,,,,," $94,000 "," $94,000 ",2," $2,000 "," $6,000 ",4,,,,Asst,urban,public,,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,103,yes,1,Phd/DBA,,,,,," $95,000 "," $17,812 ",2," $3,000 "," $5,000 ",4,,,,Asst,urban,public,,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,104,yes,3,Phd/DBA,,,,,," $78,500 "," $6,500 ",1," $2,500 ",,6,,,,Asst,urban,public,Yes,USA,US W.,Masters,National,might accept,Teach (>4),1,1,0
+2001/2002,105,,2,Phd/DBA,,,,,," $96,000 ",,," $4,600 ", $- ,4,,,,visitor,suburban,public,,USA,US W.,Masters,National,Have accepted,Research (<=4),0,1,0
+2001/2002,106,yes,3,Phd/DBA,,,,,," $80,000 "," $5,000 ",1,,,4,,,,switched Asst,suburban,public,,USA,US W.,Masters,National,won't accept,Research (<=4),1,0,0
+2001/2002,107,yes,3,Phd/DBA,,,,,," $87,000 ",,,,,4,,,,switched Asst,suburban,public,,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),0,0,0
+2001/2002,108,yes,3,Phd/DBA,,,,,," $88,000 ",,,,,6,,,,switched Asst,suburban,private,,USA,US W.,Masters,National,won't accept,Teach (>4),0,0,0
+2001/2002,109,yes,3,Phd/DBA,,,,,," $95,000 "," $9,500 ",2,," $5,000 ",4,,,,switched Asst,suburban,public,,USA,US W.,Masters,National,Have accepted,Research (<=4),1,0,0
+2001/2002,110,yes,5,Phd/DBA,,,,,," $110,000 "," $24,200 ",3," $5,000 "," $7,500 ",3,,,,switched Asst,suburban,public,,USA,US S.,Masters,National,Have accepted,Research (<=4),1,1,0
+2001/2002,111,yes,5,Phd/DBA,,,,,," $118,000 "," $25,900 ",3," $5,000 "," $5,000 ",4,,,,switched Asst,urban,private,,USA,US N.E.,Masters,National,won't accept,Research (<=4),1,1,0
+2001/2002,112,yes,6,Phd/DBA,,,,,," $70,000 "," $8,000 ",2," $1,000 "," $3,000 ",5,,,,switched Asst,suburban,public,,USA,US S.,Masters,none,won't accept,Teach (>4),1,1,0
+2001/2002,113,yes,0,Phd/DBA,,,,,," $75,000 ",,0,," $5,000 ",6,,,,Asst,rural,public,,USA,US W.,Bachelor,National,Have accepted,Teach (>4),0,0,0
+2001/2002,114,yes,0,Phd/DBA,,,,,," $85,000 "," $18,800 ",2," $2,000 "," $5,000 ",4,,,,Asst,rural,public,,USA,US W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,115,,2,Phd/DBA,,,,,," $105,000 "," $20,000 ",3," $5,000 ", $- ,4,,,,Asst,urban,private,,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2001/2002,116,,1,Phd/DBA,,,,,," $100,000 "," $10,000 ",5,,,4,,,,Asst,urban,private,,USA,US N.E.,Masters,National,won't accept,Research (<=4),1,0,0
+2001/2002,117,,2,Phd/DBA,,,,,," $95,000 "," $21,111 ",3," $2,500 ",,3,,,,Asst,urban,public,,USA,US M.W.,Masters,National,won't accept,Research (<=4),1,1,0
+2001/2002,118,,2,Phd/DBA,,,,,," $110,000 "," $35,000 ",3," $4,000 "," $25,000 ",3,,,,Asst,urban,private,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,119,,2,Phd/DBA,,,,,," $92,500 "," $20,555 ",3,,,4,,,,Asst,suburban,public,Yes,USA,US S.,Masters,National,won't accept,Research (<=4),1,0,0
+2001/2002,120,,1,Phd/DBA,,,,,," $95,000 "," $11,875 ",3," $1,200 "," $5,000 ",4,,,,Asst,suburban,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,121,yes,15,Phd/DBA,,,,,," $125,000 "," $25,000 ",2," $12,000 "," $4,000 ",4,,,,assoc/not tenured,rural,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,122,yes,1,Phd/DBA,,,,,," $90,000 "," $18,000 ",3,," $2,500 ",4,,,,Asst,urban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2001/2002,123,yes,9,Phd/DBA,,,,,," $100,000 "," $20,000 ",2," $2,500 "," $4,000 ",4,,,,assoc/not tenured,urban,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,124,,0,Phd/DBA,,,,,," $83,000 "," $5,000 ",2, $700 ," $1,000 ",5,,,,Asst,urban,public,,USA,US S.,Doctorate,National,Have accepted,Teach (>4),1,1,0
+2001/2002,125,yes,1,MBA/MS,,,,,," $39,500 ",,1," $2,000 ",,7,,,,Asst,urban,public,,USA,US N.E.,Masters,Regional,Have accepted,Teach (>4),0,1,0
+2001/2002,126,,22,Phd/DBA,,,,,," $100,000 ",,," $1,500 "," $10,000 ",6,,,,full/chair,urban,private,,USA,US N.E.,Doctorate,Regional,Have accepted,Teach (>4),0,1,0
+2001/2002,127,,1,Phd/DBA,,,,,," $82,850 ",,,,,4,,,,Asst,urban,public,,USA,US S.,Masters,National,might accept,Research (<=4),0,0,0
+2001/2002,128,,0,MBA/MS,,,,,," $50,000 ",,,,,6,,,,Asst,urban,public,Yes,USA,US M.W.,unspecified,National,won't accept,Teach (>4),0,0,0
+2001/2002,129,,7,Phd/DBA,,,,,," $120,000 "," $26,666 ",2," $3,500 "," $7,000 ",4,,,,associate/tenure,urban,private,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,130,,1,Phd/DBA,,,,,," $60,000 ",,," $5,000 ",,6,,,,Asst,suburban,private,,USA,US N.E.,Bachelor,National,won't accept,Teach (>4),0,1,0
+2001/2002,131,,1,Phd/DBA,,,,,," $70,000 "," $11,666 ",2,,,5,,,,Asst,urban,private,,USA,US N.E.,Doctorate,National,won't accept,Teach (>4),1,0,0
+2001/2002,132,,1,Phd/DBA,,,,,," $84,000 "," $16,000 ",2,," $5,000 ",6,,,,Asst,suburban,public,,USA,US S.,Masters,National,Have accepted,Teach (>4),1,0,0
+2001/2002,133,yes,1,Phd/DBA,,,,,," $89,000 "," $15,000 ",2," $3,500 "," $3,000 ",4,,,,Asst,suburban,public,,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,134,,5,Phd/DBA,,,,,," $115,000 "," $12,800 ",3," $4,000 "," $5,000 ",3,,,,assoc/not tenured,urban,public,,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,135,yes,5,Phd/DBA,,,,,," $96,000 "," $21,000 ",3," $4,000 "," $10,667 ",3,,,,switched Asst,suburban,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2001/2002,136,,2,Phd/DBA,,,,,," $78,000 ",,," $1,500 ",,6,,,,Asst,urban,private,,USA,US M.W.,Doctorate,National,won't accept,Teach (>4),0,1,0
+2001/2002,137,,2,Phd/DBA,,,,,," $80,000 "," $8,900 ",2," $2,500 "," $5,000 ",4,,,,Asst,rural,public,,USA,US W.,Masters,National,Have accepted,Research (<=4),1,1,0
+2001/2002,138,yes,6,Phd/DBA,,,,,," $75,000 "," $3,500 ",3," $2,500 "," $8,000 ",6,,,,assoc/not tenured,urban,private,,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,0
+2001/2002,139,yes,4,Phd/DBA,,,,,," $75,000 "," $15,000 ",2," $5,000 "," $4,000 ",6,,,,switched Asst,urban,public,,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2001/2002,140,,22,Phd/DBA,,,,,," $135,000 "," $15,000 ",8,," $6,000 ",3,,,,full/chair,urban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2001/2002,141,,16,Phd/DBA,,,,,," $120,000 ",,," $30,000 "," $5,000 ",4,,,,full/chair,rural,public,,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),0,1,0
+2001/2002,142,,3,Phd/DBA,,,,,," $97,500 "," $15,000 ",1," $2,000 "," $3,000 ",4,,,,switched Asst,suburban,public,,USA,US S.,Masters,National,Have accepted,Research (<=4),1,1,0
+2001/2002,143,,7,Phd/DBA,,,,,," $90,000 "," $15,000 ",2," $1,000 ",,5,,,,switched Asst,suburban,public,Yes,USA,US N.E.,Doctorate,National,Have accepted,Teach (>4),1,1,0
+2001/2002,144,,7,Phd/DBA,,,,,," $72,000 ",,," $1,000 ",,6,,,,switched Asst,rural,public,Yes,USA,US M.W.,Masters,National,won't accept,Teach (>4),0,1,0
+2001/2002,145,,1,Phd/DBA,,,,,," $78,000 "," $26,000 ",1,,,4,,,,Asst,urban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2002/2003,1,yes,21,Phd/DBA,,,,,," $62,000 "," $1,500 ",,,,6,,,,associate/tenure,unspecified,private,No,USA,US S.,Masters,Regional,Have accepted,Teach (>4),1,0,0
+2002/2003,2,,12,Phd/DBA,,,,,," $84,000 "," $12,500 ",2,,,6,,,,associate/tenure,suburban,public,Yes,USA,US S.,Masters,National,won't accept,Teach (>4),1,0,0
+2002/2003,3,yes,3,Phd/DBA,,,,,," $105,000 "," $23,333 ",2," $9,000 "," $5,000 ",3,,,,Asst,urban,private,No,USA,US N.E.,Masters,National,have accepted,Research (<=4),1,1,0
+2002/2003,4,,2,Phd/DBA,,,,,," $100,000 "," $22,222 ",3,," $4,000 ",3,,,,Asst,urban,private,,USA,US M.W.,Doctorate,,Have accepted,Research (<=4),1,0,0
+2002/2003,5,yes,2,Phd/DBA,,,,,," $101,000 "," $22,000 ",2," $2,000 "," $11,000 ",4,,,,Asst,urban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,6,yes,1,Phd/DBA,,,,,," $92,000 "," $20,444 ",3," $1,000 "," $8,000 ",4,,,,Asst,urban,public,Yes,USA,US M.W.,Doctorate,National,might accept,Research (<=4),1,1,0
+2002/2003,7,yes,3,Phd/DBA,,,,,," $105,000 "," $22,440 ",3," $3,000 "," $7,500 ",4,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2002/2003,8,yes,8,Phd/DBA,,,,,," $86,000 "," $15,000 ",1," $2,000 "," $3,500 ",5,,,,switched Asst,suburban,public,Yes,USA,US M.W.,Doctorate,National,won't accept,Teach (>4),1,1,0
+2002/2003,9,yes,10,Phd/DBA,,,,,," $95,000 "," $10,555 ",2," $3,000 "," $8,000 ",4,,,,switched Asst,urban,private,No,USA,US M.W.,Masters,National,Have accepted,Research (<=4),1,1,0
+2002/2003,10,yes,10,Phd/DBA,,,,,," $89,000 "," $9,888 ",2," $3,000 "," $5,000 ",4,,,,switched Asst,suburban,public,Yes,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2002/2003,11,yes,4,Phd/DBA,,,,,," $82,000 "," $5,000 ",1," $2,000 "," $8,000 ",5,,,,switched Asst,urban,public,No,USA,US W.,Masters,National,won't accept,Teach (>4),1,1,0
+2002/2003,12,yes,4,Phd/DBA,,,,,," $85,000 "," $10,500 ",4," $2,000 "," $4,000 ",6,,,,switched Asst,suburban,public,No,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,1,0
+2002/2003,13,yes,4,Phd/DBA,,,,,," $108,000 "," $23,000 ",3," $5,000 "," $10,000 ",4,,,,switched Asst,rural,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2002/2003,14,yes,4,Phd/DBA,,,,,," $81,000 ",,," $18,000 "," $12,000 ",6,,,,assoc/not tenured,urban,private,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,1,0
+2002/2003,15,yes,4,Phd/DBA,,,,,," $93,000 "," $15,000 ",3," $4,000 ",,4,,,,switched Asst,rural,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,16,yes,3,Phd/DBA,,,,,," $95,000 "," $15,000 ",2,," $8,000 ",5,,,,switched Asst,urban,public,No,USA,US S.,Masters,National,won't accept,Teach (>4),1,0,0
+2002/2003,17,yes,10,Phd/DBA,,,,,," $92,000 "," $9,000 ",3," $5,000 "," $8,000 ",4,,,,assoc/not tenured,urban,public,Yes,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2002/2003,18,yes,10,Phd/DBA,,,,,," $85,000 "," $6,000 ",2," $2,000 "," $2,800 ",6,,,,assoc/not tenured,urban,public,Yes,USA,US W.,Bachelor,National,won't accept,Teach (>4),1,1,0
+2002/2003,19,,,BS/BA,,,,,," $100,000 ",,," $10,000 "," $5,000 ",6,,,,instructor,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),0,1,0
+2002/2003,20,,1,MBA/MS,,,,,," $44,500 ",,,,,6,,,,instructor,urban,private,No,USA,US W.,Associate,National,Have accepted,Teach (>4),0,0,0
+2002/2003,21,,2,Phd/DBA,,,,,," $95,000 "," $5,000 ",2,," $2,000 ",4,,,,Asst,urban,public,No,,,Doctorate,National,won't accept,Research (<=4),1,0,0
+2002/2003,22,,2,Phd/DBA,,,,,," $100,000 "," $20,000 ",1,," $7,000 ",4,,,,Asst,urban,public,,,,Masters,National,Have accepted,Research (<=4),1,0,0
+2002/2003,23,yes,8,Phd/DBA,,,,,," $105,000 "," $23,333 ",1," $3,000 "," $11,000 ",4,,,,switched Asst,suburban,public,,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,0
+2002/2003,24,yes,1,Phd/DBA,,,,,," $95,000 "," $20,900 ",2,," $2,500 ",4,,,,Asst,suburban,public,Yes,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2002/2003,25,yes,1,Phd/DBA,,,,,," $100,000 "," $19,500 ",3," $8,500 "," $7,500 ",4,,,,Asst,rural,public,No,USA,US S.,Doctorate,National,might accept,Research (<=4),1,1,0
+2002/2003,26,yes,10,Phd/DBA,,,,,," $120,000 "," $25,000 ",3," $20,000 "," $25,000 ",3,,,,full/chair,urban,public,,USA,US M.W.,Doctorate,National,might accept,Research (<=4),1,1,0
+2002/2003,27,yes,7,Phd/DBA,,,,,," $115,700 ",,," $50,000 "," $10,000 ",5,,,,full/chair,urban,public,No,Switzerland,,Doctorate,none,Have accepted,Teach (>4),0,1,0
+2002/2003,28,yes,2,Phd/DBA,,,,,," $99,000 "," $24,800 ",2," $3,000 "," $5,000 ",4,,,,switched Asst,rural,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,29,yes,5,Phd/DBA,,,,,," $82,500 "," $9,000 ",1," $2,500 "," $2,000 ",4,,,,switched Asst,rural,public,No,USA,US M.W.,Masters,National,Have accepted,Research (<=4),1,1,0
+2002/2003,30,,0,Phd/DBA,,,,,," $55,000 ",,," $1,000 "," $3,000 ",4,,,,Asst,urban,public,No,Canada,,Doctorate,National,won't accept,Research (<=4),0,1,0
+2002/2003,31,yes,2,Phd/DBA,,,,,," $90,000 "," $20,000 ",2," $4,000 "," $2,000 ",4,,,,visitor,urban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,32,yes,3,MBA/MS,,,,,," $43,000 "," $4,000 ",1,,,6.5,,,,instructor,rural,public,No,USA,US S.,Bachelor,National,Have accepted,Teach (>4),1,0,0
+2002/2003,33,yes,0.5,Phd/DBA,,,,,," $85,000 "," $14,166 ",2," $2,000 "," $10,000 ",5,,,,Asst,rural,public,No,USA,US W.,Doctorate,National,Have accepted,Teach (>4),1,1,0
+2002/2003,34,yes,4,MBA/MS,,,,,," $35,500 ",,,,,6,,,,instructor,rural,public,No,USA,,Masters,National,Have accepted,Teach (>4),0,0,0
+2002/2003,35,yes,7,Phd/DBA,,,,,," $83,000 ",,,,,4,,,,associate/tenure,suburban,public,No,USA,US M.W.,Bachelor,Regional,Have accepted,Research (<=4),0,0,0
+2002/2003,36,yes,4,Phd/DBA,,,,,," $70,000 "," $7,778 ",1," $3,000 ",,5,,,,switched Asst,urban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2002/2003,37,yes,7,Phd/DBA,,,,,," $92,500 "," $10,000 ",2," $2,000 "," $5,000 ",5,,,,switched Asst,suburban,private,,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,1,0
+2002/2003,38,yes,7,Phd/DBA,,,,,," $61,500 ",,, $700 ," $2,000 ",8,,,,switched Asst,rural,private,,USA,US N.E.,Masters,National,won't accept,Teach (>4),0,1,0
+2002/2003,39,yes,1,Phd/DBA,,,,,," $101,000 "," $22,444 ",6," $4,000 "," $11,222 ",4,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,40,yes,1,Phd/DBA,,,,,," $114,000 "," $15,000 ",3,," $6,000 ",4,,,,Asst,rural,public,Yes,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2002/2003,41,yes,1,Phd/DBA,,,,,," $92,000 "," $10,222 ",3,," $10,000 ",3.5,,,,Asst,urban,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2002/2003,42,yes,1,Phd/DBA,,,,,," $80,000 "," $14,400 ",,," $1,250 ",6,,,,Asst,rural,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,0,0
+2002/2003,43,yes,1,Phd/DBA,,,,,," $90,000 "," $11,250 ",2,," $2,000 ",4.5,,,,Asst,urban,public,No,USA,US S.,Doctorate,National,won't accept,Teach (>4),1,0,0
+2002/2003,44,yes,1,Phd/DBA,,,,,," $82,500 "," $6,400 ",,,,6,,,,Asst,rural,public,No,USA,US S.,Masters,National,won't accept,Teach (>4),1,0,0
+2002/2003,45,yes,1,Phd/DBA,,,,,," $90,000 "," $10,000 ",3," $5,000 "," $3,000 ",4,,,,Asst,rural,public,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2002/2003,46,yes,1,Phd/DBA,,,,,," $105,000 "," $23,333 ",3," $5,000 "," $3,000 ",4,,,,Asst,urban,public,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,47,yes,2,PhD/DBA,,,,,," $102,000 "," $22,667 ",3," $3,000 "," $3,000 ",3,,,,Asst,suburban,mixed,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,48,yes,3,PhD/DBA,,,,,," $75,000 ",,," $8,000 "," $3,000 ",3,,,,Asst,urban,public,No,Canada,,Doctorate,National,won't accept,Research (<=4),0,1,0
+2002/2003,49,,1,Phd/DBA,,,,,," $95,000 "," $21,111 ",2," $4,000 "," $10,555 ",4,,,,Asst,urban,public,,USA,US S.,Doctorate,National,might accept,Research (<=4),1,1,0
+2002/2003,50,,10,Phd/DBA,,,,,," $95,000 ",,," $5,000 ",,4,,,,assoc/not tenured,suburban,public,No,USA,US S.,Masters,National,Have accepted,Research (<=4),0,1,0
+2002/2003,51,,0.5,Phd/DBA,,,,,," $108,000 "," $20,000 ",6," $10,000 "," $10,000 ",4,,,,Asst,rural,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2002/2003,52,,0.5,Phd/DBA,,,,,," $120,000 "," $20,000 ",2," $5,000 "," $5,000 ",4,,,,Asst,rural,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2002/2003,53,,0.5,Phd/DBA,,,,,," $100,000 "," $15,000 ",6," $10,000 "," $5,000 ",4,,,,Asst,urban,private,No,USA,US W.,Masters,National,Have accepted,Research (<=4),1,1,0
+2002/2003,54,yes,2,Phd/DBA,,,,,," $92,500 "," $10,000 ",2," $2,000 "," $5,000 ",4,,,,Asst,urban,private,No,USA,US N.E.,Masters,National,won't accept,Research (<=4),1,1,0
+2002/2003,55,yes,2,Phd/DBA,,,,,," $110,000 "," $24,444 ",3,," $4,500 ",4,,,,Asst,suburban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2002/2003,56,yes,2,Phd/DBA,,,,,," $98,000 "," $21,777 ",3,," $8,000 ",2.7,,,,Asst,urban,public,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2002/2003,57,,2,Phd/DBA,,,,,," $110,000 "," $25,000 ",4," $4,500 "," $4,500 ",2,,,,switched Asst,urban,private,No,USA,US N.E.,Doctorate,National,might accept,Research (<=4),1,1,0
+2002/2003,58,,2,Phd/DBA,,,,,," $115,000 "," $28,000 ",4," $6,000 "," $4,000 ",2,,,,switched Asst,urban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,59,yes,10,Phd/DBA,,,,,," $89,000 "," $4,000 ",1,," $3,000 ",6,,,,assoc/not tenured,rural,public,No,USA,US N.E.,Bachelor,National,Have accepted,Teach (>4),1,0,0
+2002/2003,60,yes,2,Phd/DBA,,,,,," $115,000 "," $25,555 ",4,," $10,000 ",3,,,,switched Asst,urban,public,No,USA,US M.W.,Doctorate,National,might accept,Research (<=4),1,0,0
+2002/2003,61,yes,12,Phd/DBA,,,,,," $130,000 ",,,," $5,000 ",4,,,,full/chair,suburban,public,No,USA,US S.,Bachelor,National,Have accepted,Research (<=4),0,0,0
+2002/2003,62,yes,12,Phd/DBA,,,,,," $95,000 "," $14,000 ",2," $15,000 ",,4,,,,assoc/not tenured,urban,public,Yes,USA,US N.E.,Masters,National,won't accept,Research (<=4),1,1,0
+2002/2003,63,yes,3,Phd/DBA,,,,,," $90,000 "," $10,000 ",3," $5,000 "," $7,500 ",4,,,,Asst,urban,private,No,USA,US N.E.,Doctorate,National,might accept,Research (<=4),1,1,0
+2002/2003,64,,0,BS/BA,,,,,," $42,000 ",,,,,8,,,,instructor,urban,private,No,USA,US W.,Associate,Local,Have accepted,Teach (>4),0,0,0
+2002/2003,65,,1,Phd/DBA,,,,,," $90,000 "," $7,500 ",,,,6,,,,Asst,urban,public,No,USA,US S.,Masters,,Have accepted,Teach (>4),1,0,0
+2002/2003,66,yes,11,Phd/DBA,,,,,," $102,000 "," $22,667 ",1," $6,500 "," $5,000 ",3.4,,,,visitor,urban,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,67,yes,0,Phd/DBA,,,,,," $100,800 "," $22,400 ",4," $2,500 "," $4,000 ",3.5,,,,Asst,rural,public,,USA,US W.,Doctorate,,won't accept,Research (<=4),1,1,0
+2002/2003,68,yes,0,Phd/DBA,,,,,," $106,000 "," $17,666 ",4,," $4,000 ",3.5,,,,Asst,urban,public,,USA,US W.,Doctorate,,Have accepted,Research (<=4),1,0,0
+2002/2003,69,,2,Phd/DBA,,,,,," $100,000 "," $20,000 ",3," $7,000 "," $6,000 ",3,,,,Asst,rural,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,70,,0,Phd/DBA,,,,,," $66,500 "," $12,500 ",2," $10,000 "," $7,000 ",3,,,,Asst,rural,public,No,USA,US N.E.,unspecified,National,might accept,Research (<=4),1,1,0
+2002/2003,71,,7,Phd/DBA,,,,,," $103,500 ",,," $4,000 ",,3,,,,assoc/not tenured,urban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),0,1,0
+2002/2003,72,,4,MBA/MS,,,,,," $83,000 ",,,,,6,,,,assoc/not tenured,urban,private,No,USA,US M.W.,Doctorate,National,Have accepted,Teach (>4),0,0,0
+2002/2003,73,,6,Phd/DBA,,,,,," $110,000 "," $18,000 ",2,," $6,000 ",4,,,,associate/tenure,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2002/2003,74,yes,3,Phd/DBA,,,,,," $100,000 "," $22,222 ",3," $3,000 "," $10,000 ",4,,,,switched Asst,suburban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,75,yes,3,Phd/DBA,,,,,," $50,000 ",,," $3,000 "," $5,000 ",4,,,,switched Asst,urban,public,,NZ,,Doctorate,,won't accept,Research (<=4),0,1,0
+2002/2003,76,yes,3,Phd/DBA,,,,,," $92,500 "," $10,278 ",3," $4,000 "," $5,000 ",4,,,,switched Asst,urban,private,No,USA,US N.E.,Masters,,won't accept,Research (<=4),1,1,0
+2002/2003,77,,2,BS/BA,,,,,," $45,000 ",,," $3,000 ",,9,,,,instructor,suburban,private,No,USA,US W.,Masters,Regional,might accept,Teach (>4),0,1,0
+2002/2003,78,yes,,Phd/DBA,,,,,," $145,000 "," $8,000 ",2,," $10,000 ",4,,,,full/chair,urban,private,No,USA,US W.,Masters,National,won't accept,Research (<=4),1,0,0
+2002/2003,79,,3,Phd/DBA,,,,,," $110,000 "," $12,000 ",3," $3,500 "," $2,000 ",4,,,,switched Asst,urban,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2002/2003,80,,2,Phd/DBA,,,,,," $85,000 ",,,,,6,,,,full/chair,rural,private,No,Germany,,Doctorate,National,might accept,Teach (>4),0,0,0
+2002/2003,81,yes,0,Phd/DBA,,,,,," $110,000 "," $20,000 ",3," $5,000 "," $8,000 ",3,,,,Asst,suburban,public,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2002/2003,82,yes,0.5,Phd/DBA,,,,,," $110,000 "," $15,000 ",3," $10,000 "," $8,000 ",3,,,,Asst,urban,public,No,United Kingdom,,Doctorate,National,won't accept,Research (<=4),1,1,0
+2002/2003,83,yes,0.5,Phd/DBA,,,,,," $95,000 "," $25,000 ",5," $10,000 ",,1,,,,Asst,urban,public,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2002/2003,84,,3,Phd/DBA,,,,,," $110,000 "," $35,000 ",," $4,000 "," $8,000 ",3,,,,Asst,urban,,,USA,US S.,Doctorate,unspecified,unspecified,Research (<=4),1,1,0
+2002/2003,85,yes,29,Phd/DBA,,,,,," $130,000 ",,,," $5,000 ",2,,,,full/chair,suburban,public,Yes,USA,US M.W.,Masters,National,Have accepted,Research (<=4),0,0,0
+2002/2003,86,yes,29,Phd/DBA,,,,,," $100,000 ",,,,,6,,,,full/chair,suburban,private,,USA,US N.E.,Masters,National,won't accept,Teach (>4),0,0,0
+2002/2003,87,yes,29,Phd/DBA,,,,,," $100,000 ",,,,,6,,,,full/chair,urban,private,No,USA,US N.E.,Doctorate,National,won't accept,Teach (>4),0,0,0
+2002/2003,88,,1,Phd/DBA,,,,,," $101,250 "," $11,250 ",2,," $2,000 ",4,,,,Asst,urban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2002/2003,89,,3,Phd/DBA,,,,,," $94,000 ",,," $4,000 "," $1,000 ",4,,,,switched Asst,rural,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),0,1,0
+2002/2003,90,yes,2,Phd/DBA,,,,,," $110,000 "," $20,000 ",3," $2,000 "," $5,000 ",4,,,,Asst,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,0
+2003/2004,1,yes,6,Phd/DBA,2,9,0,0,0," $98,000 "," $12,000 ",3," $3,000 "," $7,500 ",5,2,1,8,switched Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,11
+2003/2004,2,yes,6,Phd/DBA,2,9,0,0,0," $85,000 "," $9,300 ",2," $3,000 "," $6,500 ",5,2,0,6,switched Asst,rural,public,No,USA,US N.E.,Masters,National,won't accept,Teach (>4),1,1,11
+2003/2004,3,yes,4,Phd/DBA,0,3,0,0,0," $90,000 "," $9,000 ",3," $4,000 "," $8,000 ",5,2,0,7,Asst,urban,private,No,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,1,3
+2003/2004,4,yes,4,Phd/DBA,0,3,0,0,0," $90,000 "," $15,000 ",1," $4,000 "," $2,500 ",6,2,0,7,Asst,suburban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,3
+2003/2004,5,,14,Phd/DBA,14,0,0,0,0," $103,000 ",,,," $6,000 ",9,2,2,7,associate/tenure,suburban,public,Yes,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,0,14
+2003/2004,6,,1,Phd/DBA,0,3,0,0,2," $90,000 ",,,,,3,2,3,6,Asst,rural,public,,USA,US M.W.,Masters,National,might accept,Research (<=4),0,0,3
+2003/2004,7,yes,3,Phd/DBA,0,1,0,0,3," $102,000 "," $21,000 ",3," $10,000 "," $6,000 ",4,2,3,8,Asst,suburban,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,1
+2003/2004,8,yes,3,Phd/DBA,0,1,0,0,3," $99,500 "," $19,950 ",2," $3,000 "," $4,000 ",4,2,2,6,Asst,suburban,private,,USA,US N.E.,Masters,National,won't accept,Research (<=4),1,1,1
+2003/2004,9,yes,2,Phd/DBA,0,1,0,0,1," $90,000 "," $10,000 ",2," $1,500 "," $10,000 ",4,1,0,5,Asst,rural,public,No,USA,US M.W.,Bachelor,National,Have accepted,Research (<=4),1,1,1
+2003/2004,10,,0,MBA/MS,0,0,0,0,0," $70,000 ",,,,,18,,,,instructor,urban,public,No,USA,US S.,Associate,Regional,might accept,Teach (>4),0,0,0
+2003/2004,11,yes,2,Phd/DBA,0,1,0,0,1," $85,000 "," $5,000 ",2,," $5,000 ",5,2,2,5,Asst,rural,public,,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,0,1
+2003/2004,12,,2,Phd/DBA,0,2,0,0,12," $97,000 "," $20,000 ",3,,,4,3,5,5,Asst,urban,private,No,USA,US S.,,National,Have accepted,Research (<=4),1,0,2
+2003/2004,13,yes,12,Phd/DBA,0,4,0,0,4," $91,500 "," $11,438 ",1," $1,500 "," $3,000 ",4,2,2,6,switched Asst,urban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,4
+2003/2004,14,yes,1,Phd/DBA,0,2,0,0,8," $78,500 "," $12,000 ",2," $1,700 "," $4,000 ",6,1,0,3,Asst,urban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,2
+2003/2004,15,,1,Phd/DBA,1,0,0,0,6," $105,000 "," $23,000 ",2," $3,500 "," $7,000 ",4,2,,,Asst,urban,,,USA,US W.,Doctorate,,Have accepted,Research (<=4),1,1,1
+2003/2004,16,yes,1,Phd/DBA,0,2,0,0,8," $90,000 "," $10,000 ",1,," $5,000 ",4,2,,,Asst,rural,private,,USA,US N.E.,Masters,National,won't accept,Research (<=4),1,0,2
+2003/2004,17,yes,2,Phd/DBA,2,0,0,0,0," $110,000 "," $24,444 ",3," $3,000 "," $5,000 ",4,2,2,8,Asst,rural,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,2
+2003/2004,18,yes,2,Phd/DBA,2,0,0,0,0," $103,000 "," $22,889 ",3," $3,000 "," $5,000 ",3,2,4,8,Asst,rural,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,2
+2003/2004,19,yes,2,Phd/DBA,2,0,0,0,0," $93,000 "," $20,667 ",3," $3,000 "," $5,000 ",4,1,1,6,Asst,rural,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,2
+2003/2004,20,,3,Phd/DBA,1,2,0,0,0," $98,000 "," $11,760 ",1,,,4,2,3,10,Asst,suburban,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,3
+2003/2004,21,yes,3,MBA/MS,0,1,0,0,1," $52,000 ",,," $3,000 ",,4,,,,instructor,urban,,,Australia,,Doctorate,,Have accepted,Research (<=4),0,1,1
+2003/2004,22,yes,15,Phd/DBA,0,6,0,0,7," $87,000 "," $10,800 ",2," $1,000 ",,3,1,0,5,switched Asst,suburban,public,X,USA,US S.,unspecified,National,Have accepted,Research (<=4),1,1,6
+2003/2004,23,,9,BS/BA,1,3,0,0,6," $100,000 "," $14,000 ",2," $2,000 "," $8,000 ",4,1,,,switched Asst,suburban,private,No,USA,US M.W.,Masters,National,might accept,Research (<=4),1,1,4
+2003/2004,24,,9,BS/BA,1,3,0,0,6," $100,000 "," $14,000 ",2," $2,000 "," $8,000 ",4,1,,,switched Asst,suburban,private,No,USA,US W.,Masters,National,Have accepted,Research (<=4),1,1,4
+2003/2004,25,yes,3,Phd/DBA,0,1,0,0,0," $80,000 ",,," $2,000 "," $2,000 ",6,1,0,5,Asst,suburban,public,X,USA,US W.,Masters,none,Have accepted,Teach (>4),0,1,1
+2003/2004,26,yes,5,Phd/DBA,0,3,0,0,0," $85,000 ",,,,,5,2,,,switched Asst,suburban,public,,USA,US M.W.,Doctorate,,unspecified,Teach (>4),0,0,3
+2003/2004,27,,1,Phd/DBA,1,1,0,0,4," $115,000 "," $25,555 ",3," $3,000 "," $8,000 ",3,2,5.5,10,Asst,urban,public,,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,2
+2003/2004,28,,2,Phd/DBA,,,,,," $98,000 "," $12,250 ",2," $5,000 "," $2,000 ",4,2,3,6,Asst,suburban,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2003/2004,29,,0,Phd/DBA,1,14,0,0,0," $110,000 "," $25,000 ",3," $3,000 "," $3,500 ",4,3,5,10,Asst,suburban,public,No,USA,US S.,Doctorate,National,might accept,Research (<=4),1,1,15
+2003/2004,30,,0,Phd/DBA,1,14,0,0,0," $110,000 "," $25,000 ",3," $3,000 "," $3,500 ",4,3,5,10,Asst,suburban,public,No,USA,US S.,Doctorate,National,might accept,Research (<=4),1,1,15
+2003/2004,31,yes,1,Phd/DBA,1,9,0,0,0," $103,000 "," $23,000 ",3," $5,000 "," $8,000 ",3,2,5,10,Asst,suburban,public,No,USA,US W.,Doctorate,National,might accept,Research (<=4),1,1,10
+2003/2004,32,,2,Phd/DBA,1,1,0,0,0," $112,500 "," $15,000 ",3," $5,000 "," $6,000 ",3,,4,10,Asst,urban,mixed,,USA,,Masters,National,won't accept,Research (<=4),1,1,2
+2003/2004,33,,2,Phd/DBA,1,1,0,0,0," $110,000 "," $15,000 ",3," $10,000 "," $10,000 ",4,3,2,6,Asst,urban,private,,USA,,Masters,National,Have accepted,Research (<=4),1,1,2
+2003/2004,34,yes,0.5,Phd/DBA,0,1,0,0,5," $84,000 ",,," $3,000 "," $3,000 ",5,1,0,4,Asst,rural,public,,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,1
+2003/2004,35,yes,1,Phd/DBA,0,2,0,0,8," $97,000 "," $21,555 ",3,," $2,000 ",4,2,4,10,Asst,urban,mixed,,USA,US M.W.,Masters,National,might accept,Research (<=4),1,0,2
+2003/2004,36,yes,4,Phd/DBA,0,1,0,0,2," $105,000 "," $23,000 ",3," $1,200 "," $8,000 ",4,2,,,Asst,suburban,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,1
+2003/2004,37,yes,4,Phd/DBA,0,1,0,0,2," $103,000 "," $12,000 ",3," $3,000 "," $5,000 ",4,2,,,Asst,urban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,1
+2003/2004,38,,0,Phd/DBA,1,2,,,6," $100,000 "," $22,500 ",3," $4,000 ",,4,2,5,10,Asst,urban,public,No,USA,US S.,Masters,National,might accept,Research (<=4),1,1,3
+2003/2004,39,yes,27,Phd/DBA,3,26,0,0,24," $155,000 "," $20,000 ",5," $5,000 "," $10,000 ",3,2,1,8,full/chair,rural,mixed,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,29
+2003/2004,40,yes,7,Phd/DBA,2,11,0,2,19," $108,000 "," $5,000 ",2,,,6,1,0,3,assoc/not tenured,urban,private,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,0,13
+2003/2004,41,,1,Phd/DBA,1,2,,,," $90,000 "," $15,000 ",2,," $5,000 ",4,,,,visitor,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,0,3
+2003/2004,42,,1,Phd/DBA,2,2,,,3," $87,000 "," $5,000 ",1,," $1,000 ",6,2,1,5,Asst,urban,public,Yes,USA,US S.,Masters,National,might accept,Teach (>4),1,0,4
+2003/2004,43,,1,Phd/DBA,0,2,0,0,4," $110,000 "," $24,400 ",3," $2,500 "," $3,500 ",3,2,4,8,Asst,rural,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,2
+2003/2004,44,,1,Phd/DBA,0,1,0,0,2," $120,000 "," $13,300 ",3,," $4,500 ",4,2,2,5,Asst,suburban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,1
+2003/2004,45,yes,4,,1,,,,12," $115,000 "," $15,000 ",3," $6,000 "," $7,000 ",3,2,2,6,switched Asst,urban,mixed,No,USA,US S.,Masters,National,Have accepted,Research (<=4),1,1,1
+2003/2004,46,yes,7,Phd/DBA,0,0,0,0,3," $87,500 "," $10,000 ",1," $2,000 "," $3,000 ",6,2,1,4,Asst,rural,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2003/2004,47,,2,Phd/DBA,0,4,,,5," $83,000 "," $10,000 ",1," $2,000 "," $3,500 ",5,2,2,6,switched Asst,urban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Teach (>4),1,1,4
+2003/2004,48,,1,Phd/DBA,,,,,7," $85,000 "," $6,000 ",1," $3,000 "," $3,000 ",4,2,2,8,Asst,urban,private,,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,0
+2003/2004,49,,3,,0,0,,,3," $85,000 "," $7,650 ",2,,,6,1,0,6,Asst,suburban,private,No,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,0,0
+2003/2004,50,yes,2,Phd/DBA,,1,,,2," $90,000 ",,,," $10,000 ",6,2,1,5,Asst,rural,public,No,USA,US M.W.,unspecified,National,won't accept,Teach (>4),0,0,1
+2003/2004,51,,1,,0,1,,,6," $85,000 ",,,,,9,1,,,Asst,rural,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,0,1
+2003/2004,52,yes,14,Phd/DBA,,,,,," $144,000 ",,," $2,000 "," $5,000 ",5,2,,,assoc/not tenured,urban,private,No,USA,US W.,Masters,National,Have accepted,Teach (>4),0,1,0
+2003/2004,53,,5,Phd/DBA,2,7,0,0,1," $75,000 ",,, $400 ,,3,1,0,5,switched Asst,rural,public,No,USA,US S.,Masters,National,won't accept,Research (<=4),0,1,9
+2003/2004,54,,5,Phd/DBA,2,7,0,0,1," $90,000 ",,, $400 ,,3,1,0,5,switched Asst,rural,public,No,USA,US S.,Masters,National,Have accepted,Research (<=4),0,1,9
+2003/2004,55,,3,Phd/DBA,0,1,0,0,10," $105,000 "," $23,000 ",3,," $3,000 ",6,2,2,5,Asst,,public,,USA,,,National,Have accepted,Teach (>4),1,0,1
+2003/2004,56,,3,Phd/DBA,0,1,0,0,10," $95,000 "," $20,000 ",2,,,4,2,4,6,Asst,,private,,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,0,1
+2003/2004,57,,3,Phd/DBA,0,1,0,0,10," $80,000 ",,,,,6,1,1,3,Asst,,,,USA,US N.E.,Masters,,won't accept,Teach (>4),0,0,1
+2003/2004,58,,0,Phd/DBA,0,0,0,0,2," $76,000 "," $10,000 ",3,," $6,000 ",6,2,1,3,Asst,suburban,public,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,0,0
+2003/2004,59,yes,1,Phd/DBA,,,,,2," $48,000 ",,," $12,000 "," $4,000 ",2,2,2,6,Asst,urban,public,Yes,Canada,,Doctorate,,won't accept,Research (<=4),0,1,0
+2003/2004,60,yes,1,Phd/DBA,0,0,0,0,2," $48,000 ",,," $5,000 "," $10,000 ",2,2,,,Asst,urban,public,Yes,New Zealand,,Doctorate,,Have accepted,Research (<=4),0,1,0
+2003/2004,61,,10,Phd/DBA,4,25,1,1,30," $130,000 ",,,," $8,000 ",3,2,,,full/chair,suburban,mixed,Yes,USA,US M.W.,Masters,National,Have accepted,Research (<=4),0,0,29
+2003/2004,62,,9,BS/BA,1,6,0,0,0," $100,000 "," $10,000 ",2," $2,000 "," $8,000 ",4,1,0,6,assoc/not tenured,urban,private,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,7
+2003/2004,63,yes,0.5,Phd/DBA,,2,,,8," $62,500 ",,," $2,000 ",,4,2,0,5,Asst,urban,public,Yes,Canada,,Doctorate,National,Have accepted,Research (<=4),0,1,2
+2003/2004,64,yes,6,Phd/DBA,0,1,0,0,5," $80,000 "," $5,000 ",1,," $2,100 ",6,2,,,switched Asst,urban,mixed,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,0,1
+2003/2004,65,,1,Phd/DBA,,5,,,10," $95,000 "," $7,500 ",2,," $2,500 ",6,1,,,Asst,urban,private,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,0,5
+2003/2004,66,,4,Phd/DBA,0,0,0,0,4," $82,000 "," $7,500 ",2, $750 ,,6,2,4,6,switched Asst,urban,public,Yes,USA,US W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2003/2004,67,,5,Phd/DBA,0,2,1,0,15," $95,000 ",,," $3,000 "," $5,000 ",7,1,0,5,switched Asst,urban,public,Yes,USA,US M.W.,Masters,National,won't accept,Teach (>4),0,1,2
+2003/2004,68,,5,Phd/DBA,0,2,1,0,15," $93,000 ",,," $2,000 "," $6,000 ",8,2,2,10,switched Asst,suburban,mixed,No,USA,US N.E.,Masters,Regional,Have accepted,Teach (>4),0,1,2
+2003/2004,69,,5,Phd/DBA,0,2,1,0,15," $90,000 ",,," $2,000 "," $4,000 ",7,2,0,10,switched Asst,suburban,mixed,No,USA,US N.E.,Masters,National,won't accept,Teach (>4),0,1,2
+2003/2004,70,yes,12,Phd/DBA,0,3,0,2,10," $83,000 "," $17,000 ",2," $3,000 "," $8,000 ",6,2,2,6,switched Asst,suburban,public,Yes,USA,US M.W.,Doctorate,National,Have accepted,Teach (>4),1,1,3
+2003/2004,71,,1,Phd/DBA,1,4,,,16," $100,000 "," $25,000 ",3," $3,600 "," $3,000 ",4,2,4,8,Asst,rural,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,5
+2003/2004,72,yes,2,MBA/MS,0,0,0,0,0," $60,000 ",,1,,,8,,,,instructor,suburban,mixed,No,USA,US N.E.,Masters,,Have accepted,Teach (>4),0,0,0
+2003/2004,73,,3,Phd/DBA,,,,,6," $100,000 "," $25,000 ",3," $4,100 "," $3,000 ",3,2,5,5,Asst,rural,public,,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2003/2004,74,,4,Phd/DBA,0,1,0,0,0," $72,000 ",,,, $300 ,6,1,0,10,switched Asst,rural,public,No,USA,US S.,Bachelor,National,Have accepted,Teach (>4),0,0,1
+2003/2004,75,yes,6,Phd/DBA,1,3,0,0,9," $73,500 "," $1,500 ",1," $2,000 ",,8,1,0,2,switched Asst,urban,private,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,4
+2003/2004,76,,2,,0,7,0,0,2," $64,000 ",,,,,8,2,2,7,Asst,rural,public,No,USA,US S.,Bachelor,Regional,Have accepted,Teach (>4),0,0,7
+2003/2004,77,,,Phd/DBA,,4,,,13," $62,000 ",,1, $500 ,,4,3,10,20,Asst,urban,private,No,USA,US W.,Doctorate,National,unspecified,Research (<=4),0,1,4
+2004/2005,1,,6,MBA/MS,0,0,0,0,3," $70,000 ",,,," $3,000 ",8,1,0,5,switched Asst,suburban,private,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,0,0
+2004/2005,2,,1,MBA/MS,0,0,0,0,0," $67,925 ",,1, $200 ,,8,2,,,instructor,urban,private,No,USA,US N.E.,Bachelor,National,Have accepted,Teach (>4),0,1,0
+2004/2005,3,,0,Phd/DBA,0,1,0,0,2," $70,000 ",,4,,,,1,50,5,Asst,urban,mixed,No,USA,,Doctorate,National,might accept, ,0,0,1
+2004/2005,4,yes,2,Phd/DBA,0,1,0,0,6," $82,000 ",,,,,6,1,0,3,Asst,suburban,public,No,USA,US M.W.,Bachelor,National,won't accept,Teach (>4),0,0,1
+2004/2005,5,yes,2,Phd/DBA,0,1,0,0,6," $85,000 "," $7,000 ",2,," $2,500 ",6,1,0,3,Asst,urban,private,No,USA,US M.W.,Bachelor,National,won't accept,Teach (>4),1,0,1
+2004/2005,6,,7,Phd/DBA,1,5,4,0,30," $36,000 ",,,,,24,1,2,5,associate/tenure,suburban,public,No,Spain,,Doctorate,,Have accepted,Teach (>4),0,0,6
+2004/2005,7,,4,Phd/DBA,5,8,0,0,6," $107,500 "," $25,000 ",3,,,4,3,4,15,switched Asst,suburban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,0,13
+2004/2005,8,,14,Phd/DBA,4,30,4,0,5," $120,400 ",,,,,4,2,1.5,8,full/chair,rural,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),0,0,34
+2004/2005,9,yes,4,Phd/DBA,0,2,0,0,6," $100,000 "," $10,000 ",3," $6,000 "," $5,000 ",4,2,2,5,switched Asst,suburban,public,X,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,2
+2004/2005,10,yes,2,Phd/DBA,0,0,0,0,1," $85,000 ",,,," $1,000 ",6,2,0,3,Asst,rural,public,No,USA,US M.W.,Bachelor,Regional,Have accepted,Teach (>4),0,0,0
+2004/2005,11,,3,Phd/DBA,0,0,0,0,4," $74,000 ",,,,,8,1,0,3,Asst,rural,public,,USA,US N.E.,Masters,,won't accept,Teach (>4),0,0,0
+2004/2005,12,yes,1,Phd/DBA,0,0,0,0,4," $123,000 ",,," $2,000 "," $24,000 ",4,2,0,6,Asst,suburban,private,,USA,US W.,Masters,National,Have accepted,Research (<=4),0,1,0
+2004/2005,13,yes,1,Phd/DBA,0,1,0,0,8," $80,000 "," $8,000 ",3,," $3,000 ",5,1,0,4,Asst,suburban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Teach (>4),1,0,1
+2004/2005,14,,2,,0,0,0,0,0," $95,000 "," $9,500 ",2,," $5,000 ",5,1,,,Asst,urban,private,,USA,US S.,Masters,National,Have accepted,Teach (>4),1,0,0
+2004/2005,15,yes,4,Phd/DBA,0,0,0,0,8," $85,000 "," $7,000 ",2,," $2,500 ",6,3,0,8,Asst,urban,private,,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,0,0
+2004/2005,16,yes,4,Phd/DBA,0,0,0,0,8," $87,500 ",,,," $2,000 ",6,3,0,8,Asst,rural,public,,USA,US S.,Masters,National,Have accepted,Teach (>4),0,0,0
+2004/2005,17,,7,Phd/DBA,0,1,1,0,3," $90,000 ",,,,,12,1,3,10,Asst,urban,private,No,USA,US S.,Doctorate,Regional,Have accepted,Teach (>4),0,0,1
+2004/2005,18,,4,Phd/DBA,0,1,0,0,1," $77,000 "," $4,000 ",3,,,6,2,0,3.5,Asst,urban,private,,USA,US N.E.,Masters,National,won't accept,Teach (>4),1,0,1
+2004/2005,19,,5,Phd/DBA,2,2,0,0,5," $91,000 "," $8,000 ",1," $2,000 "," $4,000 ",4,2,1,5,switched Asst,suburban,public,,USA,US M.W.,Masters,National,might accept,Research (<=4),1,1,4
+2004/2005,20,,9,Phd/DBA,3,8,0,0,5," $60,000 ",,,,,5,,,,instructor,urban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Teach (>4),0,0,11
+2004/2005,21,,4,Phd/DBA,0,0,0,0,3," $87,000 "," $10,000 ",3," $3,400 "," $7,500 ",4,2,1,4,assoc/not tenured,suburban,public,No,USA,US W.,Masters,National,Have accepted,Research (<=4),1,1,0
+2004/2005,22,,7,Phd/DBA,2,2,0,0,5," $92,000 "," $8,000 ",3," $2,000 "," $3,500 ",5,2,3,7,switched Asst,urban,private,,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,4
+2004/2005,23,,7,Phd/DBA,2,2,0,0,5," $80,000 ",,," $1,800 "," $2,000 ",6,0,0,0,visitor,suburban,public,,USA,US W.,Doctorate,National,might accept,Teach (>4),0,1,4
+2004/2005,24,yes,6,Phd/DBA,1,1,0,0,5," $110,000 "," $24,000 ",3," $3,000 "," $3,000 ",3,2,,,Asst,urban,public,,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,2
+2004/2005,25,yes,9,Phd/DBA,6,6,4,0,20," $160,000 ",,," $5,000 "," $10,000 ",4,2,5,5,associate/tenure,suburban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),0,1,12
+2004/2005,26,,6,Phd/DBA,2,4,0,0,12," $85,000 "," $17,000 ",2," $2,500 "," $5,000 ",4,2,5,6,Asst,suburban,private,,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,6
+2004/2005,27,yes,9,Phd/DBA,7,2,0,0,6," $160,000 "," $15,000 ",4," $10,000 "," $10,000 ",4,2,4,8,associate/tenure,urban,private,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,9
+2004/2005,28,yes,14,Phd/DBA,0,10,0,0,63," $82,500 "," $6,500 ",3," $8,000 "," $1,000 ",4,1,0,5,full/chair,suburban,public,No,USA,US S.,Bachelor,Regional,Have accepted,Research (<=4),1,1,10
+2004/2005,29,yes,4,Phd/DBA,0,2,0,0,6," $80,000 ",,," $2,500 "," $7,200 ",4,2,0,6,assoc/not tenured,urban,private,No,USA,US W.,Masters,National,Have accepted,Research (<=4),0,1,2
+2004/2005,30,,2,Phd/DBA,2,4,0,0,4," $95,000 "," $8,000 ",1,," $2,500 ",4,2,1,5,Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Research (<=4),1,0,6
+2004/2005,31,yes,4,Phd/DBA,0,7,0,1,35," $90,000 ",,,," $6,000 ",6,2,0,12,switched Asst,rural,public,Yes,USA,US M.W.,Masters,National,won't accept,Teach (>4),0,0,7
+2004/2005,32,,1,Phd/DBA,0,0,0,0,2," $68,000 ",,,,,8,1,0,4,Asst,suburban,public,No,USA,US S.,Masters,Local,won't accept,Teach (>4),0,0,0
+2004/2005,33,,3,Phd/DBA,0,0,0,0,6," $84,500 ",,," $1,000 "," $2,000 ",6,1,0,6,Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,1,0
+2004/2005,34,yes,4,Phd/DBA,0,0,0,0,6," $85,500 "," $15,200 ",2,," $4,500 ",6,2,0,6,Asst,urban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,0,0
+2004/2005,35,yes,1,Phd/DBA,0,0,0,0,3," $80,000 ",,," $10,000 "," $15,000 ",7,2,3,7,switched Asst,suburban,public,No,canada,,Doctorate,National,Have accepted,Teach (>4),0,1,0
+2004/2005,36,yes,10,Phd/DBA,0,15,2,0,35," $95,000 ",,,," $12,000 ",6,1,0,4,assoc/not tenured,suburban,private,Yes,USA,US N.E.,Bachelor,Regional,Have accepted,Teach (>4),0,0,15
+2004/2005,37,,1,Phd/DBA,0,2,0,0,1," $18,000 ",,,,,,,,,associate/tenure,urban,public,Yes,India,,Doctorate,Local,Have accepted, ,0,0,2
+2004/2005,38,,7,Phd/DBA,6,9,0,0,19," $135,500 "," $30,111 ",3,," $5,500 ",4,2,3,7.5,switched Asst,rural,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,0,15
+2004/2005,39,,2,Phd/DBA,1,3,0,0,3," $92,000 "," $5,000 ",2, $650 ," $2,500 ",7,1,0,3,Asst,suburban,public,No,USA,US M.W.,Masters,none,Have accepted,Teach (>4),1,1,4
+2004/2005,40,yes,3,MBA/MS,0,10,0,2,30," $64,000 ",,,,,8,,,,switched Asst,urban,mixed,No,USA,US S.,Doctorate,National,Have accepted,Teach (>4),0,0,10
+2004/2005,41,yes,3,Phd/DBA,0,2,0,0,9," $45,000 ",,,,,10,,,,Asst,rural,mixed,No,USA,US S.,Bachelor,Regional,won't accept,Teach (>4),0,0,2
+2004/2005,42,yes,0,Phd/DBA,0,1,0,0,8," $115,000 "," $25,500 ",3," $9,000 "," $6,000 ",3,3,6,10,Asst,urban,private,,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,1
+2004/2005,43,,11,Phd/DBA,6,7,4,0,16," $160,000 ",,," $6,000 "," $10,000 ",4,2,2,5,associate/tenure,suburban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),0,1,13
+2004/2005,44,yes,2,Phd/DBA,0,0,0,0,0," $82,000 "," $3,000 ",2,,,6,1,0,6,Asst,suburban,private,Yes,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,0,0
+2004/2005,45,yes,1,MBA/MS,,,,,10," $85,000 "," $10,000 ",2," $5,000 "," $5,000 ",5,1,1,6,Asst,suburban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,0
+2004/2005,46,,8,,1,0,0,0,3," $95,000 ",,1,," $7,000 ",4,2,2,7,Asst,suburban,private,,USA,US N.E.,Masters,Regional,Have accepted,Research (<=4),0,0,1
+2004/2005,47,yes,2,Phd/DBA,0,1,0,0,4," $96,500 "," $6,500 ",3," $3,500 "," $4,000 ",5,1,0,5,Asst,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,1,1
+2004/2005,48,,7,Phd/DBA,4,3,0,0,," $105,000 "," $9,000 ",2,," $5,000 ",4,2,,,assoc/not tenured,urban,public,No,USA,US W.,Masters,National,Have accepted,Research (<=4),1,0,7
+2004/2005,49,,0,Phd/DBA,0,,,1,6," $82,000 ",,," $5,000 "," $5,000 ",5,1,0,5,Asst,suburban,private,No,USA,US W.,Masters,National,Have accepted,Teach (>4),0,1,0
+2004/2005,50,,1,Phd/DBA,0,2,0,0,5," $58,000 ",,,," $2,000 ",8,1,0,5,Asst,rural,public,No,USA,US M.W.,Bachelor,Regional,Have accepted,Teach (>4),0,0,2
+2004/2005,51,yes,,Phd/DBA,0,1,0,0,0," $12,000 ",,,,,2,3,1,10,switched Asst,urban,public,Yes,India,,Bachelor,none,Have accepted,Research (<=4),0,0,1
+2004/2005,52,,9,Phd/DBA,3,8,,,," $105,000 ",,1," $2,800 ",,5,2,4,10,visitor,suburban,private,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,11
+2004/2005,53,yes,0,Phd/DBA,0,4,0,2,10," $54,500 ",,," $3,000 ",,4,2,,,visitor,urban,public,Yes,Canada,,Bachelor,Regional,Have accepted,Research (<=4),0,1,4
+2004/2005,54,,2,Phd/DBA,0,4,,,4," $90,000 ",,,," $4,000 ",3,2,,6,Asst,unspecified,public,No,USA,US M.W.,Bachelor,,Have accepted,Research (<=4),0,0,4
+2004/2005,55,,0.5,Phd/DBA,0,0,0,0,9," $87,500 "," $5,000 ",3," $15,000 "," $5,000 ",5,,1,8.5,switched Asst,urban,public,No,USA,US W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2004/2005,56,,,,0,0,0,0,9," $75,000 ",,,,,4,1,0,6,Asst,urban,private,No,USA,US N.E.,Bachelor,,won't accept,Research (<=4),0,0,0
+2004/2005,57,,1,Phd/DBA,0,0,0,0,9," $68,000 "," $3,000 ",2,," $4,000 ",8,1,0,3,Asst,rural,public,,USA,US W.,Bachelor,,won't accept,Teach (>4),1,0,0
+2005/2006,1,,1,Phd/DBA,0,1,0,0,0," $60,840 ",,," $2,000 "," $5,000 ",4,2,0,3,Asst,urban,public,Yes,Australia,,Doctorate,National,Have accepted,Research (<=4),0,1,1
+2005/2006,2,yes,2,Phd/DBA,0,0,0,0,1," $100,000 "," $22,000 ",2," $5,000 "," $4,500 ",4,3,2,6,Asst,suburban,public,No,USA,US M.W.,unspecified,National,Have accepted,Research (<=4),1,1,0
+2005/2006,3,yes,3,Phd/DBA,0,2,0,0,10," $87,500 "," $13,000 ",5," $2,000 "," $1,000 ",6,1,0,5,Asst,rural,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,2
+2005/2006,4,,1,Phd/DBA,0,5,0,0,10," $73,000 ",,," $1,200 "," $4,000 ",5,2,0,8,Asst,urban,public,Yes,Canada,,Masters,,Have accepted,Teach (>4),0,1,5
+2005/2006,5,,4,Phd/DBA,3,8,0,0,2," $126,000 "," $27,000 ",3," $11,000 ",,3,3,6,12,switched Asst,suburban,public,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,11
+2005/2006,6,yes,2,Phd/DBA,0,0,0,0,0," $100,000 "," $10,000 ",2," $3,000 "," $4,000 ",5,2,1,5,Asst,urban,private,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,0
+2005/2006,7,,3,MBA/MS,0,0,0,0,2," $85,000 ",,,,,7,0,2,4,instructor,urban,private,No,USA,US W.,Masters,National,Have accepted,Teach (>4),0,0,0
+2005/2006,8,,1,Phd/DBA,0,0,0,0,5," $90,000 ",,,,,4,1,0,2,Asst,rural,public,No,USA,US S.,Masters,National,Have accepted,Research (<=4),0,0,0
+2005/2006,9,,1,Phd/DBA,3,6,0,0,12," $107,000 "," $22,000 ",3," $5,000 "," $6,000 ",4,2,3,8,Asst,rural,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,9
+2005/2006,10,yes,8,Phd/DBA,5,23,0,0,8," $164,000 "," $41,000 ",," $13,000 "," $9,000 ",3,2,,,full/chair,suburban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,28
+2005/2006,11,yes,6,,0,10,0,0,12," $90,000 "," $5,000 ",3," $2,000 "," $5,000 ",5,2,1,7,switched Asst,urban,public,No,USA,US W.,Masters,National,might accept,Teach (>4),1,1,10
+2005/2006,12,,1,Phd/DBA,1,1,0,0,1," $104,000 "," $10,000 ",3,," $3,500 ",4,2,3,7,Asst,suburban,public,,USA,US S.,Masters,National,won't accept,Research (<=4),1,0,2
+2005/2006,13,,0,Phd/DBA,0,0,0,0,0," $100,000 "," $20,000 ",2," $1,500 "," $7,000 ",3,2,3,12,Asst,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2005/2006,14,,1,Phd/DBA,0,0,0,0,1," $99,000 "," $10,000 ",2,," $5,000 ",5,,1,5,Asst,urban,,No,USA,US M.W.,,,,Teach (>4),1,0,0
+2005/2006,15,,10,Phd/DBA,1,9,3,0,27," $90,000 ",,," $1,000 "," $1,000 ",6,2,15,85,assoc/not tenured,rural,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,10
+2005/2006,16,,4,Phd/DBA,0,12,0,0,40," $30,000 ",,,,,6,,,,switched Asst,urban,public,No,Taiwan ROC,,Masters,Regional,Have accepted,Teach (>4),0,0,12
+2005/2006,17,,,Phd/DBA,0,10,0,0,5," $85,000 "," $28,333 ",1," $70,000 "," $6,000 ",1,1,2,4,switched Asst,suburban,public,,USA,US S.,Doctorate,,Have accepted,Research (<=4),1,1,10
+2005/2006,18,yes,3,Phd/DBA,0,2,0,0,8," $85,000 "," $5,500 ",2,," $4,000 ",6,1,0,4,Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,0,2
+2005/2006,19,,1,MBA/MS,0,3,0,0,5," $44,200 ",,,,,2,,,,instructor,urban,public,Yes,Netherlands,,Doctorate,National,Have accepted,Research (<=4),0,0,3
+2005/2006,20,yes,1,Phd/DBA,0,0,0,0,2," $90,000 "," $13,500 ",3,," $2,000 ",6,2,2,12,Asst,rural,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,0,0
+2005/2006,21,,4,Phd/DBA,3,4,0,0,10," $108,000 "," $12,000 ",2,," $5,000 ",4,2,1,6,Asst,rural,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,0,7
+2005/2006,22,,4,Phd/DBA,3,4,0,0,10," $95,000 "," $10,000 ",3,," $4,000 ",4,2,2,6,Asst,rural,public,No,USA,US W.,Doctorate,National,won't accept,Research (<=4),1,0,7
+2005/2006,23,,12,Phd/DBA,1,42,2,0,12," $89,000 "," $15,000 ",1," $7,000 ",,18,1,0,4,assoc/not tenured,urban,public,No,USA,US S.,Bachelor,National,Have accepted,Teach (>4),1,1,43
+2005/2006,24,,0,Phd/DBA,1,0,0,0,4," $100,000 "," $3,000 ",3,," $6,000 ",3,3,6,10,Asst,rural,private,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,0,1
+2005/2006,25,,4,MBA/MS,0,0,0,0,1," $12,000 ",,,,,135,,,,instructor,suburban,public,Yes,Mauritius,,Doctorate,none,Have accepted,Teach (>4),0,0,0
+2005/2006,26,yes,2,Phd/DBA,0,0,0,0,2," $91,000 "," $5,000 ",2,," $3,500 ",3,2,6,2,Asst,urban,public,,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2005/2006,27,yes,1,Phd/DBA,0,5,0,0,6," $75,000 ",,," $2,000 ",,6,2,2,5,Asst,suburban,public,Yes,USA,US N.E.,Doctorate,National,Have accepted,Teach (>4),0,1,5
+2005/2006,28,yes,6,Phd/DBA,4,0,1,0,0," $62,000 ",,,,,4,1,3,5,associate/tenure,rural,public,Yes,USA,US N.E.,Masters,National,Have accepted,Research (<=4),0,0,4
+2005/2006,29,yes,15,Phd/DBA,1,15,0,0,25," $94,000 ",,,,,4,2,1,8,switched Asst,suburban,public,No,USA,US W.,Masters,National,Have accepted,Research (<=4),0,0,16
+2005/2006,30,,5,Phd/DBA,0,0,0,0,8," $92,000 "," $5,000 ",2,," $3,500 ",6,1,1,4,Asst,urban,public,,USA,US N.E.,Doctorate,National,Have accepted,Teach (>4),1,0,0
+2005/2006,31,,2,Phd/DBA,1,4,0,0,9," $52,900 ",,," $7,000 "," $8,000 ",3,2,,,Asst,urban,public,Yes,New Zealand,,Doctorate,National,Have accepted,Research (<=4),0,1,5
+2005/2006,32,,8,Phd/DBA,2,8,0,0,20," $85,000 ",,," $2,800 ",,6,2,1.5,6,switched Asst,suburban,public,Yes,USA,US N.E.,Masters,National,won't accept,Teach (>4),0,1,10
+2005/2006,33,,0,Phd/DBA,0,0,0,0,7," $85,000 ",,," $5,000 "," $2,000 ",6,1,0,10,Asst,suburban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,0
+2005/2006,34,,1,Phd/DBA,0,0,0,0,2," $90,000 "," $5,000 ",1,," $2,000 ",6,1,1,5,Asst,suburban,public,Yes,USA,US S.,Masters,National,Have accepted,Teach (>4),1,0,0
+2005/2006,35,,8,,0,4,0,0,0," $90,000 ",,,,,,1,,,Asst,suburban,public,No,USA,US S.,Bachelor,National,Have accepted, ,0,0,4
+2005/2006,36,,1,Phd/DBA,0,2,0,0,4," $102,500 "," $10,000 ",2,," $2,000 ",4,2,4,10,Asst,suburban,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,0,2
+2005/2006,37,,1,Phd/DBA,0,2,0,0,4," $104,000 "," $12,000 ",2," $4,000 ",,4,2,4,8,Asst,suburban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,2
+2005/2006,38,,2,Phd/DBA,0,2,0,0,4," $92,000 "," $10,000 ",2," $1,000 "," $5,000 ",4,2,2,6,Asst,urban,public,No,USA,,Masters,National,Have accepted,Research (<=4),1,1,2
+2005/2006,39,yes,3,Phd/DBA,0,3,0,0,4," $82,000 "," $8,200 ",2,," $3,000 ",6,1,0,4,Asst,urban,private,No,USA,US M.W.,Bachelor,National,Have accepted,Teach (>4),1,0,3
+2005/2006,40,,7,Phd/DBA,2,18,0,3,6," $75,000 "," $8,000 ",1,," $1,000 ",6,2,2,5,assoc/not tenured,,public,Yes,USA,US N.E.,unspecified,National,Have accepted,Teach (>4),1,0,20
+2005/2006,41,,0,MBA/MS,1,5,0,0,7," $85,000 ",,," $4,700 "," $8,100 ",4,2,0,3,Asst,suburban,mixed,,Canada,,Doctorate,National,Have accepted,Research (<=4),0,1,6
+2005/2006,42,yes,13,Phd/DBA,0,20,0,0,25," $120,000 ",,," $10,000 "," $10,000 ",4,2,0,10,assoc/not tenured,urban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),0,1,20
+2005/2006,43,yes,1,Phd/DBA,0,1,0,0,0," $91,000 "," $14,000 ",5," $2,000 "," $2,500 ",8,2,0,4,Asst,suburban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,1
+2006/2007,1,yes,1,Phd/DBA,0,1,0,0,1," $97,500 "," $10,000 ",3,," $5,000 ",4,2,3,6,Asst,rural,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,0,1
+2006/2007,2,yes,2,Phd/DBA,0,0,0,0,5," $105,000 "," $23,333 ",3," $4,000 "," $5,000 ",2,2,0,10,Asst,suburban,public,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,0
+2006/2007,3,,3,Phd/DBA,2,0,2,0,11," $101,000 "," $8,000 ",2," $2,500 "," $3,500 ",2,,,,Asst,urban,public,,USA,US S.,Doctorate,,Have accepted,Research (<=4),1,1,2
+2006/2007,4,,2,Phd/DBA,2,3,0,0,14," $105,000 "," $8,000 ",2," $4,500 "," $3,000 ",4,2,3.5,9,Asst,urban,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,5
+2006/2007,5,,2,Phd/DBA,0,2,0,0,2," $77,000 "," $8,000 ",2," $1,500 "," $3,500 ",6,2,0,5,,,,,,,,,,Teach (>4),1,1,2
+2006/2007,6,,3,Phd/DBA,0,0,0,0,3," $101,000 "," $20,000 ",2,," $12,000 ",2,2,3,6,Asst,suburban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2006/2007,7,yes,1,Phd/DBA,0,0,0,0,3," $101,000 "," $20,000 ",2,," $12,000 ",2,2,3,6,Asst,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2006/2007,8,,2,Phd/DBA,1,0,0,0,2," $118,000 "," $6,000 ",3," $5,000 "," $2,000 ",3,2,4,7,Asst,suburban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,1
+2006/2007,9,,10,Phd/DBA,2,5,1,0,7," $85,000 ",,,," $5,000 ",6,1,0,5,assoc/not tenured,suburban,public,Yes,USA,US N.E.,Masters,National,Have accepted,Teach (>4),0,0,7
+2006/2007,10,yes,4,Phd/DBA,0,5,0,0,0," $95,000 ",,," $2,000 "," $3,000 ",4,2,0,3,Asst,suburban,public,No,USA,US W.,Bachelor,National,Have accepted,Research (<=4),0,1,5
+2006/2007,11,yes,0,Phd/DBA,0,0,0,0,7," $95,000 "," $10,555 ",2," $1,200 ",,5.3,2,2,8,Asst,suburban,public,Yes,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,1,0
+2006/2007,12,,3,Phd/DBA,0,1,0,0,7," $78,000 "," $5,000 ",5," $2,000 "," $2,500 ",6,1,0,4,switched Asst,rural,public,No,USA,US S.,Masters,National,might accept,Teach (>4),1,1,1
+2006/2007,13,yes,10,Phd/DBA,2,12,0,2,10," $52,000 ",,,,,6,1,0,3,Asst,suburban,private,No,USA,US N.E.,Masters,Regional,won't accept,Teach (>4),0,0,14
+2006/2007,14,yes,0.5,Phd/DBA,0,1,0,0,7," $80,600 ",,," $1,000 ",,6,1,0,5,instructor,suburban,private,No,USA,US W.,Masters,National,Have accepted,Teach (>4),0,1,1
+2006/2007,15,,3,Phd/DBA,1,1,0,0,0," $115,000 "," $17,800 ",3," $5,000 "," $10,000 ",4,3,4,7,Asst,rural,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,2
+2006/2007,16,yes,3,MBA/MS,0,4,0,0,3," $52,000 ",,, $500 ,,7,1,0,14,instructor,urban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,4
+2006/2007,17,,1,Phd/DBA,0,1,0,0,2," $106,000 "," $23,000 ",3," $4,000 "," $5,000 ",4,2,4,10,Asst,suburban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,1
+2006/2007,18,,0,Phd/DBA,0,0,0,0,0," $120,000 "," $26,400 ",4," $5,000 "," $7,500 ",3,2,2,6,Asst,suburban,public,No,USA,US S.,Masters,National,Have accepted,Research (<=4),1,1,0
+2006/2007,19,yes,4,Phd/DBA,0,3,0,1,3," $76,000 ",,," $9,000 "," $5,000 ",4,2,4,10,Asst,suburban,public,No,Canada,,Masters,National,Have accepted,Research (<=4),0,1,3
+2006/2007,20,,1,,0,2,0,0,4," $85,000 ",,,,,3,1,0,5,Asst,rural,public,No,USA,US S.,Masters,National,Have accepted,Research (<=4),0,0,2
+2006/2007,21,,2,BS/BA,0,0,1,0,7," $1,200 ",,,,,,2,,,switched Asst,suburban,public,,Argentina,,Doctorate,National,Have accepted, ,0,0,0
+2006/2007,22,yes,19,Phd/DBA,1,25,0,3,30," $83,000 ",,," $1,000 ",,8,1,0,2,full/chair,urban,public,No,USA,US S.,Bachelor,National,Have accepted,Teach (>4),0,1,26
+2006/2007,23,yes,5,Phd/DBA,0,1,0,0,2," $68,000 "," $22,667 ",1," $1,200 "," $3,000 ",6,1,,,Asst,rural,public,,USA,US S.,Masters,,Have accepted,Teach (>4),1,1,1
+2006/2007,24,,10,Phd/DBA,2,6,0,0,18," $79,000 ",,," $1,000 ",,6,1,0,2,Asst,suburban,public,Yes,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,1,8
+2006/2007,25,yes,0.5,Phd/DBA,0,0,0,0,3," $92,500 "," $10,000 ",2," $5,000 "," $3,000 ",3,1,0,4,Asst,,,,USA,,,,Have accepted,Research (<=4),1,1,0
+2006/2007,26,yes,4,Phd/DBA,0,1,0,0,4," $90,000 "," $10,000 ",1," $5,000 "," $4,000 ",6,2,2,8,Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,1
+2006/2007,27,yes,6,Phd/DBA,1,2,0,0,14," $105,000 ",,,,,6,1,1,7,Asst,suburban,private,No,USA,US N.E.,Masters,National,won't accept,Teach (>4),0,0,3
+2006/2007,28,yes,6,Phd/DBA,1,2,0,0,14," $130,000 "," $18,000 ",3,," $5,000 ",4,2,2,10,Asst,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,3
+2006/2007,29,,2,Phd/DBA,2,0,0,0,7," $79,200 ",,," $1,000 "," $3,000 ",6,2,,3,Asst,rural,public,Yes,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,1,2
+2006/2007,30,,6,Phd/DBA,4,1,0,0,6," $85,000 "," $5,000 ",2," $3,000 "," $5,000 ",6,1,0,6,switched Asst,urban,public,Yes,USA,US W.,Masters,National,Have accepted,Teach (>4),1,1,5
+2006/2007,31,yes,14,MBA/MS,0,0,0,0,12," $45,000 ",,," $1,300 "," $2,000 ",4,,,,switched Asst,rural,public,No,Brunei,,Bachelor,National,Have accepted,Research (<=4),0,1,0
+2006/2007,32,yes,3,Phd/DBA,0,0,0,0,0," $79,200 ",,,," $3,000 ",5,2,0,3,Asst,rural,public,No,USA,US S.,Bachelor,Regional,Have accepted,Teach (>4),0,0,0
+2006/2007,33,yes,9,Phd/DBA,3,13,0,0,6," $74,000 ",,," $3,500 "," $13,000 ",5,1,0,10,assoc/not tenured,urban,public,No,USA,US S.,Masters,Regional,Have accepted,Teach (>4),0,1,16
+2006/2007,34,,11,Phd/DBA,1,7,0,0,26," $82,000 ",,,," $1,000 ",6,1,,,switched Asst,rural,public,,USA,,Masters,National,Have accepted,Teach (>4),0,0,8
+2006/2007,35,yes,6,Phd/DBA,0,0,0,0,0," $1,000 ",,,,,6,0,,,instructor,suburban,public,No,Mauritius,,Doctorate,National,Have accepted,Teach (>4),0,0,0
+2006/2007,36,yes,7,Phd/DBA,0,2,3,0,6," $87,000 "," $9,500 ",2," $10,000 "," $2,500 ",4,2,4,7,Asst,urban,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,2
+2006/2007,37,yes,16,Phd/DBA,1,14,0,0,0," $81,000 ",,," $4,000 ",,5,2,1,6,associate/tenure,suburban,public,Yes,England,,Doctorate,National,Have accepted,Teach (>4),0,1,15
+2006/2007,38,yes,2,Phd/DBA,0,3,0,0,6," $82,008 ",,," $2,000 "," $2,000 ",8,1,0,3,Asst,suburban,public,Yes,USA,US W.,Masters,,Have accepted,Teach (>4),0,1,3
+2006/2007,39,,0.5,Phd/DBA,1,2,0,0,7," $101,250 "," $22,500 ",2," $4,000 "," $3,000 ",4,2,3,9,Asst,suburban,public,,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,3
+2006/2007,40,,,Phd/DBA,0,0,0,0,0," $120,000 ",,,,,4,,,,associate/tenure,suburban,public,No,USA,US S.,Doctorate,National,might accept,Research (<=4),0,0,0
+2006/2007,41,,25,MBA/MS,3,0,1,0,1," $57,000 ",,6, $300 ," $1,000 ",10,1,1,1,full/chair,suburban,public,No,USA,US S.,Masters,National,might accept,Teach (>4),0,1,3
+2006/2007,42,yes,13,Phd/DBA,0,20,0,0,25," $120,000 ",,," $10,000 "," $10,000 ",4,2,0,10,assoc/not tenured,urban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),0,1,20
+2006/2007,43,yes,1,Phd/DBA,0,1,0,0,0," $91,000 "," $14,000 ",5," $2,000 "," $2,500 ",8,2,0,4,Asst,suburban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,1
+2006/2007,44,,6,Phd/DBA,0,2,0,0,0," $24,000 "," $1,000 ",1,,,9,2,2,4,instructor,urban,private,No,Turkey,,Bachelor,Local,Have accepted,Teach (>4),1,0,2
+2006/2007,45,yes,13,Phd/DBA,0,2,0,0,0," $83,000 ",,,," $5,000 ",8,,,,assoc/not tenured,unspecified,public,,USA,US S.,Bachelor,,Have accepted,Teach (>4),0,0,2
+2007/2008,1,,5,Phd/DBA,0,1,0,0,11," $92,000 "," $18,000 ",1," $5,000 "," $2,000 ",4,1,0,3,Asst,urban,public,Yes,USA,US S.,Masters,Regional,Have accepted,Research (<=4),1,1,1
+2007/2008,2,,6,Phd/DBA,,1,,,7," $56,800 ",,,,,24,1,0,5,assoc/not tenured,suburban,public,Yes,Norway,,Masters,Regional,Have accepted,Teach (>4),0,0,1
+2007/2008,3,yes,3,Phd/DBA,0,0,0,0,4," $95,000 "," $5,000 ",3," $1,000 "," $5,000 ",5,2,2,8,Asst,urban,public,No,USA,US W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2007/2008,4,yes,1,Phd/DBA,0,1,0,1,9," $87,000 "," $11,000 ",3," $15,000 "," $5,000 ",,1,3,,Asst,urban,private,No,USA,US W.,Doctorate,National,Have accepted, ,1,1,1
+2007/2008,5,yes,32,Phd/DBA,0,6,0,1,28," $70,000 ",,,,,8,1,,3,associate/tenure,suburban,public,Yes,australia,,Doctorate,National,Have accepted,Teach (>4),0,0,6
+2007/2008,6,yes,2,Phd/DBA,0,0,0,0,2," $125,000 "," $20,800 ",6," $1,500 "," $8,000 ",4,2,1,5,Asst,suburban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2007/2008,7,yes,1,Phd/DBA,1,1,0,0,5," $125,000 "," $27,778 ",3," $4,000 "," $6,000 ",3,2,4,6,Asst,suburban,private,No,USA,US M.W.,Masters,National,Have accepted,Research (<=4),1,1,2
+2007/2008,8,yes,14,Phd/DBA,1,16,0,0,25," $95,000 ",,,," $10,000 ",5,2,0,3,visitor,urban,public,No,USA,US W.,Doctorate,National,Have accepted,Teach (>4),0,0,17
+2007/2008,9,yes,12,Phd/DBA,3,20,0,1,30," $93,000 ",,," $1,000 "," $4,750 ",8,1,0,4,assoc/not tenured,suburban,public,Yes,USA,US M.W.,Bachelor,National,won't accept,Teach (>4),0,1,23
+2007/2008,10,yes,0,Phd/DBA,0,0,0,0,0," $90,000 ",,," $3,000 "," $6,000 ",3,,,,assoc/not tenured,suburban,public,Yes,Canada,,Masters,Local,Have accepted,Research (<=4),0,1,0
+2007/2008,11,yes,1,Phd/DBA,0,3,,,4," $85,000 ",,,," $1,000 ",4,2,0,7,instructor,rural,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),0,0,3
+2007/2008,12,,7,Phd/DBA,,1,,,5," $18,000 ",,,,,30,1,1,4,instructor,urban,private,No,Turkey,,Bachelor,National,Have accepted,Teach (>4),0,0,1
+2007/2008,13,,2,Phd/DBA,0,0,0,0,5," $87,000 ",,," $2,000 ",,6,2,0,4,Asst,rural,public,No,USA,US S.,Masters,Regional,Have accepted,Teach (>4),0,1,0
+2007/2008,14,yes,5,Phd/DBA,0,0,0,0,8," $88,000 ",,," $5,000 ",,9,2,0,1,switched Asst,urban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,0
+2007/2008,15,,0.2,Phd/DBA,0,3,,,9," $68,000 ",,," $1,000 ",,6,,,,instructor,urban,public,Yes,Canada,,Doctorate,National,Have accepted,Teach (>4),0,1,3
+2007/2008,16,,,Phd/DBA,1,2,,,2," $100,000 "," $10,000 ",2," $4,000 "," $7,000 ",2,2,3,10,switched Asst,urban,public,No,USA,US W.,Masters,National,Have accepted,Research (<=4),1,1,3
+2007/2008,17,yes,2,Phd/DBA,,1,,,3," $91,000 "," $10,000 ",2," $3,000 "," $5,000 ",3,1,1,10,Asst,urban,public,Yes,USA,US M.W.,Bachelor,National,Have accepted,Research (<=4),1,1,1
+2007/2008,18,yes,9,Phd/DBA,3,25,3,,45," $143,500 ",,,," $7,200 ",2,2,0,6,associate/tenure,urban,private,No,USA,US M.W.,Masters,National,Have accepted,Research (<=4),0,0,28
+2007/2008,19,,2,Phd/DBA,1,1,,,8," $86,000 "," $2,000 ",2,," $2,000 ",6,1,,5,Asst,rural,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,0,2
+2007/2008,20,,3,Phd/DBA,1,2,0,0,10," $87,500 "," $7,000 ",2,," $2,500 ",6,2,0,3,Asst,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,0,3
+2007/2008,21,yes,2,Phd/DBA,0,5,0,0,33," $88,000 ",,," $1,000 ",,6,2,0,6,switched Asst,suburban,private,No,USA,US W.,Masters,Regional,Have accepted,Teach (>4),0,1,5
+2007/2008,22,yes,15,Phd/DBA,1,17,0,0,30," $95,000 ",,,," $10,000 ",5,1,1,4,visitor,urban,public,No,USA,US W.,Masters,National,Have accepted,Teach (>4),0,0,18
+2007/2008,23,yes,6,Phd/DBA,1,7,,,23," $95,000 ",,," $4,000 "," $1,000 ",7,2,,,switched Asst,urban,public,No,UAE,,Masters,Regional,Have accepted,Teach (>4),0,1,8
+2007/2008,24,yes,5,Phd/DBA,0,3,0,0,20," $55,000 ",,,,,5,2,,,Asst,urban,public,Yes,France,,Doctorate,National,Have accepted,Teach (>4),0,0,3
+2007/2008,25,,1,,0,0,,,5," $79,000 ",,,," $1,500 ",8,1,0,4,instructor,rural,public,Yes,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,0,0
+2007/2008,26,,3,Phd/DBA,0,1,0,0,2," $86,900 ",,," $7,200 "," $3,000 ",6,2,1,6,switched Asst,urban,private,No,Lebanon,,Masters,Regional,Have accepted,Teach (>4),0,1,1
+2007/2008,27,,2,Phd/DBA,4,2,,2,14," $83,000 "," $3,000 ",3,," $3,000 ",6,2,1,8,Asst,suburban,public,Yes,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,0,6
+2007/2008,28,yes,3,Phd/DBA,0,4,0,1,8," $95,000 ",,," $1,000 ",,7,1,0,6,switched Asst,suburban,public,Yes,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,1,4
+2007/2008,29,yes,1,Phd/DBA,0,2,,,," $105,000 "," $24,675 ",3," $5,000 "," $12,000 ",4,2,25,75,Asst,urban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,2
+2007/2008,30,,3,Phd/DBA,,3,,,14," $92,000 "," $5,000 ",1," $1,000 "," $3,500 ",8,1,0,5,Asst,urban,private,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,3
+2008/2009,1,yes,22,Phd/DBA,1,60,11,0,50," $99,000 ",,," $4,000 "," $10,000 ",24,2,1,40,full/chair,suburban,public,Yes,USA,US W.,Masters,National,might accept,Teach (>4),0,1,61
+2008/2009,2,yes,2,Phd/DBA,0,1,0,0,6," $107,000 "," $5,000 ",2," $3,000 "," $3,000 ",5,1,,4,Asst,urban,private,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,1
+2008/2009,3,yes,1,Phd/DBA,0,0,0,0,4," $120,000 "," $26,667 ",3," $3,500 ",,4,2,4,10,Asst,urban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2008/2009,4,yes,1,Phd/DBA,0,0,0,0,10," $125,000 "," $28,000 ",9," $16,500 "," $5,000 ",2,3,10,10,Asst,urban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2008/2009,5,yes,1,Phd/DBA,0,0,0,0,7," $96,000 "," $8,640 ",3," $8,000 ",,4,1,0,5,Asst,suburban,public,No,USA,,Masters,National,Have accepted,Research (<=4),1,1,0
+2008/2009,6,yes,1,Phd/DBA,0,0,0,0,7," $115,000 "," $10,000 ",2," $8,000 "," $4,000 ",5,2,5,5,Asst,suburban,private,No,USA,US N.E.,Masters,National,won't accept,Teach (>4),1,1,0
+2008/2009,7,yes,1,Phd/DBA,0,0,0,0,7," $105,000 "," $14,000 ",3,," $5,000 ",4,2,2,7,Asst,urban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,0,0
+2008/2009,8,yes,10,Phd/DBA,1,14,,,66," $48,000 ",,," $4,000 ",,2.67,2,,,instructor,urban,public,Yes,Israel,,Doctorate,,Have accepted,Research (<=4),0,1,15
+2008/2009,9,,2,Phd/DBA,0,3,,,6," $110,000 "," $12,000 ",3," $5,000 "," $7,000 ",5,1,2,5,Asst,urban,public,Yes,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,3
+2008/2009,10,yes,12,Phd/DBA,,,,,," $88,000 "," $15,000 ",2," $2,000 "," $2,500 ",6,2,0,8,assoc/not tenured,suburban,public,,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,1,0
+2008/2009,11,yes,3,Phd/DBA,0,3,0,0,5," $90,000 ",,," $1,200 "," $5,000 ",6,1,0,2,Asst,suburban,public,Yes,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,1,3
+2008/2009,12,yes,12,,,,,,," $108,500 "," $6,500 ",1," $2,000 "," $2,500 ",6,1,0,8,assoc/not tenured,suburban,public,,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,0
+2008/2009,13,yes,1,Phd/DBA,0,0,0,0,8," $120,000 "," $26,667 ",3," $5,000 "," $13,333 ",4,2,4,10,Asst,urban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2008/2009,14,yes,3,Phd/DBA,1,4,0,0,22," $95,000 ",,," $1,000 ",,6,2,0,6,switched Asst,suburban,private,No,USA,US W.,Masters,Regional,Have accepted,Teach (>4),0,1,5
+2008/2009,15,yes,1,Phd/DBA,0,1,0,0,7," $60,000 ",,," $3,000 "," $10,000 ",2,2,5,5,Asst,urban,private,,UK,,Doctorate,,Have accepted,Research (<=4),0,1,1
+2008/2009,16,,4,Phd/DBA,0,2,0,0,6," $88,000 ",,," $1,000 ",,8,1,0,3,switched Asst,urban,private,,USA,,Masters,National,Have accepted,Teach (>4),0,1,2
+2008/2009,17,yes,9,Phd/DBA,15,15,1,0,40," $150,000 ",,," $5,000 "," $10,000 ",3,2,15,30,associate/tenure,suburban,public,,USA,,Doctorate,National,might accept,Research (<=4),0,1,30
+2008/2009,18,,3,Phd/DBA,1,2,,,6," $86,000 "," $2,000 ",3,," $2,000 ",6,1,0,7,switched Asst,rural,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,0,3
+2008/2009,19,yes,3,Phd/DBA,0,4,0,0,6," $86,000 "," $2,000 ",2,," $1,000 ",6,1,0,5,Asst,suburban,public,No,USA,US M.W.,Masters,National,won't accept,Teach (>4),1,0,4
+2008/2009,20,yes,3,Phd/DBA,0,4,0,0,6," $105,000 "," $6,000 ",3," $1,200 "," $3,000 ",4,2,2,7,Asst,suburban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,4
+2008/2009,21,,3,Phd/DBA,0,1,0,0,3," $68,000 ",,,,,8,1,0,3,Asst,rural,public,Yes,USA,US N.E.,Masters,Local,Have accepted,Teach (>4),0,0,1
+2008/2009,22,yes,2,Phd/DBA,1,0,0,0,6," $130,000 "," $29,000 ",3," $2,500 "," $5,000 ",3,2,3,9,Asst,urban,private,No,USA,US N.E.,Bachelor,National,Have accepted,Research (<=4),1,1,1
+2008/2009,23,yes,3,Phd/DBA,0,0,0,0,2," $110,000 "," $12,100 ",2," $3,000 "," $10,000 ",5,2,1,7,Asst,,mixed,,USA,US N.E.,Bachelor,National,Have accepted,Teach (>4),1,1,0
+2008/2009,24,yes,1,Phd/DBA,0,1,0,0,6," $120,000 "," $20,000 ",3," $3,000 "," $5,000 ",2.5,2,3,6,Asst,urban,private,No,USA,US M.W.,Masters,National,Have accepted,Research (<=4),1,1,1
+2008/2009,25,yes,1,Phd/DBA,0,1,,,6," $92,500 ",,," $1,000 ",,4,1,0,10,Asst,suburban,public,No,USA,US S.,Doctorate,National,won't accept,Research (<=4),0,1,1
+2008/2009,26,,12,Phd/DBA,0,12,0,0,10," $70,000 "," $4,375 ",1," $1,500 ",,8,1,0,2,assoc/not tenured,suburban,private,No,USA,US S.,Masters,Regional,Have accepted,Teach (>4),1,1,12
+2008/2009,27,,8,Phd/DBA,2,12,,,15," $115,000 ",,," $1,500 "," $3,000 ",4,2,2,8,associate/tenure,urban,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),0,1,14
+2008/2009,28,yes,1,Phd/DBA,0,0,0,0,3," $120,000 "," $27,000 ",3," $5,000 "," $7,000 ",3,2,4,6,Asst,urban,public,,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2008/2009,29,yes,3,Phd/DBA,0,3,0,0,4," $91,000 ",,," $2,000 "," $2,500 ",6,2,0,6,switched Asst,urban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,3
+2008/2009,30,,8,Phd/DBA,,20,,,60," $95,000 "," $10,000 ",10," $10,000 "," $12,000 ",12,2,6,12,assoc/not tenured,urban,public,No,Netherlands,,Doctorate,National,Have accepted,Teach (>4),1,1,20
+2008/2009,31,,4,,2,1,,,5," $100,000 "," $10,000 ",3," $2,000 "," $20,000 ",4,2,,,Asst,urban,public,No,Canada,,Doctorate,National,Have accepted,Research (<=4),1,1,3
+2008/2009,32,yes,0.5,Phd/DBA,0,3,0,0,4," $125,000 "," $27,777 ",2,,,4,2,,,Asst,urban,private,,USA,US N.E.,Masters,National,won't accept,Research (<=4),1,0,3
+2008/2009,33,yes,0.5,,0,3,0,0,4," $115,000 "," $14,357 ",3," $2,000 "," $3,000 ",4,2,,,Asst,suburban,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,3
+2008/2009,34,,11,Phd/DBA,21,7,3,0,," $159,000 ",,," $5,000 ",,4,2,2,12,full/chair,rural,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),0,1,28
+2008/2009,35,,2,Phd/DBA,1,8,0,0,20," $98,000 "," $12,000 ",4," $2,500 "," $2,500 ",6,2,,5,switched Asst,rural,public,,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,9
+2008/2009,36,yes,3,Phd/DBA,1,0,0,0,7," $97,500 "," $9,300 ",2,," $3,000 ",5,2,1,6,Asst,rural,public,No,USA,US S.,,National,Have accepted,Teach (>4),1,0,1
+2008/2009,37,,2,Phd/DBA,,,,,," $76,000 ",,,," $1,500 ",7,1,0,2,assoc/not tenured,,public,Yes,USA,US N.E.,,National,Have accepted,Teach (>4),0,0,0
+2008/2009,38,,1,,1,,,,," $137,000 "," $27,000 ",3," $5,000 "," $7,000 ",3,3,5,7,Asst,urban,public,,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,1
+2008/2009,39,yes,1,Phd/DBA,,,,,," $92,000 ",,,," $1,000 ",6,2,,4,Asst,urban,public,Yes,USA,US M.W.,Masters,National,,Teach (>4),0,0,0
+2009/2010,1,yes,8,Phd/DBA,,4,,1,14," $15,000 ",,,,,8,1,0,1,instructor,suburban,private,,Turkey,,Bachelor,Regional,Have accepted,Teach (>4),0,0,4
+2009/2010,2,yes,5,Phd/DBA,0,4,0,1,10," $105,000 "," $20,000 ",3," $6,000 "," $5,000 ",4,2,2,5,Asst,urban,private,Yes,USA,US W.,Masters,National,Have accepted,Research (<=4),1,1,4
+2009/2010,3,,0.5,Phd/DBA,0,2,0,0,6," $95,000 ",,," $2,000 "," $2,000 ",6,2,0,7,Asst,suburban,public,,USA,US S.,Doctorate,National,Have accepted,Teach (>4),0,1,2
+2009/2010,4,yes,2,Phd/DBA,1,1,1,,20," $110,000 "," $20,000 ",2," $3,000 "," $5,000 ",3,2,4,10,Asst,urban,mixed,Yes,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,2
+2009/2010,5,,2,Phd/DBA,1,2,1,0,0," $93,000 "," $5,000 ",4,," $3,000 ",6,1,,,Asst,urban,,,USA,,Masters,National,Have accepted,Teach (>4),1,0,3
+2009/2010,6,yes,1,Phd/DBA,2,0,0,0,3," $91,500 "," $2,500 ",1," $4,000 "," $2,000 ",6,2,0,4,Asst,suburban,private,No,USA,US N.E.,Masters,,Have accepted,Teach (>4),1,1,2
+2009/2010,7,yes,2,Phd/DBA,0,2,0,0,4," $85,000 ",,," $6,000 "," $4,000 ",6,1,0,5,Asst,rural,private,No,USA,US M.W.,Bachelor,Regional,Have accepted,Teach (>4),0,1,2
+2009/2010,8,yes,8,Phd/DBA,0,14,0,1,3," $100,000 ",,," $5,000 "," $3,500 ",12,1,0,0,switched Asst,urban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,14
+2009/2010,9,,2,Phd/DBA,2,0,0,0,4," $126,000 ",,," $5,000 "," $10,000 ",4,2,20,80,Asst,suburban,private,No,USA,US W.,Masters,National,Have accepted,Research (<=4),0,1,2
+2009/2010,10,,3,Phd/DBA,0,5,,,11," $95,000 ",,," $3,000 "," $3,000 ",6,2,0,5,Asst,urban,public,No,,,Masters,National,Have accepted,Teach (>4),0,1,5
+2009/2010,11,,1,Phd/DBA,1,1,0,0,3," $95,000 ",,,," $1,000 ",6,2,0,5,Asst,urban,mixed,No,USA,US S.,Bachelor,National,Have accepted,Teach (>4),0,0,2
+2009/2010,12,,1,Phd/DBA,1,1,,,," $97,500 ",,,," $10,000 ",8,,,,instructor,suburban,private,No,USA,US N.E.,Masters,National,might accept,Teach (>4),0,0,2
+2009/2010,13,,1,Phd/DBA,0,1,0,0,1," $80,000 ",,,,,8,1,0,2,Asst,suburban,private,No,USA,US M.W.,Masters,Regional,might accept,Teach (>4),0,0,1
+2009/2010,14,,7,Phd/DBA,,1,,,3," $85,000 ",,,,,4,1,0,6,Asst,urban,public,No,USA,US S.,Bachelor,Regional,Have accepted,Research (<=4),0,0,1
+2009/2010,15,yes,1,Phd/DBA,0,1,,,," $84,000 ",,," $3,000 ",,10,0,0,0,Asst,urban,private,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),0,1,1
+2009/2010,16,,8,Phd/DBA,1,5,0,0,6," $120,000 ",,,," $2,000 ",4,2,1,6,switched Asst,suburban,public,Yes,USA,US S.,Masters,National,Have accepted,Research (<=4),0,0,6
+2009/2010,17,,2,Phd/DBA,1,4,,,11," $87,000 ",,," $2,000 "," $1,000 ",6,1,0,3,Asst,rural,public,No,USA,US M.W.,Bachelor,Regional,Have accepted,Teach (>4),0,1,5
+2009/2010,18,,5,Phd/DBA,,1,,,3," $80,000 ",,," $3,000 "," $1,500 ",8,1,,5,switched Asst,urban,public,No,USA,US N.E.,Doctorate,National,Have accepted,Teach (>4),0,1,1
+2009/2010,19,yes,0,Phd/DBA,0,2,0,0,6," $95,000 ",,," $2,000 "," $2,000 ",5,2,0,8,Asst,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Teach (>4),0,1,2
+2009/2010,20,,5,Phd/DBA,0,8,,,30," $60,000 ",,," $3,000 ",,4,2,0,4,associate/tenure,urban,public,Yes,New Zealand,,Doctorate,National,Have accepted,Research (<=4),0,1,8
+2009/2010,21,,9,Phd/DBA,0,0,0,0,10," $88,000 ",,," $2,000 "," $1,000 ",6,1,0,5,switched Asst,rural,public,No,USA,US W.,Doctorate,Regional,Have accepted,Teach (>4),0,1,0
+2009/2010,22,,2,Phd/DBA,1,,,,5," $90,000 ",,," $2,000 "," $8,000 ",4,2,3,8,Asst,urban,private,No,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),0,1,1
+2009/2010,23,,0,Phd/DBA,1,1,,,4," $72,000 ",,,,,5,1,,,Asst,rural,public,Yes,Canada,,Bachelor,,Have accepted,Teach (>4),0,0,2
+2009/2010,24,yes,3,Phd/DBA,2,1,0,0,8," $106,000 "," $11,660 ",2," $2,500 "," $10,000 ",5,2,2,7,switched Asst,suburban,public,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,1,3
+2009/2010,25,,10,Phd/DBA,0,14,0,6,47," $135,000 ",,," $4,000 ",,7,,,,assoc/not tenured,urban,mixed,No,USA,US N.E.,Doctorate,National,Have accepted,Teach (>4),0,1,14
+2009/2010,26,,10,Phd/DBA,0,14,0,6,47," $65,000 ",,," $1,500 ",,6,1,,,full/chair,urban,public,Yes,Fiji,,Masters,none,won't accept,Teach (>4),0,1,14
+2009/2010,27,yes,2,Phd/DBA,0,1,0,0,6," $59,432 ",,," $1,000 "," $15,700 ",3,,,,Asst,urban,public,Yes,New Zealand,,Doctorate,Regional,Have accepted,Research (<=4),0,1,1
+2010/2011,1,yes,4,Phd/DBA,0,4,0,0,7," $100,000 ",,,," $1,000 ",6,1,1,4,Asst,suburban,public,No,USA,US N.E.,Masters,National,won't accept,Teach (>4),0,0,4
+2010/2011,2,,2,Phd/DBA,0,0,0,0,5," $87,000 ",,," $1,500 "," $2,000 ",7,1,0,2,Asst,rural,private,No,USA,US M.W.,Masters,Regional,Have accepted,Teach (>4),0,1,0
+2011/2012,1,yes,1,Phd/DBA,1,2,,,6," $115,000 "," $10,000 ",2,," $5,000 ",4,2,3,6,Asst,urban,public,No,USA,US W.,Masters,National,Have accepted,Research (<=4),1,0,3
+2011/2012,2,,9,Phd/DBA,4,31,0,0,58," $116,000 "," $12,000 ",2,," $5,000 ",4,2,3,10,associate/tenure,suburban,public,No,USA,,Doctorate,National,Have accepted,Research (<=4),1,0,35
+2011/2012,3,yes,1,Phd/DBA,0,4,0,0,3," $87,000 ",,,," $3,000 ",6,1,0,2,Asst,rural,public,No,USA,US S.,Bachelor,National,Have accepted,Teach (>4),0,0,4
+2011/2012,4,yes,2,Phd/DBA,,1,,,4," $125,000 "," $13,888 ",3,," $5,000 ",4,2,,,Asst,urban,private,No,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,0,1
+2011/2012,5,,1,Phd/DBA,1,1,0,0,0," $131,400 "," $18,650 ",1," $45,000 ",,6,0,,,Asst,urban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Teach (>4),1,1,2
+2011/2012,6,,15,Phd/DBA,2,10,1,0,11," $101,000 ",,,," $3,500 ",6,2,5,10,instructor,urban,public,No,USA,US W.,Doctorate,National,Have accepted,Teach (>4),0,0,12
+2011/2012,7,yes,10,Phd/DBA,2,12,,6,25," $110,000 ",,,,,,2,,,unspecified,unspecified,,,,,,,, ,0,0,14
+2011/2012,8,yes,,Phd/DBA,0,1,,,," $85,000 ",,," $10,000 "," $9,300 ",,2,2,6,unspecified,unspecified,,,FRANCE,,,,, ,0,1,1
+2011/2012,9,,2,Phd/DBA,0,4,0,0,3," $107,500 "," $13,500 ",5," $4,000 "," $5,000 ",4,2,1,9,Asst,suburban,public,No,USA,US M.W.,Masters,National,won't accept,Research (<=4),1,1,4
+2011/2012,10,,1,Phd/DBA,0,3,0,0,5," $107,500 "," $13,500 ",5," $4,000 ", $- ,4,2,1,8,Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Research (<=4),1,1,3
+2011/2012,11,,2,Phd/DBA,,,,,," $150,000 "," $33,000 ",3,," $7,500 ",3,2,5,10,switched Asst,urban,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,0,0
+2011/2012,12,,2,Phd/DBA,0,0,0,0,1," $80,000 ",,,,,10.5,2,,4,Asst,suburban,public,,USA,US W.,Doctorate,National,won't accept,Teach (>4),0,0,0
+2011/2012,13,,,Phd/DBA,2,50,2,,," $95,000 "," $21,000 ",8,,,,1,0,3,switched Asst,urban,public,Yes,USA,US S.,Masters,Regional,Have accepted, ,1,0,52
+2011/2012,14,,2,Phd/DBA,,1,,,," $84,000 "," $10,000 ",4,,,9,2,,4,Asst,rural,public,Yes,USA,US N.E.,Bachelor,Regional,Have accepted,Teach (>4),1,0,1
+2011/2012,15,,1,Phd/DBA,1,15,1,2,55," $95,000 "," $20,900 ",10," $2,500 ",,6,2,1,3,Asst,urban,public,No,USA,US S.,Masters,Regional,Have accepted,Teach (>4),1,1,16
+2012/2014,1,,1,Phd/DBA,1,1,,,4," $115,000 "," $7,500 ",2," $3,500 "," $4,000 ",5,2,2,6,Asst,urban,private,,USA,,Masters,National,might accept,Teach (>4),1,1,2
+2012/2014,2,,3,Phd/DBA,1,1,,2,12," $120,000 "," $23,000 ",1," $6,200 "," $7,200 ",4,2,2,20,Asst,suburban,private,No,USA,US W.,Masters,National,Have accepted,Research (<=4),1,1,2
+2012/2014,3,Yes,1,PhD/DBA,0,0,0,0,3," $110,000 "," $16,500 ",2," $8,000 "," $7,500 ",4,2,1,5,Asst,urban,public,No,USA,US S.,Masters,National,Have accepted,Research (<=4),1,1,0
+2012/2014,4,,5,Phd/DBA,0,12,0,0,30," $11,000 ",,," $3,500 ",,6,2,,,assoc/not tenured,urban,private,No,UAE,,Doctorate,none,Have accepted,Teach (>4),0,1,12
+2012/2014,5,,2,Phd/DBA,1,4,0,3,15," $54,898 ",,3,,,4,,3,5,Asst,urban,public,Yes,Germany,,Doctorate,National,Have accepted,Research (<=4),0,0,5
+2012/2014,6,,2,Phd/DBA,2,,,,," $150,000 "," $33,000 ",3," $10,000 "," $10,000 ",3,2,9,9,Asst,urban,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,2
+2012/2014,7,,3,Phd/DBA,2,1,,,3," $87,500 ",,," $1,500 ",,9,1,0,4,switched Asst,urban,private,No,USA,US M.W.,Masters,Regional,Have accepted,Teach (>4),0,1,3
+2012/2014,8,,3,Phd/DBA,0,0,0,0,10," $120,000 "," $24,000 ",3,," $12,000 ",4,2,5,10,Asst,,private,No,USA,,Doctorate,Regional,Have accepted,Research (<=4),1,0,0
+2012/2014,9,,1,Phd/DBA,1,1,,,1," $110,000 ",,," $13,000 "," $2,000 ",2,2,3,5,Asst,urban,public,No,Asia,,Doctorate,National,won't accept,Research (<=4),0,1,2
+2012/2014,10,,17,Phd/DBA,6,10,,,," $175,000 ",,," $6,000 "," $12,000 ",3.5,2,2,6,full/chair,rural,public,Yes,USA,US M.W.,,National,Have accepted,Research (<=4),0,1,16
+2012/2014,11,,6,Phd/DBA,1,2,0,0,5," $85,000 ",,,," $2,500 ",6,2,,,switched Asst,suburban,public,No,,,Masters,National,Have accepted,Teach (>4),0,0,3
+2012/2014,12,,2,Phd/DBA,0,1,,,4," $125,000 "," $28,000 ",3," $10,000 "," $10,000 ",4,2,3,9,Asst,urban,private,,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,1
+2012/2014,13,,2,Phd/DBA,0,1,,,4," $120,000 "," $25,000 ",3," $8,000 "," $12,000 ",4,2,2,7,Asst,rural,,Yes,Canada,,Doctorate,National,won't accept,Research (<=4),1,1,1
+2012/2014,14,,2,Phd/DBA,0,1,,,4," $131,000 ",,," $15,000 "," $3,500 ",3,,3,5,Asst,urban,public,,Asia,,Doctorate,National,Have accepted,Research (<=4),0,1,1
+2012/2014,15,,2,Phd/DBA,0,1,,,4," $125,000 ",,," $10,000 "," $18,000 ",2,2,3,7,Asst,urban,mixed,,Europe,,Doctorate,National,won't accept,Research (<=4),0,1,1
+2012/2014,,,7,,2,2,,,5," $135,000 "," $15,000 ",2," $3,000 "," $10,000 ",5,,2,7,switched Asst,urban,private,,USA,,,,won't accept,Teach (>4),1,1,4
+2012/2014,8,,5,Phd/DBA,2,2,,,4," $81,500 "," $4,500 ",4," $1,800 "," $5,000 ",8,1,0,4,assoc/not tenured,rural,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,1,4
+2012/2014,1,yes,3,Phd/DBA,0,4,,,8," $123,000 "," $27,000 ",2," $5,000 "," $5,000 ",3,2,3,9,Asst,suburban,mixed,,USA,US N.E.,Masters,National,Have accepted,Research (<=4),1,1,4
+2012/2014,2,,5,Phd/DBA,0,11,0,0,8," $100,000 "," $10,000 ",1," $2,000 "," $5,000 ",6,2,0,5,switched Asst,suburban,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,11
+2012/2014,3,yes,16,Phd/DBA,4,17,0,0,5," $160,000 ",,," $2,400 "," $10,000 ",3,2,2,4,associate/tenure,urban,private,No,USA,US W.,Masters,National,Have accepted,Research (<=4),0,1,21
+2014/2015,1,,2,,1,1,,,," $130,000 "," $8,000 ",5,,,,,,,Asst,suburban,public,,USA,US W.,Doctorate,,, ,1,0,2
+2014/2015,2,,10,,18,32,,,40," $135,000 ",,," $5,000 ",,4,,2,10,associate/tenure,urban,public,Yes,USA,US S.,Doctorate,National,won't accept,Research (<=4),0,1,50
+2014/2015,3,yes,7,Phd/DBA,2,8,,,3," $135,000 "," $10,000 ",2," $4,000 "," $10,000 ",4,2,3,10,switched Asst,suburban,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),1,1,10
+2014/2015,4,,3,Phd/DBA,3,20,6,1,70," $120,000 "," $10,800 ",2," $4,500 "," $5,000 ",4,2,2,10,switched Asst,urban,public,Yes,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,23
+2014/2015,5,yes,1,Phd/DBA,2,0,0,0,7," $140,000 "," $28,000 ",3," $8,500 "," $5,000 ",4,2,4,9,Asst,urban,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,2
+2014/2015,6,yes,2,Phd/DBA,0,1,0,0,14," $105,000 "," $8,000 ",2," $1,000 "," $8,000 ",6,2,1,2,Asst,suburban,public,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,1
+2014/2015,7,yes,0.5,Phd/DBA,0,1,0,0,11," $105,000 ",,,," $3,000 ",4,2,3,10,Asst,suburban,public,Yes,USA,US N.E.,Bachelor,,Have accepted,Research (<=4),0,0,1
+2014/2015,8,,10,Phd/DBA,1,60,0,1,30," $140,000 ",,,,,,2,,,associate/tenure,urban,public,Yes,USA,US N.E.,Doctorate,National,Have accepted, ,0,0,61
+2014/2015,9,,9,Phd/DBA,0,4,1,0,7," $97,000 ",,," $1,500 "," $2,000 ",8,1,0,4,switched Asst,suburban,public,No,USA,US S.,Bachelor,National,Have accepted,Teach (>4),0,1,4
+2014/2015,10,,16,Phd/DBA,0,24,0,17,51," $155,000 ",,,,,4,,,,full/chair,urban,public,No,USA,US N.E.,Doctorate,Regional,won't accept,Research (<=4),0,0,24
+2014/2015,11,,3,Phd/DBA,0,1,0,0,4," $95,700 ",,,," $3,000 ",3,1,1,10,Asst,suburban,public,No,USA,US S.,Masters,National,Have accepted,Research (<=4),0,0,1
+2014/2015,12,,1,Phd/DBA,0,2,0,0,0," $125,000 "," $7,000 ",2," $3,000 "," $4,000 ",5,2,1,6,Asst,urban,private,No,USA,US M.W.,Masters,National,Have accepted,Teach (>4),1,1,2
+2014/2015,13,,4,Phd/DBA,1,6,,,6," $122,000 "," $10,000 ",2," $2,400 ",,4,2,5,15,switched Asst,urban,private,No,USA,US W.,Masters,National,Have accepted,Research (<=4),1,1,7
+2014/2015,14,,10,Phd/DBA,1,18,0,0,1," $95,000 ",,2,,,6,2,2,6,switched Asst,urban,private,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,0,19
+2014/2015,15,yes,13,Phd/DBA,2,100,,,50," $110,000 ",,,,,6,2,,,full/chair,urban,public,Yes,USA,US W.,Masters,National,Have accepted,Teach (>4),0,0,102
+2014/2015,16,yes,16,Phd/DBA,4,17,0,0,5," $190,000 ",,," $2,400 "," $10,000 ",3,2,2,4,associate/tenure,urban,private,No,USA,US W.,Masters,National,Have accepted,Research (<=4),0,1,21
+2014/2015,17,,2,Phd/DBA,1,0,0,,4," $103,000 "," $20,000 ",3," $3,000 "," $5,000 ",4,2,4,6,Asst,urban,public,Yes,USA,US W.,Masters,Regional,Have accepted,Research (<=4),1,1,1
+2014/2015,18,yes,3,Phd/DBA,0,1,0,0,6," $150,000 "," $33,333 ",6," $7,000 "," $25,000 ",3,3,4,4,Asst,rural,public,No,USA,US S.,Masters,National,Have accepted,Research (<=4),1,1,1
+2015/2016,1,yes,0.5,Phd/DBA,1,3,0,0,1," $105,000 "," $20,000 ",3,," $5,000 ",4,2,,,Asst,urban,public,Yes,USA,US W.,Masters,National,Have accepted,Research (<=4),1,0,4
+2015/2016,2,yes,1,Phd/DBA,1,4,0,0,15," $130,000 "," $20,000 ",3," $3,000 "," $7,500 ",4,2,4,12,Asst,suburban,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,5
+2015/2016,3,,3,Phd/DBA,0,0,0,0,5," $95,000 ",,," $4,000 "," $7,000 ",6,1,0,5,Asst,,public,,USA,,Masters,National,Have accepted,Teach (>4),0,1,0
+2015/2016,4,,6,Phd/DBA,2,7,0,1,40," $64,000 ",,na," $3,500 "," $6,000 ",4,2,4,4,switched Asst,urban,public,Yes,Netherlands,,Doctorate,National,Have accepted,Research (<=4),0,1,9
+2015/2016,5,,1,Phd/DBA,,2,,,4," $88,000 ",,, $- ," $1,500 ",5,2,0,6,Asst,suburban,private,No,USA,US N.E.,Masters,National,won't accept,Teach (>4),0,0,2
+2015/2016,6,,1,Phd/DBA,0,2,0,0,11," $102,000 "," $5,000 ",3," $1,600 "," $10,000 ",6,1,0,4,Asst,rural,public,Yes,USA,US W.,Masters,National,Have accepted,Teach (>4),1,1,2
+2015/2016,7,,3,Phd/DBA,0,1,0,0,4," $140,000 "," $31,111 ",3," $4,000 "," $10,000 ",4,2,1,8,switched Asst,urban,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,1
+2015/2016,8,,3,Phd/DBA,1,1,,,12," $110,000 "," $10,000 ",3," $4,000 "," $5,000 ",5,,1,5,Asst,suburban,private,No,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,1,2
+2015/2016,9,,5,Phd/DBA,0,4,0,0,16," $90,000 ",,, $- ," $4,000 ",3,2,2,5,switched Asst,urban,public,No,USA,US W.,Masters,National,might accept,Research (<=4),0,0,4
+2015/2016,10,,4,Phd/DBA,1,1,,,28," $73,228 ",,," $5,500 "," $20,000 ",2,2,2,12,switched Asst,urban,,,New Zealand,,Doctorate,,Have accepted,Research (<=4),0,1,2
+2015/2016,11,yes,4,Phd/DBA,0,8,0,0,10," $135,000 "," $10,000 ",2," $2,500 ", $- ,5,2,1,6,switched Asst,urban,private,No,USA,US W.,Masters,National,Have accepted,Teach (>4),1,1,8
+2015/2016,12,yes,1,Phd/DBA,1,2,0,0,4," $132,000 "," $10,000 ",2," $2,500 "," $6,000 ",5,2,1,6,Asst,urban,private,No,USA,US W.,Masters,National,Have accepted,Teach (>4),1,1,3
+2015/2016,13,yes,1,Phd/DBA,2,1,,,," $170,000 ",,,," $8,000 ",3,2,,,Asst,unspecified,public,,USA,US S.,Doctorate,National,Have accepted,Research (<=4),0,0,3
+2015/2016,14,yes,8,Phd/DBA,0,2,0,0,3," $80,000 ",,0," $2,500 ", $- ,8,0,0,0,switched Asst,urban,private,No,USA,US S.,Masters,Regional,Have accepted,Teach (>4),0,1,2
+2015/2016,15,yes,5,Phd/DBA,2,3,,,30," $105,000 ",,0, $- ," $2,000 ",5,2,0,5,switched Asst,rural,public,No,USA,US S.,Doctorate,National,Have accepted,Teach (>4),0,0,5
+2015/2016,16,,7,Phd/DBA,2,12,0,0,20," $100,000 "," $8,000 ",3,," $3,000 ",2,1,0,6,assoc/not tenured,suburban,public,No,USA,US S.,Masters,National,Have accepted,Research (<=4),1,0,14
+2015/2016,17,,7,Phd/DBA,1,,,,10," $167,000 "," $2,000 ",,,,6,,,,instructor,suburban,public,Yes,USA,US M.W.,Doctorate,National,Have accepted,Teach (>4),1,0,1
+2015/2016,18,,2,Phd/DBA,0,2,0,0,5," $80,000 ",,," $2,500 "," $5,000 ",6,1,5,1.5,Asst,rural,public,No,USA,US S.,Masters,Regional,might accept,Teach (>4),0,1,2
+2015/2016,19,yes,3,Phd/DBA,0,0,0,0,4," $145,000 "," $32,000 ",3," $2,500 "," $10,000 ",4,2,8,8,Asst,suburban,public,Yes,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2015/2016,20,yes,3,Phd/DBA,0,0,0,0,4," $100,000 "," $25,000 ",2," $2,500 "," $5,000 ",4,1,5,0,Asst,urban,public,No,USA,US M.W.,Doctorate,National,won't accept,Research (<=4),1,1,0
+2015/2016,21,yes,3,Phd/DBA,0,0,0,0,4," $93,000 ",,, $- , $- ,6,1,4,0,Asst,rural,public,No,USA,US M.W.,Bachelor,National,won't accept,Teach (>4),0,0,0
+2015/2016,22,yes,1,Phd/DBA,0,1,1,0,4," $130,000 "," $4,000 ",1, $- , $- ,6,1,,,Asst,suburban,private,Yes,USA,US N.E.,Masters,National,Have accepted,Teach (>4),1,0,1
+2016/2017,004,,0,Phd/DBA,,,,,," $115,000 ",,,,,8,,,,Asst,,private,No,USA,US S.,Doctorate,National,Have accepted,Teach (>4),0,0,0
+2016/2017,005,yes,0,Phd/DBA,,,,,," $70,000 ",,,,,9,,0,,Asst,,public,No,USA,US S.,Masters,Regional,won't accept,Teach (>4),0,0,0
+2016/2017,006,yes,5,Phd/DBA,2,8,,,," $135,000 "," $20,000 ",3," $6,000 ",,4,,6,,switched Asst,,public,Yes,USA,US M.W.,Masters,National,Have accepted,Research (<=4),1,1,10
+2016/2017,007,yes,3.5,Phd/DBA,2,6,,,," $105,000 ",,," $10,000 ",,4,,2,,switched Asst,,private,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),0,1,8
+2016/2017,008,,3,Phd/DBA,0,3,,,," $108,000 "," $12,000 ",2,,,6,,0,,switched Asst,,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,0,3
+2015/2016,009,yes,22,Phd/DBA,1,96,,,," $200,000 "," $17,500 ",3," $7,500 ",,2,,3,,full/chair,,public,Yes,USA,US S.,Doctorate,National,won't accept,Research (<=4),1,1,97
+2015/2016,010,yes,22,Phd/DBA,1,96,,,," $190,000 "," $20,000 ",3," $3,000 ",,3,,3,,full/chair,,public,Yes,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,97
+2016/2017,011,yes,0,Phd/DBA,,,,,," $98,000 ",,," $1,000 ",,6,,2,,Asst,,public,Yes,USA,US M.W.,Masters,Regional,Have accepted,Teach (>4),0,1,0
+2016/2017,012,,5,Phd/DBA,0,0,,,," $70,000 ",,," $1,200 ",,24,,,,visitor,,private,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,0
+2016/2017,013,,5,Phd/DBA,,,,,," $97,000 ",,," $1,500 ",,5,,,,Asst,,Mixed,Yes,USA,US N.E.,Bachelor,Regional,won't accept,Teach (>4),0,1,0
+2016/2017,014,,5,Phd/DBA,,,,,," $72,000 ",,," $1,200 ",,8,,4,,Asst,,public,No,USA,US M.W.,Masters,,won't accept,Teach (>4),0,1,0
+2016/2017,015,,5,Phd/DBA,,,,,," $88,000 ",,," $2,200 ",,6,,4,,switched Asst,,public,No,USA,US N.E.,Bachelor,National,might accept,Teach (>4),0,1,0
+2016/2017,016,,1,Phd/DBA,,3,,,," $112,000 "," $6,000 ",2, $800 ,,6,,6,,Asst,,private,No,USA,US N.E.,Masters,National,won't accept,Teach (>4),1,1,3
+2016/2017,017,,4,Phd/DBA,,,,,," $103,000 "," $5,000 ",," $2,000 ",,12,,,,switched Asst,,private,No,USA,US S.,Doctorate,National,Have accepted,Teach (>4),1,1,0
+2016/2017,19,,0,Phd/DBA,,,,,," $108,000 "," $10,000 ",2, $- ,,4,,4,,Asst,,private,No,USA,US S.,Masters,National,Have accepted,Research (<=4),1,0,0
+2016/2017,20,,4,Phd/DBA,,,,,," $50,000 ",,, $- ,,18,,,,instructor,,public,No,USA,US N.E.,Doctorate,National,might accept,Teach (>4),0,0,0
+2017/2018,21,,5,Phd/DBA,2,,,,," $137,500 "," $30,000 ",2," $3,500 ",,3,,2,,switched Asst,,private,No,USA,US N.E.,Doctorate,National,Have accepted,Research (<=4),1,1,2
+2017/2018,22,,,Phd/DBA,0,,,,," $100,000 "," $5,000 ",1," $5,000 ",,6,,0,,Asst,,public,No,USA,US W.,Masters,National,Have accepted,Teach (>4),1,1,0
+2017/2018,23,,1,Phd/DBA,4,,,,," $235,000 "," $50,000 ",4," $20,000 ",,3,,4,,full/chair,,public,Yes,USA,US N.E.,Doctorate,National,won't accept,Research (<=4),1,1,4
+2017/2018,24,,2,Phd/DBA,2,,,,," $130,000 "," $13,500 ",3," $2,000 ",,,,2,,Asst,,public,,USA,US N.E.,Doctorate,National,Have accepted, ,1,1,2
+2017/2018,25,,3,Phd/DBA,5,,,,," $240,000 "," $48,000 ",4," $25,000 ",,2,,5,,full/chair,,public,Yes,USA,US W.,Doctorate,National,won't accept,Research (<=4),1,1,5
+2017/2018,26,,2,Phd/DBA,0,,,,," $95,000 "," $9,500 ",2," $2,500 ",,4,,0,,Asst,,public,Yes,USA,US W.,Masters,National,Have accepted,Research (<=4),1,1,0
+2017/2018,27,,6,Phd/DBA,3,,,,," $120,000 "," $13,300 ",3," $20,000 ",,4,,3,,Asst,,public,Yes,USA,US M.W.,Masters,National,Have accepted,Research (<=4),1,1,3
+2017/2018,28,,0,Phd/DBA,7,,,,," $185,000 "," $41,000 ",4," $12,500 ",,3,,7,,associate/tenure,,mixed,No,USA,,Doctorate,National,Have accepted,Research (<=4),1,1,7
+2017/2018,29,,0,Phd/DBA,5,,,,," $95,000 ",,," $1,200 ",,8,,5,,Asst,,private,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,5
+2017/2018,30,yes,4,Phd/DBA,1,,,,," $205,000 ",,6," $5,000 ",,3,,1,,associate/tenure,,public,No,USA,US W.,Doctorate,National,Have accepted,Research (<=4),0,1,1
+2017/2018,31,,5,Phd/DBA,,,,,," $120,000 ",,," $5,000 ",,4,,,,visitor,,public,Yes,USA,US W.,Bachelor,National,won't accept,Research (<=4),0,1,0
+2017/2018,32,,4,Phd/DBA,,,,,," $110,000 "," $8,000 ",2," $25,000 ",,4,,,,Asst,,public,Yes,USA,US W.,Bachelor,National,Have accepted,Research (<=4),1,1,0
+2017/2018,33,,4,Phd/DBA,,,,,," $110,000 "," $15,000 ",3, $- ,,5,,,,switched Asst,,public,No,USA,US M.W.,Bachelor,National,Have accepted,Teach (>4),1,0,0
+2017/2018,34,yes,4,Phd/DBA,2,,,,," $159,300 "," $35,000 ",2," $5,000 ",,2,,2,,switched Asst,,public,No,USA,US W.,,,Have accepted,Research (<=4),1,1,2
+2018/2019,35,Yes,16,Phd/DBA,40,120,,,," $262,500 "," $20,000 ",2," $10,000 ",,2,,,,full/chair,,public,No,USA,US S.,Doctorate,National,Have accepted,Research (<=4),1,1,160
+2018/2019,36,Yes,3,Phd/DBA,4,8,,,," $96,000 "," $8,000 ",2," $2,000 ",,6,,,,instructor,,private,No,USA,US M.W.,Masters,,might accept,Teach (>4),1,1,12
+2018/2019,37,Yes,0,Phd/DBA,0,0,,,," $165,000 "," $36,667 ",2," $8,000 ",,3,,,,Asst,,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,0
+2018/2019,38,Yes,20,Phd/DBA,4,19,,,," $123,500 "," $8,000 ",2," $1,000 ",,5,,,,Asst,,public,No,USA,US S.,Doctorate,National,Have accepted,Teach (>4),1,1,23
+2018/2019,39,Yes,3,Phd/DBA,5,5,,,," $145,000 "," $32,000 ",2," $7,000 ",,4,,,,switched Asst,,public,No,USA,US M.W.,Doctorate,National,Have accepted,Research (<=4),1,1,10
+2017/2018,40,,4,Phd/DBA,2,7,,,," $58,500 ",,, $- ,,10,,,,switched Asst,,public,Yes,USA,US N.E.,Bachelor,National,Have accepted,Teach (>4),0,0,9
+2016/2017,41,Yes,,Phd/DBA,5,9,,,," $119,000 "," $11,000 ",3," $2,000 ",,4,,,,switched Asst,,public,Yes,Canada,,Doctorate,National,Have accepted,Research (<=4),1,1,14
+2018/2019,42,,1,Phd/DBA,0,2,,,," $125,000 ",,," $15,000 ",,3,,,,Asst,,mixed,Yes,Canada,,Doctorate,National,Have accepted,Research (<=4),0,1,2
+2016/2017,43,,19,Phd/DBA,0,0,,,," $150,000 ",,," $25,000 ",,5,,,,full/chair,,public,Yes,Ireland,,Doctorate,National,Have accepted,Teach (>4),0,1,0
+2018/2019,45,Yes,13,Phd/DBA,3,3,,,," $105,000 ",,," $5,000 ",,8,,,,instructor,,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),0,1,6
+2018/2019,46,,0,Phd/DBA,2500,2500,,,," $92,000 "," $3,000 ",2," $2,500 ",,5,,2,,Asst,,public,No,USA,US S.,Masters,National,Have accepted,Teach (>4),1,1,5000
+2018/2019,47,,0,Phd/DBA,6000,6000,,,," $102,000 "," $7,000 ",2," $6,000 ",,6,,,,Asst,,public,No,USA,US M.W.,Masters,National,might accept,Teach (>4),1,1,12000
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
