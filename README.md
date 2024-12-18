@@ -42,7 +42,7 @@ The dataset is collected from [Wharton Research Data Services (WRDS)](https://wr
 ## 2. R Codes
 The following R codes are required for loading the packages and custom functions needed for implementing the ShapMask framework.
 * `install_load_packages.R`: installs and loads all the necessary R packages that are needed implementing the ShapMask approach. 
-* `functions_server_v6.R`: contains the custom functions that carry out most of the tasks in the work.
+* `custom_functions.R`: contains the custom functions that carry out most of the tasks in the work.
 * `ShapMask_SingleConf.R`: contains the ShapMask function for implementing the framework for a single confidential variable.
 * `ShapMask_MultiConf.R`: contains the ShapMask function for implementing the framework for multiple confidential variables.
 * `ShapMask_simulated_data.R`: contains the ShapMask function for implementing the framework for for our simulated data set.
