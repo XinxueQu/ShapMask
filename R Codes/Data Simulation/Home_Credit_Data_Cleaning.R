@@ -52,6 +52,10 @@ selected_columns <- c("case_id", "postype_4733339M", "actualdpd_943P",
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+# The original data comes in a zipped file. 
+# After unzipping, the data files can be found in the directory below, 
+# and so we set that as working directory
+
 dir_name <- "home-credit-credit-risk-model-stability/csv_files/train/"
 setwd(dir_name)
 
