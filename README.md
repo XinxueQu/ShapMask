@@ -19,22 +19,23 @@ For the salary and credit datasets, we have provided both the original data sour
 + A copy of the data is saved on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=german_credit.data 
 
 ### CRSP/compustat dataset
-The dataset is collected from WRDS, which is not publicly available. Readers who are interested in this dataset can obtain access from their institution and download the data using the following settings. 
+The dataset is collected from [Wharton Research Data Services (WRDS)](https://wrds-www.wharton.upenn.edu/), which is not publicly available. Readers who are interested in this dataset can obtain access from their institution and download the data using the following settings. 
 
-  Step 1. Data Year- Fiscal (`fyear`), 2000-01 to 2022-06
-  Step 2. Use gvkey to "search the entire database"
-          Screening Variables: keep the default selection (i.e., Consolidation Level: C; Industry Format: INDL; Data Format: STD; Population Source: D; Currency: USD & CAD; Company Status: Active & Inactive; )
-Step 3. Linking Options. 
-Link Types: LC, LU
-Fiscal Period and Like Data Requirements: Fiscal period end date must be within link date range
-Step 4. Choose query variables:
-Select Variable Types: Data Items, then select “All”
-Step 5. Select query output
-Output Format: *csv; Compression Type: Uncompressed; Date Format: YYYY-MM-DD
-4)	Simulated Dataset
-a.	Original Dataset: https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability
-b.	Final simulated data is shared on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=home_credit_synthetic_data_for_sensitivity.csv 
-c.	Code and steps for simulation
+1. Data Year- Fiscal (`fyear`), 2000-01 to 2022-06
+2. Use gvkey to "search the entire database"
+   * Screening Variables: keep the default selection (i.e., Consolidation Level: C; Industry Format: INDL; Data Format: STD; Population Source: D; Currency: USD & CAD; Company Status: Active & Inactive; )
+3. Linking Options. 
+   * Link Types: LC, LU
+   * Fiscal Period and Like Data Requirements: Fiscal period end date must be within link date range
+4. Choose query variables:
+   * Select Variable Types: Data Items, then select “All”
+5. Select query output
+   * Output Format: *csv; Compression Type: Uncompressed; Date Format: YYYY-MM-DD
+
+### Simulated Dataset
+* Original Dataset: https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability
+* Final simulated data is shared on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=home_credit_synthetic_data_for_sensitivity.csv 
+* Code and steps for simulation
 
 
-## Code
+## R Codes
