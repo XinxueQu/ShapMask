@@ -1,7 +1,8 @@
+
 # ShapMask
 This is a repository for the codes and datasets used in Qu, X., Bilson Darku, F., \& Guo, H. (xxxx) *Shapley-Value-Based Feature Attribution for Data Masking*.
 
-## Data
+## 1. Data
 The experimental evaluations in the paper are based on four datasets: 
 1. salary dataset, 
 2. credit dataset, 
@@ -10,15 +11,15 @@ The experimental evaluations in the paper are based on four datasets:
   
 For the salary and credit datasets, we have provided both the original data sources and the versions we used, hosted on Kaggle.com. For the CRSP/Compustat data, which requires a subscription to the WRDS database, we have outlined the necessary steps to configure the query. For the simulated dataset, we provide both the raw data, from which we learned the distribution of the features, and the source code used for the simulation.
 
-### Salary Data
+### 1.1. Salary Data
 + Original raw data was retrieved from:  https://sites.pitt.edu/~galletta/salsurv.html
 + A copy of the data is saved on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=Salary_Data.csv 
 
-### Credit Dataset
+### 1.2. Credit Dataset
 + Original raw data was retrieved from:  https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
 + A copy of the data is saved on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=german_credit.data 
 
-### CRSP/compustat dataset
+### 1.3. CRSP/compustat dataset
 The dataset is collected from [Wharton Research Data Services (WRDS)](https://wrds-www.wharton.upenn.edu/), which is not publicly available. Readers who are interested in this dataset can obtain access from their institution and download the data using the following settings. 
 
 1. Data Year- Fiscal (`fyear`), 2000-01 to 2022-06
@@ -32,13 +33,13 @@ The dataset is collected from [Wharton Research Data Services (WRDS)](https://wr
 5. Select query output
    * Output Format: *csv; Compression Type: Uncompressed; Date Format: YYYY-MM-DD
 
-### Simulated Dataset
+### 1.4. Simulated Dataset
 * Original Dataset: https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability
 * Final simulated data is shared on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=home_credit_synthetic_data_for_sensitivity.csv 
 * Code and steps for simulation
 
 
-## R Codes
+## 2. R Codes
 The following R codes are required for loading the packages and custom functions needed for implementing the ShapMask framework.
 * `install_load_packages.R`: installs and loads all the necessary R packages that are needed implementing the ShapMask approach. 
 * `functions_server_v6.R`: contains the custom functions that carry out most of the tasks in the work.
@@ -46,33 +47,28 @@ The following R codes are required for loading the packages and custom functions
 * `ShapMask_MultiConf.R`: contains the ShapMask function for implementing the framework for multiple confidential variables.
 * `ShapMask_simulated_data.R`: contains the ShapMask function for implementing the framework for for our simulated data set.
   
-###	Codes for Experiment
+###	2.1 Codes for Experiment
 * `CompuStat_replication.R`: 
 * `Credit_replication.R`:
 * `Salary_Single_DV_replication.R`:
 * `Salary_Multi_DV_replication.R`:
 
-###	Codes for Summarizing the Experiment Results 
-  
-###	Codes for Data Simulation
+###	2.2. Codes for Data Simulation
 * `Home_Credit_Data_Cleaning.R`:
 * `Synthetic_Data_Simulation_Functions.R`:
 * `Synthetic_Data_Generation.R`:
 * `Synthetic_Data_replication.R`:
 
-### Codes for Time Sensitivity Analysis
+### 2.3. Codes for Time Sensitivity Analysis
 * `Sensitivity_Analysis.R`: This performs sensitivity analyses for the framework using Home Credit data set to determine the time complexity base on the number observations and fearures in a data set..
 
 
+## 3. Tables and Graphs
 
-
-
-## Tables and Graphs
-
-### Tables
+### 3.1 Tables
 All the outputs from experimental evaluations are shared on Kaggle: https://www.kaggle.com/datasets/shawnqu/shapmask-experiment-results. Based on these experiment results, we have also shared a notebook (in R) that consolidates experiment results and generates the main tables reported in the paper. The shared notebook can be accessed using the following link: https://www.kaggle.com/code/shawnqu/experiment-results-summary.
 
-### Graphs
+### 3.2 Graphs
 All graphs can be found and recreated using the Rmarkdown files in the ...folder. This folder contains three files, namely:
 * `Credit Card - Figure_4_6.R`: This creates figures 4 to 6 in the manuscript.
 * `Illustrative_Case_Credit_Fig7.R`: This creates figures 7 (a) and (b) in the manuscript.
