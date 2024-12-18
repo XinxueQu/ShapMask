@@ -1,4 +1,4 @@
-framework.one <- function(mask, model, metric, sim) {
+ShapMask <- function(mask, model, metric, sim) {
 
 mask <- as.vector(mask)
 model <- as.vector(model)
