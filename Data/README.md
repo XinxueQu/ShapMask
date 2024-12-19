@@ -31,8 +31,10 @@ The dataset is collected from [Wharton Research Data Services (WRDS)](https://wr
 
 ### 4. Simulated Dataset
 * Original Dataset: https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability
-* Final simulated data is shared on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=home_credit_synthetic_data_for_sensitivity.csv 
+* Final simulated data is shared on Kaggle: https://www.kaggle.com/datasets/shawnqu/data-for-shapmask?select=home_credit_synthetic_data_for_sensitivity.csv
+  
+<!---
 * Code and steps for simulation
   1. Clean the data: read each of the individual files, select the features of interest, remove duplicate records, and merge all data sets into one data set.
   2. Generate synthetic data: learn statistical distribution of the features, establish statistical relationships between the confidential feature and certain other features, as well as between the utility feature and other related features. 
-
+--->
