@@ -1,6 +1,6 @@
 
 # ShapMask
-This is a repository for the codes and datasets used in Qu, X., Bilson Darku, F., \& Guo, H. (xxxx) *Shapley-Value-Based Feature Attribution for Data Masking*.
+This is a repository for the codes and datasets used in Qu, X., Bilson Darku, F., \& Guo, H. (*forthcoming*) *Shapley-Value-Based Feature Attribution for Data Masking*.
 
 ## [1. Data](Data/)
 The experimental evaluations in the paper are based on four datasets: 
